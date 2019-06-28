@@ -25,13 +25,13 @@ def read_xml(source: object, output: object, type_object: object = 'kpt') -> pd.
     elif type_object == 'zu':
         get_root = '{urn://x-artefacts-rosreestr-ru/outgoing/kvzu/7.0.1}'
 
-    for file in os.listdir(source):
+    for file in os.listdir(source_path):
         if file.endswith(".xml"):
             tree = ''
-            tree = ET.parse(os.path.join(source, file))
+            tree = ET.parse(os.path.join(source_path, file))
             root = ''
             root = tree.getroot()
-            xmls.append(os.path.join(source, file))
+            xmls.append(os.path.join(source_path, file))
             # print("xml/"+file)
             for parcel in root.getiterator(get_root + 'Parcel'):
                 str_parcel = ''
@@ -54,11 +54,11 @@ def read_xml(source: object, output: object, type_object: object = 'kpt') -> pd.
                                      'X': coords.attrib['X'],
                                      'Y': coords.attrib['Y'],
                                      'Точность определения': delta}
-
+                        #
                         table_out.append(row_table)
-                        print(row_table)
-
-                        parcels.append(cad_number + point_num + coord_parcel + delta)
+                        # print(row_table)
+                        #
+                        # parcels.append(cad_number + point_num + coord_parcel + delta)
 
     # Тут нужно вставить данные в датафрейм пандаса
     data_frame_out = pd.DataFrame(table_out, columns=['Кадастровый номер участка',
@@ -71,9 +71,9 @@ def read_xml(source: object, output: object, type_object: object = 'kpt') -> pd.
     data_frame_out.to_excel(writer, na_rep='NaN')
     writer.save()
 
-    with open(os.path.join(output, os.path.join(output_path, points_file_name + '.csv')), 'w') as f:
-        for item in parcels:
-            f.write("%s\n" % item)
+    # with open(os.path.join(output, os.path.join(output_path, points_file_name + '.csv')), 'w') as f:
+    #     for item in parcels:
+    #         f.write("%s\n" % item)
             
     return data_frame_out
 
