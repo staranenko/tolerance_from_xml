@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="https://portal.rosreestr.ru/xsl/GKN/KPT/10/common.xsl"?>
+<KPT xmlns:ns2="urn://x-artefacts-rosreestr-ru/commons/complex-types/address-output/4.0.1"
+xmlns:ns3="urn://x-artefacts-rosreestr-ru/commons/complex-types/entity-spatial/5.0.1"
+xmlns:ns4="urn://x-artefacts-rosreestr-ru/commons/complex-types/parameters-oks/2.0.1"
+xmlns:ns5="urn://x-artefacts-rosreestr-ru/commons/complex-types/document-output/4.0.1"
+xmlns:ns6="urn://x-artefacts-rosreestr-ru/commons/complex-types/certification-doc/1.0"
+xmlns:ns7="urn://x-artefacts-smev-gov-ru/supplementary/commons/1.0.1"
+xmlns="urn://x-artefacts-rosreestr-ru/outgoing/kpt/10.0.1">
+<CadastralBlocks>
+<CadastralBlock CadastralNumber="54:35:061995">
+<Area>
+<Total>0</Total>
+<Unit>059</Unit>
+</Area><Parcels><Parcel CadastralNumber="54:35:061995:2" State="01" DateCreated="2005-03-14" >
+<Area>
+<Area>1144</Area>
+<Unit>055</Unit>
+<Inaccuracy>12</Inaccuracy>
+</Area>
+<Name>01</Name>
+<Location>
+<inBounds>1</inBounds>
+<Placed>Ж1</Placed>
+<Elaboration>
+<ReferenceMark>индивидуальный жилой дом</ReferenceMark>
+</Elaboration>
+<Address> <ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000148100</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Хинганская" Type="ул" />
+<ns2:Level1 Type="д" Value="20" />
+<ns2:Note>обл. Новосибирская, г. Новосибирск, ул. Хинганская, дом 20</ns2:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization Utilization="142001010000" ByDoc="для эксплуатации индивидуального жилого дома" />
+<CadastralCost Value="543171.2" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="485785.18" Y="4189441.39" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="485780.07" Y="4189436.95" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="485775.17" Y="4189432.67" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="485776.18" Y="4189430.7" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<ns3:Ordinate X="485779.63" Y="4189426.81" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="6" >
+<ns3:Ordinate X="485764.66" Y="4189412.63" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="7" >
+<ns3:Ordinate X="485762.9" Y="4189410.86" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="8" >
+<ns3:Ordinate X="485757.95" Y="4189406.04" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="9" >
+<ns3:Ordinate X="485764.57" Y="4189398.38" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="10" >
+<ns3:Ordinate X="485768.53" Y="4189394.45" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="11" >
+<ns3:Ordinate X="485768.83" Y="4189394.22" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="12" >
+<ns3:Ordinate X="485797.22" Y="4189418.87" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="13" >
+<ns3:Ordinate X="485809.57" Y="4189429.78" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="14" >
+<ns3:Ordinate X="485809.52" Y="4189431.75" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="15" >
+<ns3:Ordinate X="485794.61" Y="4189449.12" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="485785.18" Y="4189441.39" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Parcel><Parcel CadastralNumber="54:35:061995:37" State="05" DateCreated="2012-09-07" >
+<Area>
+<Area>62</Area>
+<Unit>055</Unit>
+<Inaccuracy>2</Inaccuracy>
+</Area>
+<Name>01</Name>
+<Location>
+<Address> <ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000148100</ns2:KLADR>
+<ns2:PostalCode>630041</ns2:PostalCode>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Хинганская" Type="ул" />
+<ns2:Note>Новосибирская обл, г. Новосибирск, ул. Хинганская</ns2:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization Utilization="142002040100" ByDoc="для размещения и эксплуатации кисков" />
+<CadastralCost Value="357050.56" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="485695.88" Y="4189320.63" OrdNmb="1" DeltaGeopoint="0.07" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="485697.6" Y="4189319.06" OrdNmb="1" DeltaGeopoint="0.07" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="485716.15" Y="4189337.78" OrdNmb="1" DeltaGeopoint="0.07" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="485714.5" Y="4189339.43" OrdNmb="1" DeltaGeopoint="0.07" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="485695.88" Y="4189320.63" OrdNmb="1" DeltaGeopoint="0.07" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Parcel><Parcel CadastralNumber="54:35:061995:39" State="06" DateCreated="2017-11-01" >
+<Area>
+<Area>42</Area>
+<Unit>055</Unit>
+<Inaccuracy>2.27</Inaccuracy>
+</Area>
+<Name>01</Name>
+<Location>
+<Address> <ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000115200</ns2:KLADR>
+<ns2:PostalCode>630041</ns2:PostalCode>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Рионская" Type="ул" />
+<ns2:Note>Российская Федерация, обл. Новосибирская, г. Новосибирск, ул. Рионская, (1)</ns2:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization Utilization="142007000000" ByDoc="Для размещения и эксплуатации торгового павильона" />
+<CadastralCost Value="241872.96" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="485674.51" Y="4189298.97" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="485679.06" Y="4189304.29" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="485674.51" Y="4189308.2" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="485669.95" Y="4189302.87" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="485674.51" Y="4189298.97" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Parcel><Parcel CadastralNumber="54:35:061995:4" State="06" DateCreated="2010-04-20" >
+<Area>
+<Area>1057</Area>
+<Unit>055</Unit>
+<Inaccuracy>3</Inaccuracy>
+</Area>
+<Name>01</Name>
+<Location>
+<inBounds>1</inBounds>
+<Placed>И2</Placed>
+<Elaboration>
+<ReferenceMark>многоквартирный жилой дом</ReferenceMark>
+</Elaboration>
+<Address> <ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000148100</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Хинганская" Type="ул" />
+<ns2:Level1 Type="д" Value="22" />
+<ns2:Note>обл. Новосибирская, г. Новосибирск, ул. Хинганская, дом 22</ns2:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization Utilization="142001000000" ByDoc="для эксплуатации многоквартирного жилого дома" />
+<CadastralCost Value="501863.6" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="485751.73" Y="4189443.29" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="485747.71" Y="4189448.31" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="485741.01" Y="4189444.06" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="485737" Y="4189448" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<ns3:Ordinate X="485734.96" Y="4189449.89" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="6" >
+<ns3:Ordinate X="485770.54" Y="4189477.41" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="7" >
+<ns3:Ordinate X="485788.23" Y="4189456.32" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="8" >
+<ns3:Ordinate X="485779.35" Y="4189448.73" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="9" >
+<ns3:Ordinate X="485774.04" Y="4189444.51" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="10" >
+<ns3:Ordinate X="485769.08" Y="4189441.14" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="11" >
+<ns3:Ordinate X="485767.75" Y="4189442.49" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="12" >
+<ns3:Ordinate X="485759" Y="4189435.92" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="485751.73" Y="4189443.29" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Parcel></Parcels><ObjectsRealty><ObjectRealty>
+<Building CadastralNumber="54:35:061995:10">
+<ObjectType>002001002000</ObjectType>
+<AssignationBuilding>204003000000</AssignationBuilding>
+<Area>109.2</Area>
+<Address>
+<ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000148100</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Хинганская" Type="ул" />
+<ns2:Level1 Type="д" Value="20" />
+</Address>
+<CadastralCost Value="4029198.26" Unit="383" />
+</Building>
+</ObjectRealty><ObjectRealty>
+<Building CadastralNumber="54:35:061995:11">
+<ObjectType>002001002000</ObjectType>
+<AssignationBuilding>204001000000</AssignationBuilding>
+<Area>9.9</Area>
+<Address>
+<ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000148100</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Хинганская" Type="ул" />
+<ns2:Level1 Type="д" Value="16а" />
+</Address>
+<CadastralCost Value="218633.78" Unit="383" />
+</Building>
+</ObjectRealty><ObjectRealty>
+<Building CadastralNumber="54:35:061995:12">
+<ObjectType>002001002000</ObjectType>
+<AssignationBuilding>204003000000</AssignationBuilding>
+<Area>149.8</Area>
+<Address>
+<ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000148100</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Хинганская" Type="ул" />
+<ns2:Level1 Type="д" Value="16" />
+</Address>
+<CadastralCost Value="5614896.48" Unit="383" />
+</Building>
+</ObjectRealty><ObjectRealty>
+<Building CadastralNumber="54:35:061995:13">
+<ObjectType>002001002000</ObjectType>
+<AssignationBuilding>204002000000</AssignationBuilding>
+<Area>149.8</Area>
+<Address>
+<ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000148100</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Хинганская" Type="ул" />
+<ns2:Level1 Type="д" Value="16" />
+</Address>
+<CadastralCost Value="5614896.48" Unit="383" />
+</Building>
+</ObjectRealty><ObjectRealty>
+<Building CadastralNumber="54:35:061995:14">
+<ObjectType>002001002000</ObjectType>
+<AssignationBuilding>204003000000</AssignationBuilding>
+<Area>114.9</Area>
+<Address>
+<ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000148100</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Хинганская" Type="ул" />
+<ns2:Level1 Type="д" Value="18" />
+</Address>
+<CadastralCost Value="4433848.52" Unit="383" />
+</Building>
+</ObjectRealty><ObjectRealty>
+<Building CadastralNumber="54:35:061995:15">
+<ObjectType>002001002000</ObjectType>
+<AssignationBuilding>204003000000</AssignationBuilding>
+<Area>114.9</Area>
+<Address>
+<ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000148100</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Хинганская" Type="ул" />
+<ns2:Level1 Type="д" Value="18" />
+</Address>
+<CadastralCost Value="4222601.43" Unit="383" />
+</Building>
+</ObjectRealty><ObjectRealty>
+<Building CadastralNumber="54:35:061995:6">
+<ObjectType>002001002000</ObjectType>
+<AssignationBuilding>204003000000</AssignationBuilding>
+<Area>96.1</Area>
+<Address>
+<ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000148100</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Хинганская" Type="ул" />
+<ns2:Level1 Type="д" Value="22" />
+</Address>
+<CadastralCost Value="3596468.5" Unit="383" />
+</Building>
+</ObjectRealty><ObjectRealty>
+<Building CadastralNumber="54:35:061995:7">
+<ObjectType>002001002000</ObjectType>
+<AssignationBuilding>204003000000</AssignationBuilding>
+<Area>115.1</Area>
+<Address>
+<ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000115200</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Рионская" Type="ул" />
+<ns2:Level1 Type="д" Value="1" />
+</Address>
+<CadastralCost Value="4329509.52" Unit="383" />
+</Building>
+</ObjectRealty><ObjectRealty>
+<Building CadastralNumber="54:35:061995:8">
+<ObjectType>002001002000</ObjectType>
+<AssignationBuilding>204003000000</AssignationBuilding>
+<Area>96.1</Area>
+<Address>
+<ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000148100</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Хинганская" Type="ул" />
+<ns2:Level1 Type="д" Value="22" />
+</Address>
+<CadastralCost Value="3596468.5" Unit="383" />
+</Building>
+</ObjectRealty><ObjectRealty>
+<Building CadastralNumber="54:35:061995:9">
+<ObjectType>002001002000</ObjectType>
+<AssignationBuilding>204003000000</AssignationBuilding>
+<Area>154.3</Area>
+<Address>
+<ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000182800</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="2-й Рионский" Type="пер" />
+<ns2:Level1 Type="д" Value="1" />
+</Address>
+<CadastralCost Value="5926491.73" Unit="383" />
+</Building>
+</ObjectRealty></ObjectsRealty><SpatialData>
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="485815.38" Y="4189431.14" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="485737.99" Y="4189354.41" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="485680.75" Y="4189298.09" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="485656.95" Y="4189274.2" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<ns3:Ordinate X="485639.3" Y="4189266" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="6" >
+<ns3:Ordinate X="485596.03" Y="4189286.59" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="7" >
+<ns3:Ordinate X="485604.96" Y="4189426.17" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="8" >
+<ns3:Ordinate X="485610.74" Y="4189430.46" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="9" >
+<ns3:Ordinate X="485625.32" Y="4189441.77" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="10" >
+<ns3:Ordinate X="485700.38" Y="4189506.71" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="11" >
+<ns3:Ordinate X="485708.58" Y="4189514.89" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="12" >
+<ns3:Ordinate X="485716.94" Y="4189523.21" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="13" >
+<ns3:Ordinate X="485729.84" Y="4189497.52" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="14" >
+<ns3:Ordinate X="485743.45" Y="4189477.8" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="15" >
+<ns3:Ordinate X="485753.26" Y="4189471.07" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="16" >
+<ns3:Ordinate X="485756.86" Y="4189469.39" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="17" >
+<ns3:Ordinate X="485771.23" Y="4189481.66" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="485815.38" Y="4189431.14" OrdNmb="1" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</SpatialData><CoordSystems>
+<ns3:CoordSystem Name="МСК НСО, зона 4" CsId="ID0" />
+</CoordSystems>
+</CadastralBlock>
+</CadastralBlocks>
+<CertificationDoc>
+<ns6:Organization>ФГИС ЕГРН</ns6:Organization>
+<ns6:Date>2019-05-14</ns6:Date>
+<ns6:Number>99/2019/261309395</ns6:Number>
+</CertificationDoc>
+</KPT>

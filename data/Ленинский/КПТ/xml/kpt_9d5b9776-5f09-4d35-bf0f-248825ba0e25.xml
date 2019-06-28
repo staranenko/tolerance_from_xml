@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="https://portal.rosreestr.ru/xsl/GKN/KPT/10/common.xsl"?>
+<KPT xmlns:ns2="urn://x-artefacts-rosreestr-ru/commons/complex-types/address-output/4.0.1"
+xmlns:ns3="urn://x-artefacts-rosreestr-ru/commons/complex-types/entity-spatial/5.0.1"
+xmlns:ns4="urn://x-artefacts-rosreestr-ru/commons/complex-types/parameters-oks/2.0.1"
+xmlns:ns5="urn://x-artefacts-rosreestr-ru/commons/complex-types/document-output/4.0.1"
+xmlns:ns6="urn://x-artefacts-rosreestr-ru/commons/complex-types/certification-doc/1.0"
+xmlns:ns7="urn://x-artefacts-smev-gov-ru/supplementary/commons/1.0.1"
+xmlns="urn://x-artefacts-rosreestr-ru/outgoing/kpt/10.0.1">
+<CadastralBlocks>
+<CadastralBlock CadastralNumber="54:35:061070">
+<Area>
+<Total>0</Total>
+<Unit>059</Unit>
+</Area><Parcels><Parcel CadastralNumber="54:35:061070:1" State="01" DateCreated="2005-03-11" >
+<Area>
+<Area>1444130</Area>
+<Unit>055</Unit>
+</Area>
+<Name>01</Name>
+<Location>
+<inBounds>1</inBounds>
+<Placed>Д5</Placed>
+<Elaboration>
+<ReferenceMark>золоотвал</ReferenceMark>
+</Elaboration>
+<Address> <ns2:OKATO>50401000000</ns2:OKATO>
+<ns2:KLADR>5400000100000</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Note>обл. Новосибирская, г. Новосибирск</ns2:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization Utilization="142002000000" ByDoc="для обслуживания золоотвала" />
+<CadastralCost Value="401247000" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="486925.08" Y="4191637.91" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="486858.63" Y="4191773.24" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="486810.54" Y="4191861.6" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="486799.02" Y="4191882.77" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<ns3:Ordinate X="486757" Y="4191973.61" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="6" >
+<ns3:Ordinate X="486747.24" Y="4191991.6" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="7" >
+<ns3:Ordinate X="486717.57" Y="4192042.82" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="8" >
+<ns3:Ordinate X="486677.19" Y="4192128.69" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="9" >
+<ns3:Ordinate X="486646.29" Y="4192194.35" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="10" >
+<ns3:Ordinate X="486655.78" Y="4192215.92" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="11" >
+<ns3:Ordinate X="486711.47" Y="4192261.38" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="12" >
+<ns3:Ordinate X="486761.12" Y="4192307.6" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="13" >
+<ns3:Ordinate X="486778.05" Y="4192324.33" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="14" >
+<ns3:Ordinate X="486877.33" Y="4192414.94" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="15" >
+<ns3:Ordinate X="486938.06" Y="4192470.16" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="16" >
+<ns3:Ordinate X="486986.19" Y="4192515.05" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="17" >
+<ns3:Ordinate X="487048.6" Y="4192536.76" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="18" >
+<ns3:Ordinate X="487082.69" Y="4192560.37" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="19" >
+<ns3:Ordinate X="487135.34" Y="4192615" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="20" >
+<ns3:Ordinate X="487199.07" Y="4192675.68" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="21" >
+<ns3:Ordinate X="487237.46" Y="4192712.19" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="22" >
+<ns3:Ordinate X="487238.62" Y="4192732.74" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="23" >
+<ns3:Ordinate X="487230.13" Y="4192742.08" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="24" >
+<ns3:Ordinate X="487274.3" Y="4192782.95" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="25" >
+<ns3:Ordinate X="487301.01" Y="4192777.99" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="26" >
+<ns3:Ordinate X="487307.35" Y="4192764.29" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="27" >
+<ns3:Ordinate X="487329.46" Y="4192759.93" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="28" >
+<ns3:Ordinate X="487385.65" Y="4192741.52" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="29" >
+<ns3:Ordinate X="487450.36" Y="4192724.83" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="30" >
+<ns3:Ordinate X="487536.56" Y="4192699.46" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="31" >
+<ns3:Ordinate X="487637.93" Y="4192673.62" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="32" >
+<ns3:Ordinate X="487755.59" Y="4192638.01" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="33" >
+<ns3:Ordinate X="487834.42" Y="4192612.6" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="34" >
+<ns3:Ordinate X="487848.83" Y="4192607.4" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="35" >
+<ns3:Ordinate X="487880.37" Y="4192598.9" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="36" >
+<ns3:Ordinate X="487913.15" Y="4192568.93" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="37" >
+<ns3:Ordinate X="487973.18" Y="4192495.24" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="38" >
+<ns3:Ordinate X="487984.4" Y="4192476.1" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="39" >
+<ns3:Ordinate X="488036.87" Y="4192407.9" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="40" >
+<ns3:Ordinate X="488081.57" Y="4192351.49" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="41" >
+<ns3:Ordinate X="488139.57" Y="4192269.78" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="42" >
+<ns3:Ordinate X="488151.44" Y="4192258.81" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="43" >
+<ns3:Ordinate X="488198.92" Y="4192200.77" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="44" >
+<ns3:Ordinate X="488208.56" Y="4192186.35" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="45" >
+<ns3:Ordinate X="488232.62" Y="4192157.7" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="46" >
+<ns3:Ordinate X="488277.86" Y="4192099.57" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="47" >
+<ns3:Ordinate X="488323.42" Y="4192033.59" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="48" >
+<ns3:Ordinate X="488333.86" Y="4192021.13" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="49" >
+<ns3:Ordinate X="488345.31" Y="4191985.75" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="50" >
+<ns3:Ordinate X="488345.59" Y="4191953.24" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="51" >
+<ns3:Ordinate X="488339.96" Y="4191940.49" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="52" >
+<ns3:Ordinate X="488324.91" Y="4191909.09" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="53" >
+<ns3:Ordinate X="488320.22" Y="4191890.82" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="54" >
+<ns3:Ordinate X="488310.11" Y="4191897.21" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="55" >
+<ns3:Ordinate X="488242.67" Y="4191857.73" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="56" >
+<ns3:Ordinate X="488075.45" Y="4191779.02" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="57" >
+<ns3:Ordinate X="488068.2" Y="4191772.05" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="58" >
+<ns3:Ordinate X="487991.98" Y="4191741.88" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="59" >
+<ns3:Ordinate X="487980.73" Y="4191734.29" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="60" >
+<ns3:Ordinate X="487928.77" Y="4191714.33" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="61" >
+<ns3:Ordinate X="487919.04" Y="4191709.48" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="62" >
+<ns3:Ordinate X="487860.45" Y="4191683.02" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="63" >
+<ns3:Ordinate X="487846.79" Y="4191672.3" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="64" >
+<ns3:Ordinate X="487778.99" Y="4191645.14" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="65" >
+<ns3:Ordinate X="487643.81" Y="4191580.95" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="66" >
+<ns3:Ordinate X="487614.65" Y="4191566.94" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="67" >
+<ns3:Ordinate X="487497.99" Y="4191515.28" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="68" >
+<ns3:Ordinate X="487475.18" Y="4191504.6" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="69" >
+<ns3:Ordinate X="487406.03" Y="4191478.81" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="70" >
+<ns3:Ordinate X="487384.61" Y="4191464.8" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="71" >
+<ns3:Ordinate X="487313.53" Y="4191422.58" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="72" >
+<ns3:Ordinate X="487282.75" Y="4191422.34" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="73" >
+<ns3:Ordinate X="487216.22" Y="4191388.5" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="74" >
+<ns3:Ordinate X="487188.59" Y="4191383.92" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="75" >
+<ns3:Ordinate X="487173.13" Y="4191391.28" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="76" >
+<ns3:Ordinate X="487146.04" Y="4191399.49" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="77" >
+<ns3:Ordinate X="487051.56" Y="4191429.96" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="78" >
+<ns3:Ordinate X="487046.99" Y="4191430.86" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="79" >
+<ns3:Ordinate X="487025.51" Y="4191462.17" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="80" >
+<ns3:Ordinate X="487016.54" Y="4191472.21" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="81" >
+<ns3:Ordinate X="486991.72" Y="4191508.85" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="82" >
+<ns3:Ordinate X="486954.86" Y="4191582.73" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="486925.08" Y="4191637.91" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Parcel><Parcel CadastralNumber="54:35:061070:3" State="01" DateCreated="2007-01-25" >
+<Area>
+<Area>44</Area>
+<Unit>055</Unit>
+<Inaccuracy>1</Inaccuracy>
+</Area>
+<Name>03</Name>
+<Location>
+<inBounds>1</inBounds>
+<Elaboration>
+<ReferenceMark>Линия электропередачи ВЛ-220 кВ (235/236/237/238) ПС&quot;Заря&quot; - ПС &quot;Отрадная&quot; - ПС&quot;Правобережная&quot; -ТЭЦ-3 (оп.1, оп.140/6-2/37, оп.5/38-14/47, оп.17/50-20/53, оп.22/55-36/69)</ReferenceMark>
+</Elaboration>
+<Address> <ns2:OKATO>50401372000</ns2:OKATO>
+<ns2:KLADR>54000001000102200</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Победы" Type="ул" />
+<ns2:Note>обл. Новосибирская, г. Новосибирск, Заельцовский парк, переход через р. Обь, ул. Победы</ns2:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization Utilization="143007000000" ByDoc="для размещения и использования по назначению объекта энергетики" />
+<ParentCadastralNumbers>
+<CadastralNumber>54:35:000000:52</CadastralNumber>
+</ParentCadastralNumbers>
+<CadastralCost Value="45491.16" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="488320.3" Y="4192187.15" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="488317.3" Y="4192191.87" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="488310.76" Y="4192187.79" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="488314.03" Y="4192182.93" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="488320.3" Y="4192187.15" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Parcel><Parcel CadastralNumber="54:35:061070:4" State="01" DateCreated="2007-01-25" >
+<Area>
+<Area>44</Area>
+<Unit>055</Unit>
+<Inaccuracy>1</Inaccuracy>
+</Area>
+<Name>03</Name>
+<Location>
+<inBounds>1</inBounds>
+<Elaboration>
+<ReferenceMark>Линия электропередачи ВЛ-220 кВ (235/236/237/238) ПС&quot;Заря&quot; - ПС &quot;Отрадная&quot; - ПС&quot;Правобережная&quot; -ТЭЦ-3 (оп.1, оп.140/6-2/37, оп.5/38-14/47, оп.17/50-20/53, оп.22/55-36/69)</ReferenceMark>
+</Elaboration>
+<Address> <ns2:OKATO>50401372000</ns2:OKATO>
+<ns2:KLADR>54000001000102200</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Победы" Type="ул" />
+<ns2:Note>обл. Новосибирская, г. Новосибирск, Заельцовский парк, переход через р. Обь, ул. Победы</ns2:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization Utilization="143007000000" ByDoc="для размещения и использования по назначению объекта энергетики" />
+<ParentCadastralNumbers>
+<CadastralNumber>54:35:000000:52</CadastralNumber>
+</ParentCadastralNumbers>
+<CadastralCost Value="45491.16" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="488084.33" Y="4192488.94" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="488087.75" Y="4192484.19" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="488093.96" Y="4192488.24" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="488090.64" Y="4192493.16" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="488084.33" Y="4192488.94" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Parcel></Parcels><SpatialData>
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="487188.59" Y="4191383.92" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="487173.13" Y="4191391.28" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="487146.04" Y="4191399.49" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="487051.56" Y="4191429.96" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<ns3:Ordinate X="487046.99" Y="4191430.85" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="6" >
+<ns3:Ordinate X="487024.98" Y="4191462.65" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="7" >
+<ns3:Ordinate X="487016.54" Y="4191472.22" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="8" >
+<ns3:Ordinate X="486991.72" Y="4191508.85" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="9" >
+<ns3:Ordinate X="486954.86" Y="4191582.74" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="10" >
+<ns3:Ordinate X="486925.08" Y="4191637.92" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="11" >
+<ns3:Ordinate X="486858.63" Y="4191773.24" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="12" >
+<ns3:Ordinate X="486810.55" Y="4191861.61" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="13" >
+<ns3:Ordinate X="486799.03" Y="4191882.76" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="14" >
+<ns3:Ordinate X="486757" Y="4191973.61" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="15" >
+<ns3:Ordinate X="486747.24" Y="4191991.59" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="16" >
+<ns3:Ordinate X="486717.57" Y="4192042.82" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="17" >
+<ns3:Ordinate X="486677.19" Y="4192128.69" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="18" >
+<ns3:Ordinate X="486646.29" Y="4192194.35" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="19" >
+<ns3:Ordinate X="486655.78" Y="4192215.93" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="20" >
+<ns3:Ordinate X="486711.47" Y="4192261.38" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="21" >
+<ns3:Ordinate X="486761.12" Y="4192307.6" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="22" >
+<ns3:Ordinate X="486778.05" Y="4192324.32" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="23" >
+<ns3:Ordinate X="486847.28" Y="4192387.51" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="24" >
+<ns3:Ordinate X="486861.63" Y="4192400.62" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="25" >
+<ns3:Ordinate X="486938.07" Y="4192470.16" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="26" >
+<ns3:Ordinate X="486986.1" Y="4192515.13" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="27" >
+<ns3:Ordinate X="487229.92" Y="4192742.3" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="28" >
+<ns3:Ordinate X="487273.69" Y="4192783.39" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="29" >
+<ns3:Ordinate X="487313.64" Y="4192827.18" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="30" >
+<ns3:Ordinate X="487338.42" Y="4192818.24" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="31" >
+<ns3:Ordinate X="487346.3" Y="4192818.32" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="32" >
+<ns3:Ordinate X="487352.82" Y="4192822.78" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="33" >
+<ns3:Ordinate X="487360.01" Y="4192820.66" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="34" >
+<ns3:Ordinate X="487363.43" Y="4192813.25" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="35" >
+<ns3:Ordinate X="487365.82" Y="4192809.05" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="36" >
+<ns3:Ordinate X="487370.53" Y="4192805.01" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="37" >
+<ns3:Ordinate X="487383" Y="4192799.15" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="38" >
+<ns3:Ordinate X="487389.06" Y="4192792.93" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="39" >
+<ns3:Ordinate X="487394.53" Y="4192786.58" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="40" >
+<ns3:Ordinate X="487397.69" Y="4192778.13" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="41" >
+<ns3:Ordinate X="487397.78" Y="4192768.64" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="42" >
+<ns3:Ordinate X="487399.17" Y="4192761.63" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="43" >
+<ns3:Ordinate X="487405.79" Y="4192756.46" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="44" >
+<ns3:Ordinate X="487419.11" Y="4192753.53" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="45" >
+<ns3:Ordinate X="487420.53" Y="4192771.65" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="46" >
+<ns3:Ordinate X="487424.07" Y="4192782.06" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="47" >
+<ns3:Ordinate X="487434.1" Y="4192786.54" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="48" >
+<ns3:Ordinate X="487447.56" Y="4192784.21" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="49" >
+<ns3:Ordinate X="487477.43" Y="4192775.31" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="50" >
+<ns3:Ordinate X="487503.52" Y="4192766.68" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="51" >
+<ns3:Ordinate X="487523.72" Y="4192761.78" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="52" >
+<ns3:Ordinate X="487534.71" Y="4192757.67" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="53" >
+<ns3:Ordinate X="487551.37" Y="4192755.8" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="54" >
+<ns3:Ordinate X="487576.58" Y="4192747.29" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="55" >
+<ns3:Ordinate X="487585.95" Y="4192744.91" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="56" >
+<ns3:Ordinate X="487606.47" Y="4192737.54" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="57" >
+<ns3:Ordinate X="487614.23" Y="4192735.44" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="58" >
+<ns3:Ordinate X="487624.05" Y="4192732.03" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="59" >
+<ns3:Ordinate X="487648.34" Y="4192726.15" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="60" >
+<ns3:Ordinate X="487673.1" Y="4192718.67" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="61" >
+<ns3:Ordinate X="487680.71" Y="4192717.29" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="62" >
+<ns3:Ordinate X="487688.32" Y="4192715.91" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="63" >
+<ns3:Ordinate X="487702.96" Y="4192711.69" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="64" >
+<ns3:Ordinate X="487713.3" Y="4192709.72" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="65" >
+<ns3:Ordinate X="487725.82" Y="4192703.02" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="66" >
+<ns3:Ordinate X="487752.79" Y="4192694.39" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="67" >
+<ns3:Ordinate X="487783.14" Y="4192682.15" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="68" >
+<ns3:Ordinate X="487794.55" Y="4192679.79" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="69" >
+<ns3:Ordinate X="487804.95" Y="4192676.26" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="70" >
+<ns3:Ordinate X="487814.62" Y="4192673.72" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="71" >
+<ns3:Ordinate X="487829.13" Y="4192669.06" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="72" >
+<ns3:Ordinate X="487847.09" Y="4192668.22" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="73" >
+<ns3:Ordinate X="487865.64" Y="4192668.71" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="74" >
+<ns3:Ordinate X="487878.63" Y="4192668.99" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="75" >
+<ns3:Ordinate X="487879.7" Y="4192664.03" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="76" >
+<ns3:Ordinate X="487879.03" Y="4192658.49" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="77" >
+<ns3:Ordinate X="487880.37" Y="4192656.16" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="78" >
+<ns3:Ordinate X="487885.89" Y="4192658.41" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="79" >
+<ns3:Ordinate X="487891.08" Y="4192665.02" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="80" >
+<ns3:Ordinate X="487912.77" Y="4192662.31" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="81" >
+<ns3:Ordinate X="487938.68" Y="4192651.12" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="82" >
+<ns3:Ordinate X="487966.31" Y="4192639.95" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="83" >
+<ns3:Ordinate X="487985.22" Y="4192640.15" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="84" >
+<ns3:Ordinate X="488005.28" Y="4192639.79" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="85" >
+<ns3:Ordinate X="488012.13" Y="4192643.29" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="86" >
+<ns3:Ordinate X="488010.89" Y="4192651.88" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="87" >
+<ns3:Ordinate X="488005.68" Y="4192657.55" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="88" >
+<ns3:Ordinate X="487994.75" Y="4192660.88" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="89" >
+<ns3:Ordinate X="487975.25" Y="4192661.83" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="90" >
+<ns3:Ordinate X="487963.78" Y="4192662.85" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="91" >
+<ns3:Ordinate X="487948.23" Y="4192668.99" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="92" >
+<ns3:Ordinate X="487946.47" Y="4192672.99" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="93" >
+<ns3:Ordinate X="487958.45" Y="4192678.83" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="94" >
+<ns3:Ordinate X="487968.38" Y="4192700.6" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="95" >
+<ns3:Ordinate X="487969.72" Y="4192712.29" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="96" >
+<ns3:Ordinate X="487968.92" Y="4192718.71" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="97" >
+<ns3:Ordinate X="487971.91" Y="4192721.12" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="98" >
+<ns3:Ordinate X="487976.86" Y="4192727.11" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="99" >
+<ns3:Ordinate X="487989.92" Y="4192735.58" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="100" >
+<ns3:Ordinate X="487994.26" Y="4192739.12" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="101" >
+<ns3:Ordinate X="488002.06" Y="4192747.69" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="102" >
+<ns3:Ordinate X="488008.89" Y="4192750.68" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="103" >
+<ns3:Ordinate X="488019.52" Y="4192753.12" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="104" >
+<ns3:Ordinate X="488027.08" Y="4192756.26" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="105" >
+<ns3:Ordinate X="488032.02" Y="4192758.94" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="106" >
+<ns3:Ordinate X="488041.65" Y="4192759.48" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="107" >
+<ns3:Ordinate X="488048.98" Y="4192756.79" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="108" >
+<ns3:Ordinate X="488048.88" Y="4192746.29" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="109" >
+<ns3:Ordinate X="488048.39" Y="4192738.26" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="110" >
+<ns3:Ordinate X="488042.73" Y="4192731.88" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="111" >
+<ns3:Ordinate X="488034.75" Y="4192727.79" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="112" >
+<ns3:Ordinate X="488029.64" Y="4192723.16" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="113" >
+<ns3:Ordinate X="488026.33" Y="4192710.51" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="114" >
+<ns3:Ordinate X="488033.26" Y="4192706.57" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="115" >
+<ns3:Ordinate X="488038.43" Y="4192704.33" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="116" >
+<ns3:Ordinate X="488042.39" Y="4192708.96" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="117" >
+<ns3:Ordinate X="488043.47" Y="4192715.85" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="118" >
+<ns3:Ordinate X="488046.87" Y="4192719.89" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="119" >
+<ns3:Ordinate X="488052" Y="4192722.82" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="120" >
+<ns3:Ordinate X="488062.84" Y="4192726.95" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="121" >
+<ns3:Ordinate X="488076.03" Y="4192726.51" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="122" >
+<ns3:Ordinate X="488095.32" Y="4192712.44" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="123" >
+<ns3:Ordinate X="488102.97" Y="4192703.47" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="124" >
+<ns3:Ordinate X="488106.26" Y="4192696.49" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="125" >
+<ns3:Ordinate X="488105.94" Y="4192684.95" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="126" >
+<ns3:Ordinate X="488108.82" Y="4192661.33" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="127" >
+<ns3:Ordinate X="488119.4" Y="4192641.45" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="128" >
+<ns3:Ordinate X="488131.28" Y="4192621.86" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="129" >
+<ns3:Ordinate X="488143.9" Y="4192602.56" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="130" >
+<ns3:Ordinate X="488154.36" Y="4192579.16" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="131" >
+<ns3:Ordinate X="488160.05" Y="4192551.48" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="132" >
+<ns3:Ordinate X="488166.73" Y="4192527.02" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="133" >
+<ns3:Ordinate X="488175.49" Y="4192499.08" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="134" >
+<ns3:Ordinate X="488190.02" Y="4192479.08" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="135" >
+<ns3:Ordinate X="488206.01" Y="4192458.23" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="136" >
+<ns3:Ordinate X="488222.86" Y="4192437.67" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="137" >
+<ns3:Ordinate X="488228.92" Y="4192431.46" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="138" >
+<ns3:Ordinate X="488239.35" Y="4192424.68" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="139" >
+<ns3:Ordinate X="488253.19" Y="4192414.92" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="140" >
+<ns3:Ordinate X="488269.88" Y="4192395.82" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="141" >
+<ns3:Ordinate X="488283.35" Y="4192378.43" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="142" >
+<ns3:Ordinate X="488288.37" Y="4192373.96" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="143" >
+<ns3:Ordinate X="488296.2" Y="4192365.71" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="144" >
+<ns3:Ordinate X="488312.27" Y="4192349.97" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="145" >
+<ns3:Ordinate X="488320.81" Y="4192343.49" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="146" >
+<ns3:Ordinate X="488330.81" Y="4192336.28" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="147" >
+<ns3:Ordinate X="488347.28" Y="4192325.52" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="148" >
+<ns3:Ordinate X="488370.5" Y="4192311.75" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="149" >
+<ns3:Ordinate X="488383.41" Y="4192305" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="150" >
+<ns3:Ordinate X="488392.06" Y="4192300.88" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="151" >
+<ns3:Ordinate X="488401.19" Y="4192294.4" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="152" >
+<ns3:Ordinate X="488409.1" Y="4192291.71" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="153" >
+<ns3:Ordinate X="488416.85" Y="4192290.76" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="154" >
+<ns3:Ordinate X="488427.87" Y="4192284.47" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="155" >
+<ns3:Ordinate X="488440.18" Y="4192280.07" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="156" >
+<ns3:Ordinate X="488435.29" Y="4192075.27" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="157" >
+<ns3:Ordinate X="488391.01" Y="4191934.34" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="158" >
+<ns3:Ordinate X="488320.22" Y="4191890.82" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="159" >
+<ns3:Ordinate X="488310.11" Y="4191897.21" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="160" >
+<ns3:Ordinate X="488246.07" Y="4191859.11" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="161" >
+<ns3:Ordinate X="488075.45" Y="4191779.02" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="162" >
+<ns3:Ordinate X="488068.2" Y="4191772.05" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="163" >
+<ns3:Ordinate X="487991.99" Y="4191741.88" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="164" >
+<ns3:Ordinate X="487980.73" Y="4191734.29" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="165" >
+<ns3:Ordinate X="487928.76" Y="4191714.33" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="166" >
+<ns3:Ordinate X="487919.05" Y="4191709.48" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="167" >
+<ns3:Ordinate X="487860.45" Y="4191683.02" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="168" >
+<ns3:Ordinate X="487846.79" Y="4191672.29" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="169" >
+<ns3:Ordinate X="487778.99" Y="4191645.13" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="170" >
+<ns3:Ordinate X="487684.5" Y="4191600.28" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="171" >
+<ns3:Ordinate X="487643.82" Y="4191580.95" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="172" >
+<ns3:Ordinate X="487614.65" Y="4191566.95" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="173" >
+<ns3:Ordinate X="487497.99" Y="4191515.28" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="174" >
+<ns3:Ordinate X="487475.18" Y="4191504.6" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="175" >
+<ns3:Ordinate X="487406.03" Y="4191478.81" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="176" >
+<ns3:Ordinate X="487384.61" Y="4191464.79" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="177" >
+<ns3:Ordinate X="487313.53" Y="4191422.57" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="178" >
+<ns3:Ordinate X="487282.75" Y="4191422.33" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="179" >
+<ns3:Ordinate X="487216.23" Y="4191388.5" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="487188.59" Y="4191383.92" OrdNmb="1" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</SpatialData><CoordSystems>
+<ns3:CoordSystem Name="МСК НСО, зона 4" CsId="ID0" />
+</CoordSystems>
+</CadastralBlock>
+</CadastralBlocks>
+<CertificationDoc>
+<ns6:Organization>ФГИС ЕГРН</ns6:Organization>
+<ns6:Date>2019-05-14</ns6:Date>
+<ns6:Number>99/2019/261355658</ns6:Number>
+</CertificationDoc>
+</KPT>

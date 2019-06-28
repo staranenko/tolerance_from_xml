@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="https://portal.rosreestr.ru/xsl/GKN/KPT/10/common.xsl"?>
+<KPT xmlns:ns2="urn://x-artefacts-rosreestr-ru/commons/complex-types/address-output/4.0.1"
+xmlns:ns3="urn://x-artefacts-rosreestr-ru/commons/complex-types/entity-spatial/5.0.1"
+xmlns:ns4="urn://x-artefacts-rosreestr-ru/commons/complex-types/parameters-oks/2.0.1"
+xmlns:ns5="urn://x-artefacts-rosreestr-ru/commons/complex-types/document-output/4.0.1"
+xmlns:ns6="urn://x-artefacts-rosreestr-ru/commons/complex-types/certification-doc/1.0"
+xmlns:ns7="urn://x-artefacts-smev-gov-ru/supplementary/commons/1.0.1"
+xmlns="urn://x-artefacts-rosreestr-ru/outgoing/kpt/10.0.1">
+<CadastralBlocks>
+<CadastralBlock CadastralNumber="54:35:062651">
+<Area>
+<Total>0</Total>
+<Unit>059</Unit>
+</Area><Parcels><Parcel CadastralNumber="54:35:062651:12" State="06" DateCreated="2018-02-26" >
+<Area>
+<Area>33351</Area>
+<Unit>055</Unit>
+<Inaccuracy>37</Inaccuracy>
+</Area>
+<Name>01</Name>
+<Location>
+<Address> <ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000183300</ns2:KLADR>
+<ns2:PostalCode>630052</ns2:PostalCode>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Толмачевское" Type="ш" />
+<ns2:Note>Новосибирская область, г Новосибирск, ш Толмачевское, 63</ns2:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization Utilization="143001010400" ByDoc="Склады (6.9) - склады" />
+<CadastralCost Value="61543600.83" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="482679.21" Y="4188270.41" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="482641.38" Y="4188344.64" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="482628.03" Y="4188321.87" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="482617.97" Y="4188302.97" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<ns3:Ordinate X="482594.24" Y="4188264.46" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="6" >
+<ns3:Ordinate X="482543.17" Y="4188184.9" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="7" >
+<ns3:Ordinate X="482695.25" Y="4188038.51" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="8" >
+<ns3:Ordinate X="482701.15" Y="4188032.82" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="9" >
+<ns3:Ordinate X="482707.8" Y="4188026.42" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="10" >
+<ns3:Ordinate X="482753.5" Y="4188064.13" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="11" >
+<ns3:Ordinate X="482775.73" Y="4188082.01" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="482679.21" Y="4188270.41" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Parcel><Parcel CadastralNumber="54:35:062651:2" State="01" DateCreated="2006-02-03" >
+<Area>
+<Area>42</Area>
+<Unit>055</Unit>
+<Inaccuracy>2</Inaccuracy>
+</Area>
+<Name>03</Name>
+<Location>
+<inBounds>1</inBounds>
+<Elaboration>
+<ReferenceMark>ВЛ 110кВ З-17/18, ТЭЦ-3 - Дружная (оп. 6-28, 31-35, 37-50, 53а)</ReferenceMark>
+</Elaboration>
+<Address> <ns2:OKATO>50401000000</ns2:OKATO>
+<ns2:KLADR>5400000100000</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Note>Новосибирская область, г. Новосибирск</ns2:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization Utilization="143007000000" ByDoc="Для размещения и использования по назначению объекта энергетики" />
+<ParentCadastralNumbers>
+<CadastralNumber>54:35:000000:89</CadastralNumber>
+</ParentCadastralNumbers>
+<CadastralCost Value="43423.38" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="482785.77" Y="4187979.71" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="482789.39" Y="4187985.09" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="482784.07" Y="4187988.67" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="482780.46" Y="4187983.29" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="482785.77" Y="4187979.71" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Parcel><Parcel CadastralNumber="54:35:062651:3" State="01" DateCreated="2006-02-09" >
+<Area>
+<Area>234</Area>
+<Unit>055</Unit>
+<Inaccuracy>5</Inaccuracy>
+</Area>
+<Name>03</Name>
+<Location>
+<inBounds>1</inBounds>
+<Elaboration>
+<ReferenceMark>Линия электропередачи ВЛ 220кВ (239-240) ТЭЦ-3 - ПС &quot;Дружная&quot; (оп. 1-8, 10-24, 27-31, 33-40, 42)</ReferenceMark>
+</Elaboration>
+<Address> <ns2:OKATO>50401000000</ns2:OKATO>
+<ns2:KLADR>5400000100000</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Note>Новосибирская область, г. Новосибирск</ns2:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization Utilization="143007000000" ByDoc="в целях размещения и использования по назначению объектов энергетики" />
+<ParentCadastralNumbers>
+<CadastralNumber>54:35:000000:53</CadastralNumber>
+</ParentCadastralNumbers>
+<CadastralCost Value="241930.26" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="482754.96" Y="4188019.99" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="482766.54" Y="4188027.23" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="482760.64" Y="4188041.82" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="482747.03" Y="4188034.5" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="482754.96" Y="4188019.99" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Parcel><Parcel CadastralNumber="54:35:062651:6" State="06" DateCreated="2013-08-28" >
+<Area>
+<Area>26307</Area>
+<Unit>055</Unit>
+<Inaccuracy>51</Inaccuracy>
+</Area>
+<Name>01</Name>
+<Location>
+<Address> <ns2:OKATO>50401000000</ns2:OKATO>
+<ns2:KLADR>5400000100000</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Note>обл. Новосибирская, г. Новосибирск, Толмачевское шоссе в Ленинском районе</ns2:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization Utilization="143001010400" ByDoc="склады" />
+<CadastralCost Value="22270000" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="482753.5" Y="4188064.13" OrdNmb="1" DeltaGeopoint="0.09" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="482725.28" Y="4188126.38" OrdNmb="1" DeltaGeopoint="0.09" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="482628.03" Y="4188321.86" OrdNmb="1" DeltaGeopoint="0.09" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="482617.97" Y="4188302.97" OrdNmb="1" DeltaGeopoint="0.09" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<ns3:Ordinate X="482594.24" Y="4188264.46" OrdNmb="1" DeltaGeopoint="0.09" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="6" >
+<ns3:Ordinate X="482543.17" Y="4188184.9" OrdNmb="1" DeltaGeopoint="0.09" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="7" >
+<ns3:Ordinate X="482695.25" Y="4188038.5" OrdNmb="1" DeltaGeopoint="0.09" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="8" >
+<ns3:Ordinate X="482700.56" Y="4188044.06" OrdNmb="1" DeltaGeopoint="0.09" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="9" >
+<ns3:Ordinate X="482706.07" Y="4188038.96" OrdNmb="1" DeltaGeopoint="0.09" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="10" >
+<ns3:Ordinate X="482701.15" Y="4188032.82" OrdNmb="1" DeltaGeopoint="0.09" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="11" >
+<ns3:Ordinate X="482707.8" Y="4188026.42" OrdNmb="1" DeltaGeopoint="0.09" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="482753.5" Y="4188064.13" OrdNmb="1" DeltaGeopoint="0.09" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Parcel></Parcels><ObjectsRealty><ObjectRealty>
+<Building CadastralNumber="54:35:062651:10">
+<ObjectType>002001002000</ObjectType>
+<AssignationBuilding>204001000000</AssignationBuilding>
+<Area>1237.1</Area>
+<Address>
+<ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000183300</ns2:KLADR>
+<ns2:PostalCode>630052</ns2:PostalCode>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:UrbanDistrict Name="Ленинский" Type="р-н" />
+<ns2:Street Name="Толмачевское" Type="ш" />
+<ns2:Level1 Type="д" Value="63/2" />
+</Address>
+<CadastralCost Value="11051991.61" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="482707.47" Y="4188144.56" OrdNmb="1" DeltaGeopoint="0.03" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="482673.25" Y="4188214.71" OrdNmb="1" DeltaGeopoint="0.03" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="482657.12" Y="4188206.84" OrdNmb="1" DeltaGeopoint="0.03" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="482691.38" Y="4188136.68" OrdNmb="1" DeltaGeopoint="0.03" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="482707.47" Y="4188144.56" OrdNmb="1" DeltaGeopoint="0.03" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Building>
+</ObjectRealty><ObjectRealty>
+<Building CadastralNumber="54:35:062651:11">
+<ObjectType>002001002000</ObjectType>
+<AssignationBuilding>204001000000</AssignationBuilding>
+<Area>1252.5</Area>
+<Address>
+<ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000183300</ns2:KLADR>
+<ns2:PostalCode>630052</ns2:PostalCode>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:UrbanDistrict Name="Ленинский" Type="р-н" />
+<ns2:Street Name="Толмачевское" Type="ш" />
+<ns2:Level1 Type="д" Value="63/1" />
+</Address>
+<CadastralCost Value="11189571.98" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="482668.93" Y="4188223.68" OrdNmb="1" DeltaGeopoint="0.03" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="482634.59" Y="4188293.92" OrdNmb="1" DeltaGeopoint="0.03" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="482618.47" Y="4188285.97" OrdNmb="1" DeltaGeopoint="0.03" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="482652.74" Y="4188215.77" OrdNmb="1" DeltaGeopoint="0.03" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="482668.93" Y="4188223.68" OrdNmb="1" DeltaGeopoint="0.03" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Building>
+</ObjectRealty><ObjectRealty>
+<Building CadastralNumber="54:35:062651:7">
+<ObjectType>002001002000</ObjectType>
+<AssignationBuilding>204001000000</AssignationBuilding>
+<Area>1067.2</Area>
+<Address>
+<ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000183300</ns2:KLADR>
+<ns2:PostalCode>630052</ns2:PostalCode>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:UrbanDistrict Name="Ленинский" Type="р-н" />
+<ns2:Street Name="Толмачевское" Type="ш" />
+<ns2:Level1 Type="д" Value="63/5" />
+</Address>
+<CadastralCost Value="25322681.68" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="482677.33" Y="4188098.1" OrdNmb="1" DeltaGeopoint="0.03" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="482677.57" Y="4188098.35" OrdNmb="1" DeltaGeopoint="0.03" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="482677.28" Y="4188098.63" OrdNmb="1" DeltaGeopoint="0.03" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="482689" Y="4188111.3" OrdNmb="1" DeltaGeopoint="0.03" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<ns3:Ordinate X="482689.3" Y="4188111.02" OrdNmb="1" DeltaGeopoint="0.03" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="6" >
+<ns3:Ordinate X="482689.53" Y="4188111.29" OrdNmb="1" DeltaGeopoint="0.03" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="7" >
+<ns3:Ordinate X="482642.86" Y="4188154.48" OrdNmb="1" DeltaGeopoint="0.03" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="8" >
+<ns3:Ordinate X="482642.62" Y="4188154.23" OrdNmb="1" DeltaGeopoint="0.03" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="9" >
+<ns3:Ordinate X="482642.9" Y="4188153.94" OrdNmb="1" DeltaGeopoint="0.03" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="10" >
+<ns3:Ordinate X="482631.19" Y="4188141.27" OrdNmb="1" DeltaGeopoint="0.03" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="11" >
+<ns3:Ordinate X="482630.9" Y="4188141.55" OrdNmb="1" DeltaGeopoint="0.03" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="12" >
+<ns3:Ordinate X="482630.66" Y="4188141.29" OrdNmb="1" DeltaGeopoint="0.03" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="482677.33" Y="4188098.1" OrdNmb="1" DeltaGeopoint="0.03" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Building>
+</ObjectRealty><ObjectRealty>
+<Building CadastralNumber="54:35:062651:8">
+<ObjectType>002001002000</ObjectType>
+<AssignationBuilding>204001000000</AssignationBuilding>
+<Area>1374.2</Area>
+<Address>
+<ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000183300</ns2:KLADR>
+<ns2:PostalCode>630052</ns2:PostalCode>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:UrbanDistrict Name="Ленинский" Type="р-н" />
+<ns2:Street Name="Толмачевское" Type="ш" />
+<ns2:Level1 Type="д" Value="63/4" />
+</Address>
+<CadastralCost Value="32607223.73" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="482623.7" Y="4188147.67" OrdNmb="1" DeltaGeopoint="0.03" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="482623.93" Y="4188147.93" OrdNmb="1" DeltaGeopoint="0.03" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="482623.64" Y="4188148.19" OrdNmb="1" DeltaGeopoint="0.03" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="482635.47" Y="4188160.88" OrdNmb="1" DeltaGeopoint="0.03" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<ns3:Ordinate X="482635.69" Y="4188160.65" OrdNmb="1" DeltaGeopoint="0.03" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="6" >
+<ns3:Ordinate X="482635.91" Y="4188160.89" OrdNmb="1" DeltaGeopoint="0.03" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="7" >
+<ns3:Ordinate X="482576.66" Y="4188215.63" OrdNmb="1" DeltaGeopoint="0.03" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="8" >
+<ns3:Ordinate X="482576.43" Y="4188215.38" OrdNmb="1" DeltaGeopoint="0.03" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="9" >
+<ns3:Ordinate X="482576.72" Y="4188215.1" OrdNmb="1" DeltaGeopoint="0.03" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="10" >
+<ns3:Ordinate X="482564.98" Y="4188202.4" OrdNmb="1" DeltaGeopoint="0.03" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="11" >
+<ns3:Ordinate X="482564.68" Y="4188202.67" OrdNmb="1" DeltaGeopoint="0.03" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="12" >
+<ns3:Ordinate X="482564.45" Y="4188202.41" OrdNmb="1" DeltaGeopoint="0.03" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="482623.7" Y="4188147.67" OrdNmb="1" DeltaGeopoint="0.03" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Building>
+</ObjectRealty><ObjectRealty>
+<Building CadastralNumber="54:35:062651:9">
+<ObjectType>002001002000</ObjectType>
+<AssignationBuilding>204001000000</AssignationBuilding>
+<Area>1243.8</Area>
+<Address>
+<ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000183300</ns2:KLADR>
+<ns2:PostalCode>630052</ns2:PostalCode>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:UrbanDistrict Name="Ленинский" Type="р-н" />
+<ns2:Street Name="Толмачевское" Type="ш" />
+<ns2:Level1 Type="д" Value="63/3" />
+</Address>
+<CadastralCost Value="11111848" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="482745.89" Y="4188065.59" OrdNmb="1" DeltaGeopoint="0.03" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="482711.77" Y="4188135.53" OrdNmb="1" DeltaGeopoint="0.03" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="482695.78" Y="4188127.72" OrdNmb="1" DeltaGeopoint="0.03" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="482729.94" Y="4188057.74" OrdNmb="1" DeltaGeopoint="0.03" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="482745.89" Y="4188065.59" OrdNmb="1" DeltaGeopoint="0.03" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Building>
+</ObjectRealty></ObjectsRealty><SpatialData>
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="482943.65" Y="4187798.49" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="482933.41" Y="4187808.91" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="482886.99" Y="4187853.6" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="482879.29" Y="4187861" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<ns3:Ordinate X="482707.8" Y="4188026.42" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="6" >
+<ns3:Ordinate X="482701.15" Y="4188032.82" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="7" >
+<ns3:Ordinate X="482695.25" Y="4188038.5" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="8" >
+<ns3:Ordinate X="482691.54" Y="4188041.72" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="9" >
+<ns3:Ordinate X="482557.05" Y="4188171.21" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="10" >
+<ns3:Ordinate X="482543.17" Y="4188184.9" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="11" >
+<ns3:Ordinate X="482521.15" Y="4188206.11" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="12" >
+<ns3:Ordinate X="482569" Y="4188280.66" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="13" >
+<ns3:Ordinate X="482584.37" Y="4188305.64" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="14" >
+<ns3:Ordinate X="482592.43" Y="4188318.7" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="15" >
+<ns3:Ordinate X="482612.69" Y="4188356.89" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="16" >
+<ns3:Ordinate X="482622.49" Y="4188375.39" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="17" >
+<ns3:Ordinate X="482631.98" Y="4188394.87" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="18" >
+<ns3:Ordinate X="482648.98" Y="4188361.3" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="19" >
+<ns3:Ordinate X="482765.25" Y="4188165.96" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="482943.65" Y="4187798.49" OrdNmb="1" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</SpatialData><CoordSystems>
+<ns3:CoordSystem Name="МСК НСО, зона 4" CsId="ID0" />
+</CoordSystems>
+</CadastralBlock>
+</CadastralBlocks>
+<CertificationDoc>
+<ns6:Organization>ФГИС ЕГРН</ns6:Organization>
+<ns6:Date>2019-05-13</ns6:Date>
+<ns6:Number>99/2019/261127412</ns6:Number>
+</CertificationDoc>
+</KPT>

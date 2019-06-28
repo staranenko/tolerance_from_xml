@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="https://portal.rosreestr.ru/xsl/GKN/KPT/10/common.xsl"?>
+<KPT xmlns:ns2="urn://x-artefacts-rosreestr-ru/commons/complex-types/address-output/4.0.1"
+xmlns:ns3="urn://x-artefacts-rosreestr-ru/commons/complex-types/entity-spatial/5.0.1"
+xmlns:ns4="urn://x-artefacts-rosreestr-ru/commons/complex-types/parameters-oks/2.0.1"
+xmlns:ns5="urn://x-artefacts-rosreestr-ru/commons/complex-types/document-output/4.0.1"
+xmlns:ns6="urn://x-artefacts-rosreestr-ru/commons/complex-types/certification-doc/1.0"
+xmlns:ns7="urn://x-artefacts-smev-gov-ru/supplementary/commons/1.0.1"
+xmlns="urn://x-artefacts-rosreestr-ru/outgoing/kpt/10.0.1">
+<CadastralBlocks>
+<CadastralBlock CadastralNumber="54:35:064440">
+<Area>
+<Total>0</Total>
+<Unit>059</Unit>
+</Area><Parcels><Parcel CadastralNumber="54:35:064440:15" State="06" DateCreated="2012-10-10" >
+<Area>
+<Area>1061</Area>
+<Unit>055</Unit>
+<Inaccuracy>11</Inaccuracy>
+</Area>
+<Name>01</Name>
+<Location>
+<Address> <ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000157800</ns2:KLADR>
+<ns2:PostalCode>630029</ns2:PostalCode>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Шоссейная 2-я" Type="ул" />
+<ns2:Level1 Type="д" Value="9" />
+<ns2:Note>Новосибирская область, город Новосибирск, улица 2-я Шоссейная. На земельном участке расположен индивидуальный жилой дом, 9</ns2:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization Utilization="142001010000" ByDoc="для эксплуатации индивидуального жилого дома" />
+<CadastralCost Value="504664.65" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="485249.95" Y="4197219.79" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="485247.32" Y="4197223.52" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="485240.36" Y="4197231.38" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="485235.84" Y="4197234.15" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<ns3:Ordinate X="485234.54" Y="4197232.94" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="6" >
+<ns3:Ordinate X="485228.75" Y="4197226.72" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="7" >
+<ns3:Ordinate X="485210.51" Y="4197209.57" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="8" >
+<ns3:Ordinate X="485205.28" Y="4197204.96" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="9" >
+<ns3:Ordinate X="485190.86" Y="4197192" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="10" >
+<ns3:Ordinate X="485198.92" Y="4197180.56" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="485249.95" Y="4197219.79" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Parcel><Parcel CadastralNumber="54:35:064440:16" State="06" DateCreated="2014-10-15" >
+<Area>
+<Area>1000</Area>
+<Unit>055</Unit>
+<Inaccuracy>11</Inaccuracy>
+</Area>
+<Name>01</Name>
+<Location>
+<Address> <ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000157800</ns2:KLADR>
+<ns2:PostalCode>630029</ns2:PostalCode>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Шоссейная 2-я" Type="ул" />
+<ns2:Level1 Type="д" Value="1а" />
+<ns2:Note>Новосибирская область, г Новосибирск, ул Шоссейная 2-я, д 1а</ns2:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization Utilization="142001010000" ByDoc="индивидуальные жилые дома" />
+<CadastralCost Value="475650" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="485168.54" Y="4197315.29" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="485149.17" Y="4197301.13" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="485128.49" Y="4197287.2" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="485117.12" Y="4197278.06" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<ns3:Ordinate X="485128.05" Y="4197263.77" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="6" >
+<ns3:Ordinate X="485156.42" Y="4197283.5" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="7" >
+<ns3:Ordinate X="485168.84" Y="4197291.92" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="8" >
+<ns3:Ordinate X="485160.38" Y="4197302.39" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="9" >
+<ns3:Ordinate X="485171.7" Y="4197311.3" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="485168.54" Y="4197315.29" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Parcel><Parcel CadastralNumber="54:35:064440:19" State="06" DateCreated="2015-11-06" >
+<Area>
+<Area>1000</Area>
+<Unit>055</Unit>
+<Inaccuracy>11.07</Inaccuracy>
+</Area>
+<Name>01</Name>
+<Location>
+<Address> <ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000157800</ns2:KLADR>
+<ns2:PostalCode>630029</ns2:PostalCode>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="2-я Шоссейная" Type="ул" />
+<ns2:Note>Новосибирская область, г Новосибирск, ул 2-я Шоссейная, 1/1</ns2:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization Utilization="142001010000" ByDoc="индивидуальные жилые дома" />
+<CadastralCost Value="475650" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="485168.05" Y="4197314.94" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="485144.79" Y="4197341.49" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="485120.97" Y="4197330.01" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="485145.66" Y="4197298.81" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<ns3:Ordinate X="485149.15" Y="4197301.13" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="485168.05" Y="4197314.94" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Parcel><Parcel CadastralNumber="54:35:064440:2" State="01" DateCreated="2006-03-22" >
+<Area>
+<Area>595</Area>
+<Unit>055</Unit>
+</Area>
+<Name>01</Name>
+<Location>
+<inBounds>1</inBounds>
+<Placed>Д3</Placed>
+<Elaboration>
+<ReferenceMark>индивидуальный жилой дом</ReferenceMark>
+</Elaboration>
+<Address> <ns2:OKATO>50401000000</ns2:OKATO>
+<ns2:KLADR>5400000100000</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="2-я Шоссейная" Type="ул" />
+<ns2:Level1 Type="д" Value="5" />
+<ns2:Note>обл. Новосибирская, г. Новосибирск, ул. 2-я Шоссейная, дом 5</ns2:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization ByDoc="для строительства и обслуживания индивидуального жилого дома" />
+<CadastralCost Value="283041.5" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="485180.36" Y="4197252.92" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="485168.1" Y="4197267.89" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="485192.41" Y="4197286.65" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="485204.18" Y="4197270.17" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="485180.36" Y="4197252.92" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Parcel><Parcel CadastralNumber="54:35:064440:3" State="01" DateCreated="2006-03-22" >
+<Area>
+<Area>766</Area>
+<Unit>055</Unit>
+</Area>
+<Name>01</Name>
+<Location>
+<inBounds>1</inBounds>
+<Placed>Г3</Placed>
+<Elaboration>
+<ReferenceMark>индивидуальный жилой дом</ReferenceMark>
+</Elaboration>
+<Address> <ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000157800</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="2-я Шоссейная" Type="ул" />
+<ns2:Level1 Type="д" Value="7" />
+<ns2:Note>обл. Новосибирская, г. Новосибирск, ул. 2-я Шоссейная, дом 7</ns2:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization Utilization="142001010000" ByDoc="занимаемый индивидуальным жилым домом" />
+<CadastralCost Value="364340.24" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="485180.36" Y="4197252.92" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="485204.18" Y="4197270.17" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="485219.28" Y="4197251.17" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="485196.92" Y="4197231.23" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<ns3:Ordinate X="485180.22" Y="4197252.82" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="485180.36" Y="4197252.92" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Parcel><Parcel CadastralNumber="54:35:064440:6" State="06" DateCreated="2010-08-23" >
+<Area>
+<Area>1000</Area>
+<Unit>055</Unit>
+<Inaccuracy>11</Inaccuracy>
+</Area>
+<Name>01</Name>
+<Location>
+<inBounds>1</inBounds>
+<Placed>В2</Placed>
+<Elaboration>
+<ReferenceMark>индивидуальный жилой дом</ReferenceMark>
+</Elaboration>
+<Address> <ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000157800</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Шоссейная 2-я" Type="ул" />
+<ns2:Level1 Type="д" Value="9а" />
+<ns2:Note>обл. Новосибирская, г. Новосибирск, ул. Шоссейная 2-я, дом 9а</ns2:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization Utilization="142001010000" ByDoc="для эксплуатации индивидуального жилого дома" />
+<CadastralCost Value="475650" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="485219.28" Y="4197251.17" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="485196.92" Y="4197231.23" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="485197.3" Y="4197230.73" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="485189.26" Y="4197223.45" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<ns3:Ordinate X="485205.28" Y="4197204.96" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="6" >
+<ns3:Ordinate X="485210.51" Y="4197209.57" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="7" >
+<ns3:Ordinate X="485228.75" Y="4197226.72" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="8" >
+<ns3:Ordinate X="485234.54" Y="4197232.94" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="485219.28" Y="4197251.17" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Parcel></Parcels><ObjectsRealty><ObjectRealty>
+<Building CadastralNumber="54:35:064440:11">
+<ObjectType>002001002000</ObjectType>
+<AssignationBuilding>204002000000</AssignationBuilding>
+<Area>64.3</Area>
+<Address>
+<ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000157800</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="2-я Шоссейная" Type="ул" />
+<ns2:Level1 Type="д" Value="9" />
+</Address>
+<CadastralCost Value="2126298.12" Unit="383" />
+</Building>
+</ObjectRealty><ObjectRealty>
+<Building CadastralNumber="54:35:064440:12">
+<ObjectType>002001002000</ObjectType>
+<AssignationBuilding>204002000000</AssignationBuilding>
+<Area>36</Area>
+<Address>
+<ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000157800</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="2-я Шоссейная" Type="ул" />
+<ns2:Level1 Type="д" Value="1а" />
+</Address>
+<CadastralCost Value="1238191.92" Unit="383" />
+</Building>
+</ObjectRealty><ObjectRealty>
+<Building CadastralNumber="54:35:064440:17">
+<ObjectType>002001002000</ObjectType>
+<AssignationBuilding>204002000000</AssignationBuilding>
+<Area>45.9</Area>
+<Address>
+<ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000157800</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:UrbanDistrict Name="Ленинский" Type="р-н" />
+<ns2:Street Name="2-я Шоссейная" Type="ул" />
+<ns2:Level1 Type="д" Value="1/1" />
+<ns2:Note>Новосибирская область, г Новосибирск, р-н Ленинский, ул 2-я Шоссейная, д 1/1</ns2:Note>
+</Address>
+<CadastralCost Value="1806753.44" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="485161.35" Y="4197313.77" OrdNmb="1" DeltaGeopoint="0.07" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="485156.16" Y="4197320.93" OrdNmb="1" DeltaGeopoint="0.07" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="485150.46" Y="4197316.53" OrdNmb="1" DeltaGeopoint="0.07" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="485152.16" Y="4197314.12" OrdNmb="1" DeltaGeopoint="0.07" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<ns3:Ordinate X="485147.04" Y="4197310.24" OrdNmb="1" DeltaGeopoint="0.07" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="6" >
+<ns3:Ordinate X="485150.7" Y="4197305.75" OrdNmb="1" DeltaGeopoint="0.07" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="485161.35" Y="4197313.77" OrdNmb="1" DeltaGeopoint="0.07" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Building>
+</ObjectRealty><ObjectRealty>
+<Building CadastralNumber="54:35:064440:18">
+<ObjectType>002001002000</ObjectType>
+<AssignationBuilding>204002000000</AssignationBuilding>
+<Area>161.9</Area>
+<Address>
+<ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000157800</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="2-я Шоссейная" Type="ул" />
+<ns2:Level1 Type="д" Value="7" />
+</Address>
+<CadastralCost Value="5845040.08" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="485213.26" Y="4197256.79" OrdNmb="1" DeltaGeopoint="0.02" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="485207.64" Y="4197263.35" OrdNmb="1" DeltaGeopoint="0.02" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="485207.45" Y="4197263.18" OrdNmb="1" DeltaGeopoint="0.02" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="485204.68" Y="4197266.41" OrdNmb="1" DeltaGeopoint="0.02" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<ns3:Ordinate X="485201.04" Y="4197263.29" OrdNmb="1" DeltaGeopoint="0.02" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="6" >
+<ns3:Ordinate X="485201.16" Y="4197263.14" OrdNmb="1" DeltaGeopoint="0.02" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="7" >
+<ns3:Ordinate X="485198.29" Y="4197260.68" OrdNmb="1" DeltaGeopoint="0.02" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="8" >
+<ns3:Ordinate X="485200.95" Y="4197257.58" OrdNmb="1" DeltaGeopoint="0.02" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="9" >
+<ns3:Ordinate X="485200.76" Y="4197257.42" OrdNmb="1" DeltaGeopoint="0.02" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="10" >
+<ns3:Ordinate X="485206.38" Y="4197250.89" OrdNmb="1" DeltaGeopoint="0.02" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="485213.26" Y="4197256.79" OrdNmb="1" DeltaGeopoint="0.02" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Building>
+</ObjectRealty><ObjectRealty>
+<Building CadastralNumber="54:35:064440:20">
+<ObjectType>002001002000</ObjectType>
+<AssignationBuilding>204002000000</AssignationBuilding>
+<Area>192.3</Area>
+<Address>
+<ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000157800</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="2-я Шоссейная" Type="ул" />
+<ns2:Note>Новосибирская область, г Новосибирск, ул 2-я Шоссейная</ns2:Note>
+</Address>
+<CadastralCost Value="6859048.7" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="485148.93" Y="4197316.83" OrdNmb="1" DeltaGeopoint="0.07" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="485142.15" Y="4197325.41" OrdNmb="1" DeltaGeopoint="0.07" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="485133.2" Y="4197318.21" OrdNmb="1" DeltaGeopoint="0.07" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="485136.06" Y="4197314.7" OrdNmb="1" DeltaGeopoint="0.07" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<ns3:Ordinate X="485137.56" Y="4197315.98" OrdNmb="1" DeltaGeopoint="0.07" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="6" >
+<ns3:Ordinate X="485141.59" Y="4197310.93" OrdNmb="1" DeltaGeopoint="0.07" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="485148.93" Y="4197316.83" OrdNmb="1" DeltaGeopoint="0.07" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Building>
+</ObjectRealty><ObjectRealty>
+<Building CadastralNumber="54:35:064440:7">
+<ObjectType>002001002000</ObjectType>
+<AssignationBuilding>204002000000</AssignationBuilding>
+<Area>87.1</Area>
+<Address>
+<ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000157800</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="2-я Шоссейная" Type="ул" />
+<ns2:Level1 Type="д" Value="9а" />
+</Address>
+<CadastralCost Value="3278996.21" Unit="383" />
+</Building>
+</ObjectRealty><ObjectRealty>
+<Building CadastralNumber="54:35:064440:8">
+<ObjectType>002001002000</ObjectType>
+<AssignationBuilding>204002000000</AssignationBuilding>
+<Area>64.8</Area>
+<Address>
+<ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000157800</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="2-я Шоссейная" Type="ул" />
+<ns2:Level1 Type="д" Value="1" />
+</Address>
+<CadastralCost Value="2160353.59" Unit="383" />
+</Building>
+</ObjectRealty><ObjectRealty>
+<Building CadastralNumber="54:35:064440:9">
+<ObjectType>002001002000</ObjectType>
+<AssignationBuilding>204002000000</AssignationBuilding>
+<Area>90.5</Area>
+<Address>
+<ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000157800</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="2-я Шоссейная" Type="ул" />
+<ns2:Level1 Type="д" Value="5" />
+</Address>
+<CadastralCost Value="3179862.3" Unit="383" />
+</Building>
+</ObjectRealty></ObjectsRealty><SpatialData>
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="485253.61" Y="4197224.74" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="485249.96" Y="4197219.81" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="485227.38" Y="4197202.45" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="485198.93" Y="4197180.56" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<ns3:Ordinate X="485190.86" Y="4197192" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="6" >
+<ns3:Ordinate X="485187.34" Y="4197197.01" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="7" >
+<ns3:Ordinate X="485131.64" Y="4197244.91" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="8" >
+<ns3:Ordinate X="485109.44" Y="4197273.29" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="9" >
+<ns3:Ordinate X="485084.81" Y="4197312.55" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="10" >
+<ns3:Ordinate X="485154.84" Y="4197346.37" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="11" >
+<ns3:Ordinate X="485192.45" Y="4197306.31" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="12" >
+<ns3:Ordinate X="485186.4" Y="4197300.51" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="13" >
+<ns3:Ordinate X="485216.64" Y="4197259.18" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="14" >
+<ns3:Ordinate X="485240.61" Y="4197232.87" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="485253.61" Y="4197224.74" OrdNmb="1" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</SpatialData><CoordSystems>
+<ns3:CoordSystem Name="МСК НСО, зона 4" CsId="ID0" />
+</CoordSystems>
+</CadastralBlock>
+</CadastralBlocks>
+<CertificationDoc>
+<ns6:Organization>ФГИС ЕГРН</ns6:Organization>
+<ns6:Date>2019-05-14</ns6:Date>
+<ns6:Number>99/2019/261313950</ns6:Number>
+</CertificationDoc>
+</KPT>

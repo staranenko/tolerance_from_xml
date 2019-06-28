@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ZU/07/Common.xsl"?>
+
+<KVZU xmlns="urn://x-artefacts-rosreestr-ru/outgoing/kvzu/7.0.1"
+xmlns:smev="urn://x-artefacts-smev-gov-ru/supplementary/commons/1.0.1"
+xmlns:num="urn://x-artefacts-rosreestr-ru/commons/complex-types/numbers/1.0"
+xmlns:adrs="urn://x-artefacts-rosreestr-ru/commons/complex-types/address-output/4.0.1"
+xmlns:spa="urn://x-artefacts-rosreestr-ru/commons/complex-types/entity-spatial/5.0.1"
+xmlns:cer="urn://x-artefacts-rosreestr-ru/commons/complex-types/certification-doc/1.0"
+xmlns:doc="urn://x-artefacts-rosreestr-ru/commons/complex-types/document-output/4.0.1"
+xmlns:nobj="urn://x-artefacts-rosreestr-ru/commons/complex-types/natural-objects-output/1.0.1">
+<Parcels>
+<Parcel CadastralNumber="54:35:061375:12" State="01"
+DateCreated="2007-09-11"
+>
+<CadastralBlock>54:35:061375</CadastralBlock>
+<Name>01</Name>
+<PrevCadastralNumbers>
+<CadastralNumber>54:35:061375:10</CadastralNumber>
+<CadastralNumber>54:35:061375:2</CadastralNumber>
+</PrevCadastralNumbers>
+<Area>
+<Area>789</Area>
+<Unit>055</Unit>
+<Inaccuracy>3</Inaccuracy>
+</Area>
+<Location>
+<inBounds>1</inBounds>
+<Placed>Ж6</Placed>
+<Elaboration>
+<ReferenceMark>индивидуальный жилой дом</ReferenceMark>
+</Elaboration>
+<Address> <adrs:OKATO>50401000000</adrs:OKATO>
+<adrs:KLADR>5400000100000</adrs:KLADR>
+<adrs:Region>54</adrs:Region>
+<adrs:City Name="Новосибирск" Type="г" />
+<adrs:Street Name="2-я Шоссейная" Type="ул" />
+<adrs:Level1 Type="д" Value="188/2" />
+<adrs:Note>обл. Новосибирская, г. Новосибирск, ул. 2-я Шоссейная, дом 188/2</adrs:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization ByDoc="для эксплуатации индивидуального жилого дома" />
+<Rights>
+<Right>
+<Name>собственность</Name>
+<Type>001001000000</Type>
+<Owners>
+<Owner>
+<Person>
+<FamilyName>Танащук</FamilyName>
+<FirstName>Людмила</FirstName>
+<Patronymic>Олеговна</Patronymic>
+</Person>
+</Owner>
+</Owners>
+<Registration>
+<RegNumber>54-54-11/137/2011-231</RegNumber>
+<RegDate>2011-12-15</RegDate>
+</Registration>
+</Right>
+</Rights>
+<EntitySpatial EntSys="ID0" >
+<spa:SpatialElement >
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<spa:Ordinate X="486241.67" Y="4194998.99" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<spa:Ordinate X="486237.45" Y="4194993.8" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<spa:Ordinate X="486233.37" Y="4194990.94" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<spa:Ordinate X="486211.77" Y="4194974.55" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<spa:Ordinate X="486211.47" Y="4194974.32" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="6" >
+<spa:Ordinate X="486213.98" Y="4194971.34" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="7" >
+<spa:Ordinate X="486220.93" Y="4194963" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="8" >
+<spa:Ordinate X="486224.46" Y="4194958.8" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="9" >
+<spa:Ordinate X="486257.08" Y="4194986.41" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<spa:Ordinate X="486241.67" Y="4194998.99" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+</spa:SpatialElement>
+<spa:Borders>
+<spa:Border Spatial="1" Point1="68" Point2="69">
+<spa:Edge>
+</spa:Edge>
+</spa:Border>
+<spa:Border Spatial="1" Point1="69" Point2="70">
+<spa:Edge>
+</spa:Edge>
+</spa:Border>
+<spa:Border Spatial="1" Point1="70" Point2="71">
+<spa:Edge>
+</spa:Edge>
+</spa:Border>
+<spa:Border Spatial="1" Point1="137" Point2="138">
+<spa:Edge>
+</spa:Edge>
+</spa:Border>
+<spa:Border Spatial="1" Point1="68" Point2="138">
+<spa:Edge>
+</spa:Edge>
+</spa:Border>
+<spa:Border Spatial="1" Point1="71" Point2="139">
+<spa:Edge>
+</spa:Edge>
+</spa:Border>
+<spa:Border Spatial="1" Point1="139" Point2="140">
+<spa:Edge>
+</spa:Edge>
+</spa:Border>
+<spa:Border Spatial="1" Point1="140" Point2="141">
+<spa:Edge>
+</spa:Edge>
+</spa:Border>
+<spa:Border Spatial="1" Point1="137" Point2="141">
+<spa:Edge>
+</spa:Edge>
+</spa:Border>
+</spa:Borders>
+</EntitySpatial>
+<CadastralCost Value="374648.76" Unit="383" />
+<SpecialNote> Сведения о видах разрешенного использовании имеют статус «Актуальные незасвидетельствованные». Право (ограничение права, обременение объекта недвижимости) зарегистрировано на данный объект недвижимости с видами разрешенного использования «Для индивидуальной жилой застройки».</SpecialNote>
+</Parcel>
+</Parcels>
+<CertificationDoc>
+<cer:Organization>ФГИС ЕГРН</cer:Organization>
+<cer:Date>2019-06-12</cer:Date>
+<cer:Number>99/2019/266449720</cer:Number>
+</CertificationDoc>
+<CoordSystems>
+<spa:CoordSystem Name="МСК НСО, зона 4" CsId="ID0" />
+</CoordSystems>
+<eDocument CodeType="112" Version="07" Scope="GKN">
+<Sender Kod="00.0.4.195"
+Name="ФГИС ЕГРН"
+Region="99"
+Date_Upload="2019-06-12"
+Appointment="Государственный регистратор"
+/>
+<Recipient Kod="00.0.4.111" Name="ДЕПАРТАМЕНТ ЗЕМЕЛЬНЫХ И ИМУЩЕСТВЕННЫХ ОТНОШЕНИЙ МЭРИИ ГОРОДА НОВОСИБИРСКА" />
+</eDocument>
+<ReestrExtract>
+<DeclarAttribute ID_KUVI="0"
+ExtractTypeCode="012000"
+ExtractTypeText="Выписка из Единого государственного реестра недвижимости об объекте недвижимости"
+ExtractNumber="99/2019/266449720"
+ExtractDate="12.06.2019"
+RequeryNumber="80-91814564"
+RequeryDate="11.06.2019"
+ExtractCount="1"
+NoticeCount="0"
+RefuseCount="0"
+Registrator="ФГИС ЕГРН">
+<ReceivName>ДЕПАРТАМЕНТ ЗЕМЕЛЬНЫХ И ИМУЩЕСТВЕННЫХ ОТНОШЕНИЙ МЭРИИ ГОРОДА НОВОСИБИРСКА</ReceivName>
+<ReceivAdress>не указан</ReceivAdress>
+</DeclarAttribute>
+<ExtractObjectRight>
+<HeadContent>
+<ID_REC_KUVI>0</ID_REC_KUVI>
+<Title>ФЕДЕРАЛЬНАЯ СЛУЖБА ГОСУДАРСТВЕННОЙ РЕГИСТРАЦИИ, КАДАСТРА И КАРТОГРАФИИ</Title>
+<DeptName>ФГИС ЕГРН</DeptName>
+<ExtractTitle>Выписка из Единого государственного реестра недвижимости об объекте недвижимости</ExtractTitle>
+<Content>На основании запроса от 11.06.2019 г., поступившего на рассмотрение 12.06.2019 г., сообщаем, что согласно записям Единого государственного реестра недвижимости:</Content>
+</HeadContent>
+<ExtractObject>
+<ObjectRight>
+<Right RightNumber="1">
+<Owner >
+<ID_Subject>117457742554</ID_Subject>
+<Person>
+<Code_SP>007003000000</Code_SP>
+<Content>Танащук Людмила Олеговна</Content>
+<FIO>
+<Surname>Танащук</Surname>
+<First>Людмила</First>
+<Patronymic>Олеговна</Patronymic>
+</FIO>
+</Person>
+</Owner>
+<Registration >
+<ID_Record>273283132754</ID_Record>
+<RegNumber>54-54-11/137/2011-231</RegNumber>
+<Type>001001000000</Type>
+<Name>Собственность, № 54-54-11/137/2011-231 от 15.12.2011</Name>
+<RegDate>15.12.2011</RegDate>
+</Registration>
+<NoEncumbrance>не зарегистрировано</NoEncumbrance>
+</Right>
+<NoShareHolding>не зарегистрировано</NoShareHolding>
+</ObjectRight>
+<RightAssert>данные отсутствуют</RightAssert>
+<RightClaim>данные отсутствуют</RightClaim>
+<RightAgainst>данные отсутствуют</RightAgainst>
+<RightSteal>данные отсутствуют</RightSteal>
+<WithoutThirdParty>данные отсутствуют</WithoutThirdParty>
+<InabilityRegWithoutOwner></InabilityRegWithoutOwner>
+<InabilityRegZU></InabilityRegZU>
+</ExtractObject>
+<InfoENK/>
+<InfoPIK/>
+<FootContent>
+<Recipient>ДЕПАРТАМЕНТ ЗЕМЕЛЬНЫХ И ИМУЩЕСТВЕННЫХ ОТНОШЕНИЙ МЭРИИ ГОРОДА НОВОСИБИРСКА</Recipient>
+<ExtractDate>12.06.2019</ExtractDate>
+<Content></Content>
+</FootContent>
+</ExtractObjectRight>
+</ReestrExtract>
+</KVZU>

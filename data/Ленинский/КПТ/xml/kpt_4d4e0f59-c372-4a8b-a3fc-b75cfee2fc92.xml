@@ -1,0 +1,1310 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="https://portal.rosreestr.ru/xsl/GKN/KPT/10/common.xsl"?>
+<KPT xmlns:ns2="urn://x-artefacts-rosreestr-ru/commons/complex-types/address-output/4.0.1"
+xmlns:ns3="urn://x-artefacts-rosreestr-ru/commons/complex-types/entity-spatial/5.0.1"
+xmlns:ns4="urn://x-artefacts-rosreestr-ru/commons/complex-types/parameters-oks/2.0.1"
+xmlns:ns5="urn://x-artefacts-rosreestr-ru/commons/complex-types/document-output/4.0.1"
+xmlns:ns6="urn://x-artefacts-rosreestr-ru/commons/complex-types/certification-doc/1.0"
+xmlns:ns7="urn://x-artefacts-smev-gov-ru/supplementary/commons/1.0.1"
+xmlns="urn://x-artefacts-rosreestr-ru/outgoing/kpt/10.0.1">
+<CadastralBlocks>
+<CadastralBlock CadastralNumber="54:35:063176">
+<Area>
+<Total>0</Total>
+<Unit>059</Unit>
+</Area><Parcels><Parcel CadastralNumber="54:35:063176:10" State="01" DateCreated="2006-04-17" >
+<Area>
+<Area>1329</Area>
+<Unit>055</Unit>
+<Inaccuracy>5</Inaccuracy>
+</Area>
+<Name>02</Name>
+<Location>
+<inBounds>0</inBounds>
+<Elaboration>
+<ReferenceMark>здание гаражей</ReferenceMark>
+<Distance>4 м</Distance>
+<Direction>юг</Direction>
+</Elaboration>
+<Address> <ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000157000</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Широкая" Type="ул" />
+<ns2:Apartment Type="кв" Value="2а" />
+<ns2:Note>обл. Новосибирская, г. Новосибирск, ул. Широкая, 2а</ns2:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization Utilization="142002000000" ByDoc="для размещения и эксплуатации автостоянки" />
+<CadastralCost Value="6062222.1" Unit="383" />
+</Parcel><Parcel CadastralNumber="54:35:063176:11" State="01" DateCreated="2006-06-07" >
+<Area>
+<Area>333</Area>
+<Unit>055</Unit>
+<Inaccuracy>2</Inaccuracy>
+</Area>
+<Name>01</Name>
+<Location>
+<inBounds>0</inBounds>
+<Placed>А7</Placed>
+<Elaboration>
+<ReferenceMark>жилой дом</ReferenceMark>
+<Distance>50 м</Distance>
+<Direction>юг</Direction>
+</Elaboration>
+<Address> <ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000157000</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Широкая" Type="ул" />
+<ns2:Level1 Type="д" Value="26" />
+<ns2:Note>обл. Новосибирская, г. Новосибирск, ул. Широкая, дом 26</ns2:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization Utilization="142002000000" ByDoc="для размещения и эксплуатации ремонтно-технической мастерской и торгового павильона" />
+<CadastralCost Value="2447859.69" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="484110.99" Y="4193986.37" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="484096.38" Y="4193970.6" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="484107.77" Y="4193960.07" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="484122.37" Y="4193975.85" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<ns3:Ordinate X="484119.32" Y="4193978.74" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="484110.99" Y="4193986.37" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Parcel><Parcel CadastralNumber="54:35:063176:155" State="06" DateCreated="2011-12-23" >
+<Area>
+<Area>102</Area>
+<Unit>055</Unit>
+<Inaccuracy>1</Inaccuracy>
+</Area>
+<Name>01</Name>
+<Location>
+<Address> <ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000157000</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Широкая" Type="ул" />
+<ns2:Note>Новосибирская обл, г Новосибирск, ул Широкая</ns2:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization Utilization="142002040000" ByDoc="для размещения и эксплуатации торгового павильона" />
+<CadastralCost Value="758040.54" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="484128.79" Y="4194588.12" OrdNmb="1" DeltaGeopoint="0.03" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="484130.17" Y="4194605.07" OrdNmb="1" DeltaGeopoint="0.03" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="484124.19" Y="4194605.56" OrdNmb="1" DeltaGeopoint="0.03" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="484122.82" Y="4194588.61" OrdNmb="1" DeltaGeopoint="0.03" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="484128.79" Y="4194588.12" OrdNmb="1" DeltaGeopoint="0.03" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Parcel><Parcel CadastralNumber="54:35:063176:156" State="06" DateCreated="2011-12-30" >
+<Area>
+<Area>16</Area>
+<Unit>055</Unit>
+<Inaccuracy>1</Inaccuracy>
+</Area>
+<Name>01</Name>
+<Location>
+<Address> <ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000157000</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Широкая" Type="ул" />
+<ns2:Note>Новосибирская обл, г. Новосибирск, ул. Широкая</ns2:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization Utilization="142003000000" ByDoc="Земельные участки (территории) общего пользования (12.0) - автомобильные дороги" />
+<CadastralCost Value="1" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="484083.37" Y="4194030.26" OrdNmb="1" DeltaGeopoint="0.3" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="484083.63" Y="4194034.36" OrdNmb="1" DeltaGeopoint="0.3" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="484083.83" Y="4194036.83" OrdNmb="1" DeltaGeopoint="0.3" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="484081.44" Y="4194037.04" OrdNmb="1" DeltaGeopoint="0.3" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<ns3:Ordinate X="484081.22" Y="4194034.54" OrdNmb="1" DeltaGeopoint="0.3" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="6" >
+<ns3:Ordinate X="484081" Y="4194030.38" OrdNmb="1" DeltaGeopoint="0.3" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="484083.37" Y="4194030.26" OrdNmb="1" DeltaGeopoint="0.3" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Parcel><Parcel CadastralNumber="54:35:063176:17" State="06" DateCreated="2008-11-18" >
+<Area>
+<Area>3827</Area>
+<Unit>055</Unit>
+<Inaccuracy>6</Inaccuracy>
+</Area>
+<Name>01</Name>
+<Location>
+<inBounds>1</inBounds>
+<Placed>И2</Placed>
+<Address> <ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000157000</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Широкая" Type="ул" />
+<ns2:Note>обл. Новосибирская, г. Новосибирск, ул. Широкая</ns2:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization Utilization="142002000000" ByDoc="для строительства автостоянки закрытого типа" />
+<CadastralCost Value="17881351.34" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="484167.77" Y="4194634.78" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="484235.45" Y="4194630.41" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="484230.33" Y="4194567.89" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="484228.36" Y="4194543.75" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<ns3:Ordinate X="484213.59" Y="4194545.37" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="6" >
+<ns3:Ordinate X="484203.12" Y="4194578.15" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="7" >
+<ns3:Ordinate X="484165.79" Y="4194607.44" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="484167.77" Y="4194634.78" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Parcel><Parcel CadastralNumber="54:35:063176:18" State="06" DateCreated="2009-02-13" >
+<Area>
+<Area>7027</Area>
+<Unit>055</Unit>
+<Inaccuracy>29</Inaccuracy>
+</Area>
+<Name>01</Name>
+<Location>
+<inBounds>1</inBounds>
+<Placed>Б4</Placed>
+<Address> <ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000157000</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Широкая" Type="ул" />
+<ns2:Note>обл. Новосибирская, г. Новосибирск, ул. Широкая</ns2:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization Utilization="142002040000" ByDoc="Магазины (4.4) - Объекты для продажи товаров, торговая площадь которых составляет до 5000 кв. метров" />
+<CadastralCost Value="51927702.98" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="484143.38" Y="4194137.34" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="484163.48" Y="4194135.99" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="484195.99" Y="4194133.04" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="484197.45" Y="4194147.91" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<ns3:Ordinate X="484206.54" Y="4194146.99" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="6" >
+<ns3:Ordinate X="484205.03" Y="4194132.29" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="7" >
+<ns3:Ordinate X="484204.22" Y="4194124.38" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="8" >
+<ns3:Ordinate X="484197.71" Y="4194095.43" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="9" >
+<ns3:Ordinate X="484166.94" Y="4194042.76" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="10" >
+<ns3:Ordinate X="484133.5" Y="4193999.62" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="11" >
+<ns3:Ordinate X="484122.31" Y="4194000.71" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="12" >
+<ns3:Ordinate X="484132.15" Y="4194138.11" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="13" >
+<ns3:Ordinate X="484134.39" Y="4194137.91" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="484143.38" Y="4194137.34" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Parcel><Parcel CadastralNumber="54:35:063176:2" State="01" DateCreated="2005-05-12" >
+<Area>
+<Area>22047</Area>
+<Unit>055</Unit>
+</Area>
+<Name>01</Name>
+<Location>
+<inBounds>1</inBounds>
+<Placed>Г5</Placed>
+<Elaboration>
+<ReferenceMark>здание</ReferenceMark>
+</Elaboration>
+<Address> <ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000157000</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Широкая" Type="ул" />
+<ns2:Apartment Type="кв" Value="2" />
+<ns2:Note>обл. Новосибирская, г. Новосибирск, ул. Широкая, 2</ns2:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization Utilization="142002000000" ByDoc="занимаемый гаражным комплексом со встроенными помещениями магазинов, складов,шиномонтажа и ПТО автомобилей и для завершения строительства и эксплуатации гаражей" />
+<CadastralCost Value="120888551.34" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="484234.13" Y="4194275.07" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="484245.37" Y="4194391.18" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="484241.54" Y="4194391.32" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="484242.22" Y="4194401.32" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<ns3:Ordinate X="484239.29" Y="4194401.61" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="6" >
+<ns3:Ordinate X="484242.48" Y="4194467.21" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="7" >
+<ns3:Ordinate X="484244.81" Y="4194514.89" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="8" >
+<ns3:Ordinate X="484232.62" Y="4194515.65" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="9" >
+<ns3:Ordinate X="484229.66" Y="4194520.54" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="10" >
+<ns3:Ordinate X="484227.69" Y="4194523.81" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="11" >
+<ns3:Ordinate X="484226.78" Y="4194524.4" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="12" >
+<ns3:Ordinate X="484201.49" Y="4194540.93" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="13" >
+<ns3:Ordinate X="484198.16" Y="4194543.1" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="14" >
+<ns3:Ordinate X="484173.63" Y="4194559.18" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="15" >
+<ns3:Ordinate X="484172.94" Y="4194549.65" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="16" >
+<ns3:Ordinate X="484195.59" Y="4194530.17" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="17" >
+<ns3:Ordinate X="484197.93" Y="4194524.78" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="18" >
+<ns3:Ordinate X="484197.63" Y="4194483.73" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="19" >
+<ns3:Ordinate X="484195.49" Y="4194458.52" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="20" >
+<ns3:Ordinate X="484192.49" Y="4194428.8" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="21" >
+<ns3:Ordinate X="484188.75" Y="4194418.66" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="22" >
+<ns3:Ordinate X="484175.32" Y="4194410.66" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="23" >
+<ns3:Ordinate X="484162.51" Y="4194404.08" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="24" >
+<ns3:Ordinate X="484156.54" Y="4194401.04" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="25" >
+<ns3:Ordinate X="484152.49" Y="4194400.71" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="26" >
+<ns3:Ordinate X="484145.76" Y="4194295.04" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="27" >
+<ns3:Ordinate X="484140.97" Y="4194219.91" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="28" >
+<ns3:Ordinate X="484140.84" Y="4194218.04" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="29" >
+<ns3:Ordinate X="484138.31" Y="4194215.15" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="30" >
+<ns3:Ordinate X="484137.83" Y="4194204.31" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="31" >
+<ns3:Ordinate X="484139.59" Y="4194201.39" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="32" >
+<ns3:Ordinate X="484139.4" Y="4194199.15" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="33" >
+<ns3:Ordinate X="484134.57" Y="4194140.15" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="34" >
+<ns3:Ordinate X="484134.39" Y="4194137.91" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="35" >
+<ns3:Ordinate X="484143.38" Y="4194137.34" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="36" >
+<ns3:Ordinate X="484163.48" Y="4194135.99" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="37" >
+<ns3:Ordinate X="484173.73" Y="4194277.31" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="38" >
+<ns3:Ordinate X="484222.14" Y="4194275.51" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="484234.13" Y="4194275.07" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Parcel><Parcel CadastralNumber="54:35:063176:23" State="06" DateCreated="2010-08-05" >
+<Area>
+<Area>21</Area>
+<Unit>055</Unit>
+<Inaccuracy>0.5</Inaccuracy>
+</Area>
+<Name>01</Name>
+<Location>
+<Address> <ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000157000</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Широкая" Type="ул" />
+<ns2:Note>обл. Новосибирская, г. Новосибирск, ул. Широкая</ns2:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization Utilization="142003000000" ByDoc="Земельные участки (территории) общего пользования (12.0) - автомобильные дороги" />
+<CadastralCost Value="1" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="484128.49" Y="4194605.54" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="484128.83" Y="4194610.54" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="484129.06" Y="4194614.02" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="484126.57" Y="4194614.19" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<ns3:Ordinate X="484126.34" Y="4194610.7" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="6" >
+<ns3:Ordinate X="484126" Y="4194605.71" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="484128.49" Y="4194605.54" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Parcel><Parcel CadastralNumber="54:35:063176:27" State="06" DateCreated="2011-01-19" >
+<Area>
+<Area>9</Area>
+<Unit>055</Unit>
+<Inaccuracy>0.3</Inaccuracy>
+</Area>
+<Name>01</Name>
+<Location>
+<inBounds>1</inBounds>
+<Placed>Б8</Placed>
+<Address> <ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000157000</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Широкая" Type="ул" />
+<ns2:Note>обл. Новосибирская, г. Новосибирск, ул. Широкая</ns2:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization Utilization="142002000000" ByDoc="для размещения и эксплуатации торгового павильона" />
+<CadastralCost Value="66885.93" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="484081.7" Y="4194015.4" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="484079.5" Y="4194015.55" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="484079.78" Y="4194019.54" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="484081.97" Y="4194019.39" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="484081.7" Y="4194015.4" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Parcel><Parcel CadastralNumber="54:35:063176:28" State="06" DateCreated="2011-08-13" >
+<Area>
+<Area>111</Area>
+<Unit>055</Unit>
+<Inaccuracy>4</Inaccuracy>
+</Area>
+<Name>01</Name>
+<Location>
+<Address> <ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000157000</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Широкая" Type="ул" />
+<ns2:Note>Новосибирская обл, г Новосибирск, ул Широкая</ns2:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization Utilization="142003000000" ByDoc="Земельные участки (территории) общего пользования (12.0) - автомобильные дороги" />
+<CadastralCost Value="1" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="484097.25" Y="4194174.25" OrdNmb="1" DeltaGeopoint="0.1" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="484097.26" Y="4194174.38" OrdNmb="1" DeltaGeopoint="0.1" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="484098.28" Y="4194186.83" OrdNmb="1" DeltaGeopoint="0.1" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="484098.76" Y="4194192.87" OrdNmb="1" DeltaGeopoint="0.1" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<ns3:Ordinate X="484092.81" Y="4194193.33" OrdNmb="1" DeltaGeopoint="0.1" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="6" >
+<ns3:Ordinate X="484092.31" Y="4194187.17" OrdNmb="1" DeltaGeopoint="0.1" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="7" >
+<ns3:Ordinate X="484092.03" Y="4194183.71" OrdNmb="1" DeltaGeopoint="0.1" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="8" >
+<ns3:Ordinate X="484091.3" Y="4194174.73" OrdNmb="1" DeltaGeopoint="0.1" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="9" >
+<ns3:Ordinate X="484091.52" Y="4194174.69" OrdNmb="1" DeltaGeopoint="0.1" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="10" >
+<ns3:Ordinate X="484092.51" Y="4194174.64" OrdNmb="1" DeltaGeopoint="0.1" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="484097.25" Y="4194174.25" OrdNmb="1" DeltaGeopoint="0.1" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Parcel><Parcel CadastralNumber="54:35:063176:4" State="01" DateCreated="2005-05-12" >
+<Area>
+<Area>659</Area>
+<Unit>055</Unit>
+<Inaccuracy>0</Inaccuracy>
+</Area>
+<Name>01</Name>
+<Location>
+<inBounds>0</inBounds>
+<Placed>Ж4</Placed>
+<Elaboration>
+<ReferenceMark>АЗС</ReferenceMark>
+<Distance>50 м</Distance>
+<Direction>юго-запад</Direction>
+</Elaboration>
+<Address> <ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000157000</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Широкая" Type="ул" />
+<ns2:Apartment Type="кв" Value="2б" />
+<ns2:Note>обл. Новосибирская, г. Новосибирск, ул. Широкая, 2б</ns2:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization Utilization="142002000000" ByDoc="для размещения и эксплуатации объектов автосервиса" />
+<CadastralCost Value="4970685.43" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="484174.81" Y="4194507.65" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="484162.55" Y="4194508.5" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="484160.94" Y="4194483.74" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="484159.24" Y="4194483.87" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<ns3:Ordinate X="484159" Y="4194480.46" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="6" >
+<ns3:Ordinate X="484160.69" Y="4194480.35" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="7" >
+<ns3:Ordinate X="484158.93" Y="4194455.35" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="8" >
+<ns3:Ordinate X="484171.19" Y="4194454.5" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="484174.81" Y="4194507.65" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Parcel><Parcel CadastralNumber="54:35:063176:5" State="01" DateCreated="2005-01-12" >
+<Area>
+<Area>16</Area>
+<Unit>055</Unit>
+<Inaccuracy>0.1</Inaccuracy>
+</Area>
+<Name>01</Name>
+<Location>
+<inBounds>0</inBounds>
+<Placed>К5</Placed>
+<Elaboration>
+<ReferenceMark>жилой дом</ReferenceMark>
+<Distance>45 м</Distance>
+<Direction>север</Direction>
+</Elaboration>
+<Address> <ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000157000</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Широкая" Type="ул" />
+<ns2:Level1 Type="д" Value="1" />
+<ns2:Note>обл. Новосибирская, г. Новосибирск, ул. Широкая, дом 1</ns2:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization Utilization="142003000000" ByDoc="Земельные участки (территории) общего пользования (12.0) - автомобильные дороги" />
+<CadastralCost Value="1" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="484126.09" Y="4194629.87" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="484125.89" Y="4194627.24" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="484128.2" Y="4194627.07" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="484128.38" Y="4194629.71" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<ns3:Ordinate X="484127.93" Y="4194629.74" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="6" >
+<ns3:Ordinate X="484128.3" Y="4194634.83" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="7" >
+<ns3:Ordinate X="484126.39" Y="4194635.01" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="484126.09" Y="4194629.87" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Parcel><Parcel CadastralNumber="54:35:063176:7" State="01" DateCreated="2005-06-22" >
+<Area>
+<Area>1253</Area>
+<Unit>055</Unit>
+<Inaccuracy>4</Inaccuracy>
+</Area>
+<Name>01</Name>
+<Location>
+<inBounds>1</inBounds>
+<Placed>И3</Placed>
+<Elaboration>
+<ReferenceMark>здание операторской АЗС</ReferenceMark>
+</Elaboration>
+<Address> <ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000157000</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Широкая" Type="ул" />
+<ns2:Apartment Type="кв" Value="2б" />
+<ns2:Note>обл. Новосибирская, г. Новосибирск, ул. Широкая, 2б</ns2:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization Utilization="142002000000" ByDoc="для эксплуатации автозаправочной станции стационарного типа" />
+<CadastralCost Value="9496123.63" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="484200.08" Y="4194544.27" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="484206.97" Y="4194552.71" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="484207.16" Y="4194554.35" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="484201.45" Y="4194571.88" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<ns3:Ordinate X="484199.95" Y="4194574.69" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="6" >
+<ns3:Ordinate X="484159.5" Y="4194606.5" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="7" >
+<ns3:Ordinate X="484158.38" Y="4194598.2" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="8" >
+<ns3:Ordinate X="484159.06" Y="4194597.66" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="9" >
+<ns3:Ordinate X="484170.32" Y="4194588.71" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="10" >
+<ns3:Ordinate X="484171.32" Y="4194586.47" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="11" >
+<ns3:Ordinate X="484171.19" Y="4194584.93" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="12" >
+<ns3:Ordinate X="484169.12" Y="4194561.94" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="13" >
+<ns3:Ordinate X="484173.63" Y="4194559.18" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="14" >
+<ns3:Ordinate X="484198.16" Y="4194543.1" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="484200.08" Y="4194544.27" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Parcel><Parcel CadastralNumber="54:35:063176:710" State="06" DateCreated="2018-12-12" >
+<Area>
+<Area>2306</Area>
+<Unit>055</Unit>
+<Inaccuracy>9.65</Inaccuracy>
+</Area>
+<Name>01</Name>
+<Location>
+<Address> <ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000157000</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Широкая" Type="ул" />
+<ns2:Note>Новосибирская область, г Новосибирск, ул Широкая</ns2:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization Utilization="143003020100" ByDoc="Земельные участки (территории) общего пользования (12.0) – автомобильные дороги" />
+<CadastralCost Value="1" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="484167.77" Y="4194634.78" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="484167.87" Y="4194636.18" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="484180.62" Y="4194698.57" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="484206.72" Y="4194721.18" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<ns3:Ordinate X="484225.08" Y="4194726.7" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="6" >
+<ns3:Ordinate X="484225.32" Y="4194726.79" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="7" >
+<ns3:Ordinate X="484221.67" Y="4194734.19" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="8" >
+<ns3:Ordinate X="484225.92" Y="4194737.86" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="9" >
+<ns3:Ordinate X="484246.95" Y="4194737.51" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="10" >
+<ns3:Ordinate X="484251.62" Y="4194737.43" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="11" >
+<ns3:Ordinate X="484259.37" Y="4194740.56" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="12" >
+<ns3:Ordinate X="484263.15" Y="4194740.29" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="13" >
+<ns3:Ordinate X="484263.17" Y="4194740.57" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="14" >
+<ns3:Ordinate X="484263.75" Y="4194749" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="15" >
+<ns3:Ordinate X="484247.81" Y="4194750.32" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="16" >
+<ns3:Ordinate X="484220.29" Y="4194752.58" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="17" >
+<ns3:Ordinate X="484166.28" Y="4194706.35" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="18" >
+<ns3:Ordinate X="484161.17" Y="4194635.09" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="484167.77" Y="4194634.78" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Parcel><Parcel CadastralNumber="54:35:063176:711" State="06" DateCreated="2018-12-12" >
+<Area>
+<Area>7824</Area>
+<Unit>055</Unit>
+<Inaccuracy>17.79</Inaccuracy>
+</Area>
+<Name>01</Name>
+<Location>
+<Address> <ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000140100</ns2:KLADR>
+<ns2:PostalCode>630108</ns2:PostalCode>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Труда" Type="пл" />
+<ns2:Note>Новосибирская область, г Новосибирск, пл Труда</ns2:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization Utilization="142007000000" ByDoc="Общественное управление (3.8)" />
+<CadastralCost Value="54695706.24" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="484255.39" Y="4194629.35" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="484263.15" Y="4194740.29" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="484259.37" Y="4194740.56" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="484251.62" Y="4194737.43" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<ns3:Ordinate X="484246.95" Y="4194737.51" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="6" >
+<ns3:Ordinate X="484225.92" Y="4194737.86" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="7" >
+<ns3:Ordinate X="484221.67" Y="4194734.19" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="8" >
+<ns3:Ordinate X="484225.32" Y="4194726.79" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="9" >
+<ns3:Ordinate X="484225.08" Y="4194726.7" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="10" >
+<ns3:Ordinate X="484206.72" Y="4194721.18" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="11" >
+<ns3:Ordinate X="484180.62" Y="4194698.57" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="12" >
+<ns3:Ordinate X="484167.87" Y="4194636.18" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="13" >
+<ns3:Ordinate X="484167.77" Y="4194634.78" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="14" >
+<ns3:Ordinate X="484235.45" Y="4194630.41" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="15" >
+<ns3:Ordinate X="484239.74" Y="4194630.13" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="484255.39" Y="4194629.35" OrdNmb="1" DeltaGeopoint="0.1" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Parcel><Parcel CadastralNumber="54:35:063176:8" State="01" DateCreated="2006-04-17" >
+<Area>
+<Area>751</Area>
+<Unit>055</Unit>
+<Inaccuracy>3</Inaccuracy>
+</Area>
+<Name>03</Name>
+<Location>
+<inBounds>0</inBounds>
+<Elaboration>
+<ReferenceMark>здание гаражей</ReferenceMark>
+<Distance>4 м</Distance>
+<Direction>юг</Direction>
+</Elaboration>
+<Address> <ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000157000</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Широкая" Type="ул" />
+<ns2:Apartment Type="кв" Value="2а" />
+<ns2:Note>обл. Новосибирская, г. Новосибирск, ул. Широкая, 2а</ns2:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization Utilization="142002000000" ByDoc="для размещения и эксплуатации автостоянки" />
+<ParentCadastralNumbers>
+<CadastralNumber>54:35:063176:10</CadastralNumber>
+</ParentCadastralNumbers>
+<CadastralCost Value="3434067.66" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="484145.76" Y="4194295.04" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="484135.89" Y="4194294.91" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="484130.78" Y="4194220.26" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="484140.97" Y="4194219.91" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="484145.76" Y="4194295.04" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Parcel><Parcel CadastralNumber="54:35:063176:9" State="01" DateCreated="2006-04-17" >
+<Area>
+<Area>578</Area>
+<Unit>055</Unit>
+<Inaccuracy>2</Inaccuracy>
+</Area>
+<Name>03</Name>
+<Location>
+<inBounds>0</inBounds>
+<Elaboration>
+<ReferenceMark>здание гаражей</ReferenceMark>
+<Distance>4 м</Distance>
+<Direction>юг</Direction>
+</Elaboration>
+<Address> <ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000157000</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Широкая" Type="ул" />
+<ns2:Apartment Type="кв" Value="2а" />
+<ns2:Note>обл. Новосибирская, г. Новосибирск, ул. Широкая, 2а</ns2:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization Utilization="142002000000" ByDoc="для размещения и эксплуатации автостоянки" />
+<ParentCadastralNumbers>
+<CadastralNumber>54:35:063176:10</CadastralNumber>
+</ParentCadastralNumbers>
+<CadastralCost Value="2628154.44" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="484139.4" Y="4194199.15" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="484129.02" Y="4194199.8" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="484125.44" Y="4194141" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="484134.57" Y="4194140.15" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="484139.4" Y="4194199.15" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Parcel></Parcels><ObjectsRealty><ObjectRealty>
+<Building CadastralNumber="54:35:063176:158">
+<ObjectType>002001002000</ObjectType>
+<AssignationBuilding>204001000000</AssignationBuilding>
+<Area>16783.9</Area>
+<Address>
+<ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000157000</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Широкая" Type="ул" />
+<ns2:Level1 Type="д" Value="2" />
+</Address>
+<CadastralCost Value="861584722.6" Unit="383" />
+</Building>
+</ObjectRealty><ObjectRealty>
+<Building CadastralNumber="54:35:063176:29">
+<ObjectType>002001002000</ObjectType>
+<AssignationBuilding>204001000000</AssignationBuilding>
+<Area>1550.9</Area>
+<Address>
+<ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000157000</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Широкая" Type="ул" />
+<ns2:Level1 Type="д" Value="26/1" />
+</Address>
+<CadastralCost Value="64066128.1" Unit="383" />
+</Building>
+</ObjectRealty><ObjectRealty>
+<Building CadastralNumber="54:35:063176:30">
+<ObjectType>002001002000</ObjectType>
+<AssignationBuilding>204001000000</AssignationBuilding>
+<Area>43.6</Area>
+<Address>
+<ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000157000</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Широкая" Type="ул" />
+<ns2:Level1 Type="д" Value="2б" />
+</Address>
+<CadastralCost Value="2362712.34" Unit="383" />
+</Building>
+</ObjectRealty><ObjectRealty>
+<Building CadastralNumber="54:35:063176:31">
+<ObjectType>002001002000</ObjectType>
+<AssignationBuilding>204003000000</AssignationBuilding>
+<Area>7825.8</Area>
+<Address>
+<ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000157000</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Широкая" Type="ул" />
+<ns2:Level1 Type="д" Value="17" />
+</Address>
+<CadastralCost Value="429899914.69" Unit="383" />
+</Building>
+</ObjectRealty><ObjectRealty>
+<Building CadastralNumber="54:35:063176:32">
+<ObjectType>002001002000</ObjectType>
+<AssignationBuilding>204001000000</AssignationBuilding>
+<Area>12532.1</Area>
+<Address>
+<ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000140100</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Труда" Type="пл" />
+<ns2:Level1 Type="д" Value="1" />
+</Address>
+<CadastralCost Value="913248590.28" Unit="383" />
+</Building>
+</ObjectRealty><ObjectRealty>
+<Building CadastralNumber="54:35:063176:33">
+<ObjectType>002001002000</ObjectType>
+<AssignationBuilding>204001000000</AssignationBuilding>
+<Area>36.3</Area>
+<Address>
+<ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000157000</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Широкая" Type="ул" />
+<ns2:Level1 Type="д" Value="(17)" />
+</Address>
+<CadastralCost Value="620560.84" Unit="383" />
+</Building>
+</ObjectRealty><ObjectRealty>
+<Building CadastralNumber="54:35:063176:633">
+<ObjectType>002001002000</ObjectType>
+<AssignationBuilding>204001000000</AssignationBuilding>
+<Area>3299.5</Area>
+<Address>
+<ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000157000</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Широкая" Type="ул" />
+<ns2:Level1 Type="д" Value="2" />
+</Address>
+<CadastralCost Value="169376533" Unit="383" />
+</Building>
+</ObjectRealty><ObjectRealty>
+<Building CadastralNumber="54:35:063176:634">
+<ObjectType>002001002000</ObjectType>
+<AssignationBuilding>204001000000</AssignationBuilding>
+<Area>5660.2</Area>
+<Address>
+<ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000157000</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Широкая" Type="ул" />
+<ns2:Level1 Type="д" Value="2" />
+</Address>
+<CadastralCost Value="290560706.8" Unit="383" />
+</Building>
+</ObjectRealty><ObjectRealty>
+<Building CadastralNumber="54:35:063176:636">
+<ObjectType>002001002000</ObjectType>
+<AssignationBuilding>204001000000</AssignationBuilding>
+<Area>968.4</Area>
+<Address>
+<ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000157000</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Широкая" Type="ул" />
+<ns2:Level1 Type="д" Value="2" />
+</Address>
+<CadastralCost Value="49711845.6" Unit="383" />
+</Building>
+</ObjectRealty><ObjectRealty>
+<Building CadastralNumber="54:35:063176:660">
+<ObjectType>002001002000</ObjectType>
+<AssignationBuilding>204001000000</AssignationBuilding>
+<Area>998.2</Area>
+<Address>
+<ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000157000</ns2:KLADR>
+<ns2:PostalCode>630011</ns2:PostalCode>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Широкая" Type="ул" />
+<ns2:Level1 Type="д" Value="2/1" />
+<ns2:Note>Новосибирская область, город Новосибирск, улица Широкая, дом 2/1</ns2:Note>
+</Address>
+<CadastralCost Value="51241598.8" Unit="383" />
+</Building>
+</ObjectRealty></ObjectsRealty><SpatialData>
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="484166.94" Y="4194042.77" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="484133.5" Y="4193999.63" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="484124.57" Y="4193985.43" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="484119.32" Y="4193978.74" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<ns3:Ordinate X="484122.37" Y="4193975.85" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="6" >
+<ns3:Ordinate X="484107.77" Y="4193960.07" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="7" >
+<ns3:Ordinate X="484108.86" Y="4193959.08" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="8" >
+<ns3:Ordinate X="484103.15" Y="4193944.08" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="9" >
+<ns3:Ordinate X="484098.3" Y="4193936.69" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="10" >
+<ns3:Ordinate X="484093.8" Y="4193931.01" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="11" >
+<ns3:Ordinate X="484079.93" Y="4193931.16" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="12" >
+<ns3:Ordinate X="484050.39" Y="4193943.04" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="13" >
+<ns3:Ordinate X="484065.32" Y="4193964.98" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="14" >
+<ns3:Ordinate X="484074.2" Y="4194037.38" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="15" >
+<ns3:Ordinate X="484124.34" Y="4194778.63" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="16" >
+<ns3:Ordinate X="484249.87" Y="4194780.97" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="17" >
+<ns3:Ordinate X="484248.08" Y="4194754.4" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="18" >
+<ns3:Ordinate X="484247.81" Y="4194750.33" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="19" >
+<ns3:Ordinate X="484263.75" Y="4194749" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="20" >
+<ns3:Ordinate X="484263.17" Y="4194740.57" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="21" >
+<ns3:Ordinate X="484255.39" Y="4194629.35" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="22" >
+<ns3:Ordinate X="484239.74" Y="4194630.13" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="23" >
+<ns3:Ordinate X="484235.45" Y="4194630.41" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="24" >
+<ns3:Ordinate X="484230.33" Y="4194567.89" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="25" >
+<ns3:Ordinate X="484228.36" Y="4194543.76" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="26" >
+<ns3:Ordinate X="484226.78" Y="4194524.4" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="27" >
+<ns3:Ordinate X="484227.69" Y="4194523.81" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="28" >
+<ns3:Ordinate X="484229.66" Y="4194520.54" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="29" >
+<ns3:Ordinate X="484232.62" Y="4194515.65" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="30" >
+<ns3:Ordinate X="484244.81" Y="4194514.89" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="31" >
+<ns3:Ordinate X="484242.48" Y="4194467.21" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="32" >
+<ns3:Ordinate X="484239.29" Y="4194401.62" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="33" >
+<ns3:Ordinate X="484242.22" Y="4194401.32" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="34" >
+<ns3:Ordinate X="484241.54" Y="4194391.32" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="35" >
+<ns3:Ordinate X="484245.37" Y="4194391.18" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="36" >
+<ns3:Ordinate X="484234.13" Y="4194275.07" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="37" >
+<ns3:Ordinate X="484222.14" Y="4194275.51" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="38" >
+<ns3:Ordinate X="484216.99" Y="4194221.76" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="39" >
+<ns3:Ordinate X="484211.97" Y="4194180.23" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="40" >
+<ns3:Ordinate X="484209.4" Y="4194171.64" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="41" >
+<ns3:Ordinate X="484208.89" Y="4194169.92" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="42" >
+<ns3:Ordinate X="484204.22" Y="4194124.38" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="43" >
+<ns3:Ordinate X="484203.79" Y="4194122.42" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="44" >
+<ns3:Ordinate X="484197.71" Y="4194095.43" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="484166.94" Y="4194042.77" OrdNmb="1" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</SpatialData><CoordSystems>
+<ns3:CoordSystem Name="МСК НСО, зона 4" CsId="ID0" />
+</CoordSystems>
+</CadastralBlock>
+</CadastralBlocks>
+<CertificationDoc>
+<ns6:Organization>ФГИС ЕГРН</ns6:Organization>
+<ns6:Date>2019-05-14</ns6:Date>
+<ns6:Number>99/2019/261313617</ns6:Number>
+</CertificationDoc>
+</KPT>

@@ -1,0 +1,936 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="https://portal.rosreestr.ru/xsl/GKN/KPT/10/common.xsl"?>
+<KPT xmlns:ns2="urn://x-artefacts-rosreestr-ru/commons/complex-types/address-output/4.0.1"
+xmlns:ns3="urn://x-artefacts-rosreestr-ru/commons/complex-types/entity-spatial/5.0.1"
+xmlns:ns4="urn://x-artefacts-rosreestr-ru/commons/complex-types/parameters-oks/2.0.1"
+xmlns:ns5="urn://x-artefacts-rosreestr-ru/commons/complex-types/document-output/4.0.1"
+xmlns:ns6="urn://x-artefacts-rosreestr-ru/commons/complex-types/certification-doc/1.0"
+xmlns:ns7="urn://x-artefacts-smev-gov-ru/supplementary/commons/1.0.1"
+xmlns="urn://x-artefacts-rosreestr-ru/outgoing/kpt/10.0.1">
+<CadastralBlocks>
+<CadastralBlock CadastralNumber="54:35:063000">
+<Area>
+<Total>0</Total>
+<Unit>059</Unit>
+</Area><Parcels><Parcel CadastralNumber="54:35:063000:1" State="01" DateCreated="2005-08-29" >
+<Area>
+<Area>552</Area>
+<Unit>055</Unit>
+</Area>
+<Name>01</Name>
+<Location>
+<inBounds>1</inBounds>
+<Placed>Е3</Placed>
+<Elaboration>
+<ReferenceMark>индивидуальный жилой дом</ReferenceMark>
+</Elaboration>
+<Address> <ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000133700</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="5-й Танкистов" Type="пер" />
+<ns2:Level1 Type="д" Value="5" />
+<ns2:Note>обл. Новосибирская, г. Новосибирск, пер. 5-й Танкистов, дом 5</ns2:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization Utilization="142001010000" ByDoc="для обслуживания индивидуального жилого дома" />
+<CadastralCost Value="263635.2" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="481639.62" Y="4192578.08" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="481609.16" Y="4192580.39" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="481610.42" Y="4192592.61" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="481611.02" Y="4192598.6" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<ns3:Ordinate X="481617.17" Y="4192597.62" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="6" >
+<ns3:Ordinate X="481621.4" Y="4192597.72" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="7" >
+<ns3:Ordinate X="481626.87" Y="4192597.44" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="8" >
+<ns3:Ordinate X="481640.78" Y="4192596.63" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="9" >
+<ns3:Ordinate X="481640.58" Y="4192591.83" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="10" >
+<ns3:Ordinate X="481640.46" Y="4192590.47" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="11" >
+<ns3:Ordinate X="481640.2" Y="4192587.16" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="481639.62" Y="4192578.08" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Parcel><Parcel CadastralNumber="54:35:063000:10" State="06" DateCreated="2009-01-16" >
+<Area>
+<Area>661</Area>
+<Unit>055</Unit>
+<Inaccuracy>9</Inaccuracy>
+</Area>
+<Name>01</Name>
+<Location>
+<inBounds>1</inBounds>
+<Placed>Б3</Placed>
+<Elaboration>
+<ReferenceMark>индивидуальный жилой дом</ReferenceMark>
+</Elaboration>
+<Address> <ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000133700</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Танкистов 5-й" Type="пер" />
+<ns2:Level1 Type="д" Value="11" />
+<ns2:Note>обл. Новосибирская, г. Новосибирск, пер. Танкистов 5-й, дом 11</ns2:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization ByDoc="для эксплуатации индивидуального жилого дома" />
+<CadastralCost Value="315614.28" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="481606.34" Y="4192543.33" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="481605.9" Y="4192532.75" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="481604.78" Y="4192521.8" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="481635.26" Y="4192518.99" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<ns3:Ordinate X="481636.61" Y="4192537.74" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="6" >
+<ns3:Ordinate X="481636.93" Y="4192540.66" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="7" >
+<ns3:Ordinate X="481631.46" Y="4192541.24" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="8" >
+<ns3:Ordinate X="481625.75" Y="4192541.93" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="9" >
+<ns3:Ordinate X="481613.96" Y="4192542.48" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="481606.34" Y="4192543.33" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Parcel><Parcel CadastralNumber="54:35:063000:12" State="06" DateCreated="2011-07-11" >
+<Area>
+<Area>571</Area>
+<Unit>055</Unit>
+<Inaccuracy>8</Inaccuracy>
+</Area>
+<Name>01</Name>
+<Location>
+<Address> <ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000133700</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Танкистов 5-й" Type="пер" />
+<ns2:Note>Новосибирская обл, г Новосибирск, пер Танкистов 5-й. На земельном участке расположен индивидуальный жилой дом, 9</ns2:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization Utilization="142001010000" ByDoc="для эксплуатации индивидуального жилого дома" />
+<CadastralCost Value="272669.63" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="481636.93" Y="4192540.66" OrdNmb="1" DeltaGeopoint="0.1" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="481637.54" Y="4192540.93" OrdNmb="1" DeltaGeopoint="0.1" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="481637.98" Y="4192552.35" OrdNmb="1" DeltaGeopoint="0.1" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="481638.3" Y="4192558.57" OrdNmb="1" DeltaGeopoint="0.1" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<ns3:Ordinate X="481638.13" Y="4192559.2" OrdNmb="1" DeltaGeopoint="0.1" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="6" >
+<ns3:Ordinate X="481633.08" Y="4192559.5" OrdNmb="1" DeltaGeopoint="0.1" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="7" >
+<ns3:Ordinate X="481624.74" Y="4192559.98" OrdNmb="1" DeltaGeopoint="0.1" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="8" >
+<ns3:Ordinate X="481616.77" Y="4192560.75" OrdNmb="1" DeltaGeopoint="0.1" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="9" >
+<ns3:Ordinate X="481616.84" Y="4192561.06" OrdNmb="1" DeltaGeopoint="0.1" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="10" >
+<ns3:Ordinate X="481607.39" Y="4192561.83" OrdNmb="1" DeltaGeopoint="0.1" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="11" >
+<ns3:Ordinate X="481606.34" Y="4192543.33" OrdNmb="1" DeltaGeopoint="0.1" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="12" >
+<ns3:Ordinate X="481613.96" Y="4192542.48" OrdNmb="1" DeltaGeopoint="0.1" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="13" >
+<ns3:Ordinate X="481625.75" Y="4192541.93" OrdNmb="1" DeltaGeopoint="0.1" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="14" >
+<ns3:Ordinate X="481631.46" Y="4192541.24" OrdNmb="1" DeltaGeopoint="0.1" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="481636.93" Y="4192540.66" OrdNmb="1" DeltaGeopoint="0.1" GeopointZacrep="Закрепление отсутствует" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Parcel><Parcel CadastralNumber="54:35:063000:2" State="01" DateCreated="2005-08-29" >
+<Area>
+<Area>571</Area>
+<Unit>055</Unit>
+</Area>
+<Name>01</Name>
+<Location>
+<inBounds>1</inBounds>
+<Placed>Е6</Placed>
+<Elaboration>
+<ReferenceMark>индивидуальный жилой дом</ReferenceMark>
+</Elaboration>
+<Address> <ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000133800</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="6-й Танкистов" Type="пер" />
+<ns2:Level1 Type="д" Value="6" />
+<ns2:Note>обл. Новосибирская, г. Новосибирск, пер. 6-й Танкистов, дом 6</ns2:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization Utilization="142001010000" ByDoc="для эксплуатации индивидуального жилого дома" />
+<CadastralCost Value="272663.92" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="481611.02" Y="4192598.6" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="481610.42" Y="4192592.61" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="481609.16" Y="4192580.39" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="481578.25" Y="4192582.69" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<ns3:Ordinate X="481579.16" Y="4192595.69" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="6" >
+<ns3:Ordinate X="481579.66" Y="4192600.71" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="7" >
+<ns3:Ordinate X="481593.68" Y="4192599.8" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="8" >
+<ns3:Ordinate X="481594.44" Y="4192600.01" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="481611.02" Y="4192598.6" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Parcel><Parcel CadastralNumber="54:35:063000:29" State="06" DateCreated="2016-04-15" >
+<Area>
+<Area>579</Area>
+<Unit>055</Unit>
+<Inaccuracy>8</Inaccuracy>
+</Area>
+<Name>01</Name>
+<Location>
+<Address> <ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000133700</ns2:KLADR>
+<ns2:PostalCode>630045</ns2:PostalCode>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="5-й Танкистов" Type="пер" />
+<ns2:Level1 Type="д" Value="3" />
+<ns2:Note>обл. Новосибирская, г. Новосибирск, пер. 5-й Танкистов. На земельном учатске расположен индивидуальный жилой дом по адресу: обл. Новосибирская, г. Новосибирск, пер. 5-й Танкистов, 3</ns2:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization Utilization="142001010000" ByDoc="индивидуальные жилые дома" />
+<CadastralCost Value="276489.87" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="481640.78" Y="4192596.63" OrdNmb="1" DeltaGeopoint="0.1" GeopointZacrep="закрепление отсутсвует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="481642.45" Y="4192615.82" OrdNmb="1" DeltaGeopoint="0.1" GeopointZacrep="закрепление отсутсвует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="481618.81" Y="4192617.31" OrdNmb="1" DeltaGeopoint="0.1" GeopointZacrep="закрепление отсутсвует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="481614.15" Y="4192617.32" OrdNmb="1" DeltaGeopoint="0.1" GeopointZacrep="закрепление отсутсвует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<ns3:Ordinate X="481612.42" Y="4192617.26" OrdNmb="1" DeltaGeopoint="0.1" GeopointZacrep="закрепление отсутсвует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="6" >
+<ns3:Ordinate X="481611.02" Y="4192598.6" OrdNmb="1" DeltaGeopoint="0.1" GeopointZacrep="закрепление отсутсвует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="7" >
+<ns3:Ordinate X="481617.17" Y="4192597.62" OrdNmb="1" DeltaGeopoint="0.1" GeopointZacrep="закрепление отсутсвует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="8" >
+<ns3:Ordinate X="481621.4" Y="4192597.72" OrdNmb="1" DeltaGeopoint="0.1" GeopointZacrep="закрепление отсутсвует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="9" >
+<ns3:Ordinate X="481626.87" Y="4192597.44" OrdNmb="1" DeltaGeopoint="0.1" GeopointZacrep="закрепление отсутсвует" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="481640.78" Y="4192596.63" OrdNmb="1" DeltaGeopoint="0.1" GeopointZacrep="закрепление отсутсвует" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Parcel><Parcel CadastralNumber="54:35:063000:4" State="01" DateCreated="2005-01-17" >
+<Area>
+<Area>582</Area>
+<Unit>055</Unit>
+<Inaccuracy>2</Inaccuracy>
+</Area>
+<Name>01</Name>
+<Location>
+<inBounds>1</inBounds>
+<Placed>Г3</Placed>
+<Elaboration>
+<ReferenceMark>индивидуальный жилой дом</ReferenceMark>
+</Elaboration>
+<Address> <ns2:OKATO>50401000000</ns2:OKATO>
+<ns2:KLADR>5400000100000</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="5-й Танкистов" Type="пер" />
+<ns2:Level1 Type="д" Value="7" />
+<ns2:Note>обл. Новосибирская, г. Новосибирск, пер. 5-й Танкистов, дом 7</ns2:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization ByDoc="для эксплуатации индивидуального жилого дома" />
+<CadastralCost Value="277945.74" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="481638.13" Y="4192559.2" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="481639.62" Y="4192578.08" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="481609.16" Y="4192580.39" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="481607.39" Y="4192561.83" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<ns3:Ordinate X="481616.84" Y="4192561.06" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="6" >
+<ns3:Ordinate X="481616.77" Y="4192560.75" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="7" >
+<ns3:Ordinate X="481624.74" Y="4192559.98" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="8" >
+<ns3:Ordinate X="481633.08" Y="4192559.5" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="481638.13" Y="4192559.2" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Parcel><Parcel CadastralNumber="54:35:063000:5" State="01" DateCreated="2005-02-08" >
+<Area>
+<Area>670</Area>
+<Unit>055</Unit>
+<Inaccuracy>2</Inaccuracy>
+</Area>
+<Name>01</Name>
+<Location>
+<inBounds>1</inBounds>
+<Placed>И2</Placed>
+<Elaboration>
+<ReferenceMark>индивидуальный жилой дом</ReferenceMark>
+</Elaboration>
+<Address> <ns2:OKATO>50401000000</ns2:OKATO>
+<ns2:KLADR>5400000100000</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="5-й Танкистов" Type="пер" />
+<ns2:Level1 Type="д" Value="1" />
+<ns2:Note>обл. Новосибирская, г. Новосибирск, пер. 5-й Танкистов, дом 1</ns2:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization ByDoc="для эксплуатации индивидуального жилого дома" />
+<CadastralCost Value="320032.2" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="481642.45" Y="4192615.82" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="481643.06" Y="4192623.44" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="481644.5" Y="4192637.52" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="481613.35" Y="4192639.66" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<ns3:Ordinate X="481612.7" Y="4192623" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="6" >
+<ns3:Ordinate X="481612.47" Y="4192618.48" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="7" >
+<ns3:Ordinate X="481612.42" Y="4192617.26" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="8" >
+<ns3:Ordinate X="481614.15" Y="4192617.32" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="9" >
+<ns3:Ordinate X="481618.81" Y="4192617.31" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="481642.45" Y="4192615.82" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Parcel><Parcel CadastralNumber="54:35:063000:6" State="01" DateCreated="2006-08-23" >
+<Area>
+<Area>660</Area>
+<Unit>055</Unit>
+<Inaccuracy>3</Inaccuracy>
+</Area>
+<Name>01</Name>
+<Location>
+<inBounds>1</inBounds>
+<Placed>К6</Placed>
+<Elaboration>
+<ReferenceMark>индивидуальный жилой дом</ReferenceMark>
+</Elaboration>
+<Address> <ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000133800</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="6-й Танкистов" Type="пер" />
+<ns2:Level1 Type="д" Value="2" />
+<ns2:Note>обл. Новосибирская, г. Новосибирск, пер. 6-й Танкистов, дом 2</ns2:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization Utilization="142001010000" ByDoc="для эксплуатации индивидуального жилого дома" />
+<CadastralCost Value="315196.2" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="481613.35" Y="4192639.66" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="481612.7" Y="4192623" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="481612.47" Y="4192618.48" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="481612.45" Y="4192618.02" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<ns3:Ordinate X="481611.86" Y="4192618.04" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="6" >
+<ns3:Ordinate X="481604.53" Y="4192618.4" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="7" >
+<ns3:Ordinate X="481597.49" Y="4192618.98" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="8" >
+<ns3:Ordinate X="481595.76" Y="4192619.36" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="9" >
+<ns3:Ordinate X="481581.34" Y="4192620.33" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="10" >
+<ns3:Ordinate X="481583.13" Y="4192641.32" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="11" >
+<ns3:Ordinate X="481596.35" Y="4192640.72" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="481613.35" Y="4192639.66" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Parcel><Parcel CadastralNumber="54:35:063000:7" State="01" DateCreated="2006-08-28" >
+<Area>
+<Area>558</Area>
+<Unit>055</Unit>
+<Inaccuracy>2</Inaccuracy>
+</Area>
+<Name>01</Name>
+<Location>
+<inBounds>1</inBounds>
+<Placed>Д6</Placed>
+<Elaboration>
+<ReferenceMark>индивидуальный жилой дом</ReferenceMark>
+</Elaboration>
+<Address> <ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000133800</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="6-й Танкистов" Type="пер" />
+<ns2:Level1 Type="д" Value="8" />
+<ns2:Note>обл. Новосибирская, г. Новосибирск, пер. 6-й Танкистов, дом 8</ns2:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization Utilization="142001010000" ByDoc="для эксплуатации индивидуального жилого дома" />
+<CadastralCost Value="266439.42" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="481609.16" Y="4192580.39" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="481607.39" Y="4192561.83" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="481595.74" Y="4192562.88" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="481595.81" Y="4192563.52" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<ns3:Ordinate X="481576.98" Y="4192564.86" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="6" >
+<ns3:Ordinate X="481578.25" Y="4192582.69" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="481609.16" Y="4192580.39" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Parcel><Parcel CadastralNumber="54:35:063000:8" State="01" DateCreated="2006-11-24" >
+<Area>
+<Area>587</Area>
+<Unit>055</Unit>
+<Inaccuracy>2</Inaccuracy>
+</Area>
+<Name>01</Name>
+<Location>
+<inBounds>1</inBounds>
+<Placed>В7</Placed>
+<Elaboration>
+<ReferenceMark>индивидуальный жилой дом</ReferenceMark>
+</Elaboration>
+<Address> <ns2:OKATO>50401000000</ns2:OKATO>
+<ns2:KLADR>5400000100000</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="6-й Танкистов" Type="пер" />
+<ns2:Level1 Type="д" Value="10" />
+<ns2:Note>обл. Новосибирская, г. Новосибирск, пер. 6-й Танкистов, дом 10</ns2:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization ByDoc="для завершения строительства и эксплуатации индивидуального жилого дома" />
+<CadastralCost Value="280263.15" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="481576.98" Y="4192564.86" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="481575.66" Y="4192545.25" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="481580.43" Y="4192545.12" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="481606.34" Y="4192543.33" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<ns3:Ordinate X="481607.39" Y="4192561.83" OrdNmb="1" DeltaGeopoint="0.2" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="6" >
+<ns3:Ordinate X="481595.74" Y="4192562.88" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="7" >
+<ns3:Ordinate X="481595.81" Y="4192563.52" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="481576.98" Y="4192564.86" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Parcel><Parcel CadastralNumber="54:35:063000:9" State="06" DateCreated="2008-05-20" >
+<Area>
+<Area>662</Area>
+<Unit>055</Unit>
+<Inaccuracy>3</Inaccuracy>
+</Area>
+<Name>01</Name>
+<Location>
+<inBounds>1</inBounds>
+<Placed>Б7</Placed>
+<Elaboration>
+<ReferenceMark>индивидуальный жилой дом</ReferenceMark>
+</Elaboration>
+<Address> <ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000133800</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="Танкистов 6-й" Type="пер" />
+<ns2:Level1 Type="д" Value="12" />
+<ns2:Note>обл. Новосибирская, г. Новосибирск, пер. Танкистов 6-й, дом 12</ns2:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization Utilization="142007000000" ByDoc="Магазины (4.4) - объекты для продажи товаров, торговая площадь которых составляет до 5000 кв. метров" />
+<CadastralCost Value="5507509" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="481575.66" Y="4192545.25" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="481580.43" Y="4192545.12" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="481606.34" Y="4192543.33" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="481605.9" Y="4192532.75" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<ns3:Ordinate X="481604.78" Y="4192521.8" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="6" >
+<ns3:Ordinate X="481590.86" Y="4192523.17" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="7" >
+<ns3:Ordinate X="481580.87" Y="4192523.92" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="8" >
+<ns3:Ordinate X="481574.16" Y="4192524.64" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="9" >
+<ns3:Ordinate X="481574.63" Y="4192537.08" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="10" >
+<ns3:Ordinate X="481575.19" Y="4192545.15" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="481575.66" Y="4192545.25" OrdNmb="1" DeltaGeopoint="0.3" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Parcel></Parcels><ObjectsRealty><ObjectRealty>
+<Building CadastralNumber="54:35:063000:13">
+<ObjectType>002001002000</ObjectType>
+<AssignationBuilding>204002000000</AssignationBuilding>
+<Area>143.1</Area>
+<Address>
+<ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000133700</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="5-й Танкистов" Type="пер" />
+<ns2:Level1 Type="д" Value="11" />
+</Address>
+<CadastralCost Value="4554204.72" Unit="383" />
+</Building>
+</ObjectRealty><ObjectRealty>
+<Building CadastralNumber="54:35:063000:15">
+<ObjectType>002001002000</ObjectType>
+<AssignationBuilding>204002000000</AssignationBuilding>
+<Area>114.5</Area>
+<Address>
+<ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000133800</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="6-й Танкистов" Type="пер" />
+<ns2:Level1 Type="д" Value="2" />
+</Address>
+<CadastralCost Value="4065331.66" Unit="383" />
+</Building>
+</ObjectRealty><ObjectRealty>
+<Building CadastralNumber="54:35:063000:16">
+<ObjectType>002001002000</ObjectType>
+<AssignationBuilding>204002000000</AssignationBuilding>
+<Area>101.5</Area>
+<Address>
+<ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000133800</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="6-й Танкистов" Type="пер" />
+<ns2:Level1 Type="д" Value="4" />
+</Address>
+<CadastralCost Value="3372103.04" Unit="383" />
+</Building>
+</ObjectRealty><ObjectRealty>
+<Building CadastralNumber="54:35:063000:17">
+<ObjectType>002001002000</ObjectType>
+<AssignationBuilding>204002000000</AssignationBuilding>
+<Area>133.4</Area>
+<Address>
+<ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000133800</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="6-й Танкистов" Type="пер" />
+<ns2:Level1 Type="д" Value="6" />
+</Address>
+<CadastralCost Value="4650573.46" Unit="383" />
+</Building>
+</ObjectRealty><ObjectRealty>
+<Building CadastralNumber="54:35:063000:18">
+<ObjectType>002001002000</ObjectType>
+<AssignationBuilding>204002000000</AssignationBuilding>
+<Area>61.9</Area>
+<Address>
+<ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000133800</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="6-й Танкистов" Type="пер" />
+<ns2:Level1 Type="д" Value="8" />
+</Address>
+<CadastralCost Value="2155870.53" Unit="383" />
+</Building>
+</ObjectRealty><ObjectRealty>
+<Building CadastralNumber="54:35:063000:19">
+<ObjectType>002001002000</ObjectType>
+<AssignationBuilding>204002000000</AssignationBuilding>
+<Area>212.4</Area>
+<Address>
+<ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000133800</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="6-й Танкистов" Type="пер" />
+<ns2:Level1 Type="д" Value="10" />
+</Address>
+<CadastralCost Value="7528252.5" Unit="383" />
+</Building>
+</ObjectRealty><ObjectRealty>
+<Building CadastralNumber="54:35:063000:20">
+<ObjectType>002001002000</ObjectType>
+<AssignationBuilding>204002000000</AssignationBuilding>
+<Area>66.1</Area>
+<Address>
+<ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000133700</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="5-й Танкистов" Type="пер" />
+<ns2:Level1 Type="д" Value="1" />
+</Address>
+<CadastralCost Value="2483543.57" Unit="383" />
+</Building>
+</ObjectRealty><ObjectRealty>
+<Building CadastralNumber="54:35:063000:21">
+<ObjectType>002001002000</ObjectType>
+<AssignationBuilding>204002000000</AssignationBuilding>
+<Area>45.3</Area>
+<Address>
+<ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000133700</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="5-й Танкистов" Type="пер" />
+<ns2:Level1 Type="д" Value="3" />
+</Address>
+<CadastralCost Value="1613112.16" Unit="383" />
+</Building>
+</ObjectRealty><ObjectRealty>
+<Building CadastralNumber="54:35:063000:22">
+<ObjectType>002001002000</ObjectType>
+<AssignationBuilding>204003000000</AssignationBuilding>
+<Area>72.8</Area>
+<Address>
+<ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000133700</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="5-й Танкистов" Type="пер" />
+<ns2:Level1 Type="д" Value="5" />
+</Address>
+<CadastralCost Value="2505458.59" Unit="383" />
+</Building>
+</ObjectRealty><ObjectRealty>
+<Building CadastralNumber="54:35:063000:23">
+<ObjectType>002001002000</ObjectType>
+<AssignationBuilding>204002000000</AssignationBuilding>
+<Area>37</Area>
+<Address>
+<ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000133700</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="5-й Танкистов" Type="пер" />
+<ns2:Level1 Type="д" Value="7" />
+</Address>
+<CadastralCost Value="1431547.39" Unit="383" />
+</Building>
+</ObjectRealty><ObjectRealty>
+<Building CadastralNumber="54:35:063000:24">
+<ObjectType>002001002000</ObjectType>
+<AssignationBuilding>204002000000</AssignationBuilding>
+<Area>197.6</Area>
+<Address>
+<ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000133700</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="5-й Танкистов" Type="пер" />
+<ns2:Level1 Type="д" Value="9" />
+</Address>
+<CadastralCost Value="7146854.1" Unit="383" />
+</Building>
+</ObjectRealty><ObjectRealty>
+<Building CadastralNumber="54:35:063000:27">
+<ObjectType>002001002000</ObjectType>
+<AssignationBuilding>204003000000</AssignationBuilding>
+<Area>159.5</Area>
+<Address>
+<ns2:OKATO>50401377000</ns2:OKATO>
+<ns2:KLADR>54000001000133800</ns2:KLADR>
+<ns2:Region>54</ns2:Region>
+<ns2:City Name="Новосибирск" Type="г" />
+<ns2:Street Name="6-й Танкистов" Type="пер" />
+<ns2:Level1 Type="д" Value="6" />
+<ns2:Note>Новосибирская область, г Новосибирск, пер 6-й Танкистов, д 6</ns2:Note>
+</Address>
+<CadastralCost Value="6064851.93" Unit="383" />
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="481589.68" Y="4192583.12" OrdNmb="1" DeltaGeopoint="0.05" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="481589.77" Y="4192584.64" OrdNmb="1" DeltaGeopoint="0.05" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="481592.03" Y="4192584.48" OrdNmb="1" DeltaGeopoint="0.05" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="481592.16" Y="4192586.81" OrdNmb="1" DeltaGeopoint="0.05" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<ns3:Ordinate X="481591.18" Y="4192586.88" OrdNmb="1" DeltaGeopoint="0.05" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="6" >
+<ns3:Ordinate X="481591.3" Y="4192588.7" OrdNmb="1" DeltaGeopoint="0.05" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="7" >
+<ns3:Ordinate X="481591.5" Y="4192588.68" OrdNmb="1" DeltaGeopoint="0.05" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="8" >
+<ns3:Ordinate X="481591.85" Y="4192594.29" OrdNmb="1" DeltaGeopoint="0.05" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="9" >
+<ns3:Ordinate X="481594.92" Y="4192594.12" OrdNmb="1" DeltaGeopoint="0.05" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="10" >
+<ns3:Ordinate X="481595.28" Y="4192599.67" OrdNmb="1" DeltaGeopoint="0.05" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="11" >
+<ns3:Ordinate X="481583.14" Y="4192600.46" OrdNmb="1" DeltaGeopoint="0.05" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="12" >
+<ns3:Ordinate X="481582.83" Y="4192595.67" OrdNmb="1" DeltaGeopoint="0.05" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="13" >
+<ns3:Ordinate X="481582.88" Y="4192595.67" OrdNmb="1" DeltaGeopoint="0.05" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="14" >
+<ns3:Ordinate X="481582.66" Y="4192592.36" OrdNmb="1" DeltaGeopoint="0.05" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="15" >
+<ns3:Ordinate X="481587.98" Y="4192592.01" OrdNmb="1" DeltaGeopoint="0.05" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="16" >
+<ns3:Ordinate X="481587.67" Y="4192587.11" OrdNmb="1" DeltaGeopoint="0.05" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="17" >
+<ns3:Ordinate X="481584.51" Y="4192587.31" OrdNmb="1" DeltaGeopoint="0.05" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="18" >
+<ns3:Ordinate X="481584.26" Y="4192583.46" OrdNmb="1" DeltaGeopoint="0.05" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="481589.68" Y="4192583.12" OrdNmb="1" DeltaGeopoint="0.05" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</Building>
+</ObjectRealty></ObjectsRealty><SpatialData>
+<EntitySpatial EntSys="ID0" >
+<ns3:SpatialElement >
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="481641.46" Y="4192515.21" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<ns3:Ordinate X="481567.42" Y="4192519.11" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<ns3:Ordinate X="481577.96" Y="4192645.94" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<ns3:Ordinate X="481578.6" Y="4192655.89" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<ns3:Ordinate X="481650.97" Y="4192652.71" OrdNmb="1" />
+</ns3:SpelementUnit>
+<ns3:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<ns3:Ordinate X="481641.46" Y="4192515.21" OrdNmb="1" />
+</ns3:SpelementUnit>
+</ns3:SpatialElement>
+</EntitySpatial>
+</SpatialData><CoordSystems>
+<ns3:CoordSystem Name="МСК НСО, зона 4" CsId="ID0" />
+</CoordSystems>
+</CadastralBlock>
+</CadastralBlocks>
+<CertificationDoc>
+<ns6:Organization>ФГИС ЕГРН</ns6:Organization>
+<ns6:Date>2019-05-13</ns6:Date>
+<ns6:Number>99/2019/261131403</ns6:Number>
+</CertificationDoc>
+</KPT>

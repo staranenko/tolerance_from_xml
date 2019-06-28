@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ZU/07/Common.xsl"?>
+
+<KVZU xmlns="urn://x-artefacts-rosreestr-ru/outgoing/kvzu/7.0.1"
+xmlns:smev="urn://x-artefacts-smev-gov-ru/supplementary/commons/1.0.1"
+xmlns:num="urn://x-artefacts-rosreestr-ru/commons/complex-types/numbers/1.0"
+xmlns:adrs="urn://x-artefacts-rosreestr-ru/commons/complex-types/address-output/4.0.1"
+xmlns:spa="urn://x-artefacts-rosreestr-ru/commons/complex-types/entity-spatial/5.0.1"
+xmlns:cer="urn://x-artefacts-rosreestr-ru/commons/complex-types/certification-doc/1.0"
+xmlns:doc="urn://x-artefacts-rosreestr-ru/commons/complex-types/document-output/4.0.1"
+xmlns:nobj="urn://x-artefacts-rosreestr-ru/commons/complex-types/natural-objects-output/1.0.1">
+<Parcels>
+<Parcel CadastralNumber="54:35:061375:8" State="01"
+DateCreated="2005-09-20"
+>
+<CadastralBlock>54:35:061375</CadastralBlock>
+<Name>01</Name>
+<Area>
+<Area>1117</Area>
+<Unit>055</Unit>
+<Inaccuracy>4</Inaccuracy>
+</Area>
+<Location>
+<inBounds>1</inBounds>
+<Placed>В4</Placed>
+<Elaboration>
+<ReferenceMark>индивидуальный жилой дом</ReferenceMark>
+</Elaboration>
+<Address> <adrs:OKATO>50401000000</adrs:OKATO>
+<adrs:KLADR>5400000100000</adrs:KLADR>
+<adrs:Region>54</adrs:Region>
+<adrs:City Name="Новосибирск" Type="г" />
+<adrs:Street Name="3-я Шоссейная" Type="ул" />
+<adrs:Level1 Type="д" Value="3" />
+<adrs:Note>обл. Новосибирская, г. Новосибирск, ул. 3-я Шоссейная, дом 3</adrs:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization ByDoc="для эксплуатации индивидуального жилого дома" />
+<Rights>
+<Right>
+<Name>собственность</Name>
+<Type>001001000000</Type>
+<Owners>
+<Owner>
+<Person>
+<FamilyName>Кубрин</FamilyName>
+<FirstName>Сергей</FirstName>
+<Patronymic>Романович</Patronymic>
+</Person>
+</Owner>
+</Owners>
+<Registration>
+<RegNumber>54-54-11/091/2013-696</RegNumber>
+<RegDate>2013-08-27</RegDate>
+</Registration>
+</Right>
+</Rights>
+<SubParcels>
+<SubParcel NumberRecord="1" Full="0" State="01" >
+<Area>
+<Area>10</Area>
+<Unit>055</Unit>
+</Area>
+<Encumbrance>
+<Type>022099000000</Type>
+<Document>
+<doc:CodeDocument>558402990000</doc:CodeDocument>
+<doc:Name>Распоряжение мэра г.Новосибирска</doc:Name>
+<doc:Number>5352-р</doc:Number>
+<doc:Date>2005-08-04</doc:Date>
+<doc:IssueOrgan>Мэрия г. Новосибирска</doc:IssueOrgan>
+</Document>
+</Encumbrance>
+<EntitySpatial EntSys="ID0" >
+<spa:SpatialElement >
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<spa:Ordinate X="486326.17" Y="4194910.03" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<spa:Ordinate X="486330.69" Y="4194913.66" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="29" >
+<spa:Ordinate X="486326.09" Y="4194913.25" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="30" >
+<spa:Ordinate X="486324.58" Y="4194911.95" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<spa:Ordinate X="486326.17" Y="4194910.03" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+</spa:SpatialElement>
+</EntitySpatial>
+</SubParcel>
+</SubParcels>
+<EntitySpatial EntSys="ID0" >
+<spa:SpatialElement >
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<spa:Ordinate X="486326.17" Y="4194910.03" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<spa:Ordinate X="486330.69" Y="4194913.66" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<spa:Ordinate X="486332.43" Y="4194915.07" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<spa:Ordinate X="486314.19" Y="4194934.85" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<spa:Ordinate X="486313.82" Y="4194934.71" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="6" >
+<spa:Ordinate X="486307.81" Y="4194929.27" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="7" >
+<spa:Ordinate X="486299.13" Y="4194921.59" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="8" >
+<spa:Ordinate X="486296.74" Y="4194919.3" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="9" >
+<spa:Ordinate X="486302.97" Y="4194910.64" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="10" >
+<spa:Ordinate X="486305.99" Y="4194912.23" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="11" >
+<spa:Ordinate X="486311.83" Y="4194916.68" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="12" >
+<spa:Ordinate X="486321.99" Y="4194906.24" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="13" >
+<spa:Ordinate X="486298.48" Y="4194888.08" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="14" >
+<spa:Ordinate X="486298.17" Y="4194888.47" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="15" >
+<spa:Ordinate X="486289.1" Y="4194881.36" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="16" >
+<spa:Ordinate X="486290.42" Y="4194879.59" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="17" >
+<spa:Ordinate X="486276.66" Y="4194870.04" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="18" >
+<spa:Ordinate X="486276.05" Y="4194869.52" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="19" >
+<spa:Ordinate X="486280.32" Y="4194861.75" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="20" >
+<spa:Ordinate X="486287.28" Y="4194866.48" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="21" >
+<spa:Ordinate X="486299.2" Y="4194875.36" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="22" >
+<spa:Ordinate X="486323.27" Y="4194893.02" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="23" >
+<spa:Ordinate X="486323.56" Y="4194893.22" OrdNmb="1" DeltaGeopoint="0.1" GeopointZacrep="626003000000" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="24" >
+<spa:Ordinate X="486329.74" Y="4194897.48" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="25" >
+<spa:Ordinate X="486323.54" Y="4194905.83" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="26" >
+<spa:Ordinate X="486323.34" Y="4194907.14" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="27" >
+<spa:Ordinate X="486323.33" Y="4194908.18" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="28" >
+<spa:Ordinate X="486325.41" Y="4194909.41" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<spa:Ordinate X="486326.17" Y="4194910.03" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+</spa:SpatialElement>
+</EntitySpatial>
+<CadastralCost Value="529927.14" Unit="383" />
+</Parcel>
+</Parcels>
+<CertificationDoc>
+<cer:Organization>ФГИС ЕГРН</cer:Organization>
+<cer:Date>2019-06-12</cer:Date>
+<cer:Number>99/2019/266476802</cer:Number>
+</CertificationDoc>
+<CoordSystems>
+<spa:CoordSystem Name="МСК НСО, зона 4" CsId="ID0" />
+</CoordSystems>
+<eDocument CodeType="112" Version="07" Scope="GKN">
+<Sender Kod="00.0.4.195"
+Name="ФГИС ЕГРН"
+Region="99"
+Date_Upload="2019-06-12"
+Appointment="Государственный регистратор"
+/>
+<Recipient Kod="00.0.4.111" Name="ДЕПАРТАМЕНТ ЗЕМЕЛЬНЫХ И ИМУЩЕСТВЕННЫХ ОТНОШЕНИЙ МЭРИИ ГОРОДА НОВОСИБИРСКА" />
+</eDocument>
+<ReestrExtract>
+<DeclarAttribute ID_KUVI="0"
+ExtractTypeCode="012000"
+ExtractTypeText="Выписка из Единого государственного реестра недвижимости об объекте недвижимости"
+ExtractNumber="99/2019/266476802"
+ExtractDate="12.06.2019"
+RequeryNumber="80-91813723"
+RequeryDate="11.06.2019"
+ExtractCount="1"
+NoticeCount="0"
+RefuseCount="0"
+Registrator="ФГИС ЕГРН">
+<ReceivName>ДЕПАРТАМЕНТ ЗЕМЕЛЬНЫХ И ИМУЩЕСТВЕННЫХ ОТНОШЕНИЙ МЭРИИ ГОРОДА НОВОСИБИРСКА</ReceivName>
+<ReceivAdress>не указан</ReceivAdress>
+</DeclarAttribute>
+<ExtractObjectRight>
+<HeadContent>
+<ID_REC_KUVI>0</ID_REC_KUVI>
+<Title>ФЕДЕРАЛЬНАЯ СЛУЖБА ГОСУДАРСТВЕННОЙ РЕГИСТРАЦИИ, КАДАСТРА И КАРТОГРАФИИ</Title>
+<DeptName>ФГИС ЕГРН</DeptName>
+<ExtractTitle>Выписка из Единого государственного реестра недвижимости об объекте недвижимости</ExtractTitle>
+<Content>На основании запроса от 11.06.2019 г., поступившего на рассмотрение 12.06.2019 г., сообщаем, что согласно записям Единого государственного реестра недвижимости:</Content>
+</HeadContent>
+<ExtractObject>
+<ObjectRight>
+<Right RightNumber="1">
+<Owner >
+<ID_Subject>108198590354</ID_Subject>
+<Person>
+<Code_SP>007003000000</Code_SP>
+<Content>Кубрин Сергей Романович</Content>
+<FIO>
+<Surname>Кубрин</Surname>
+<First>Сергей</First>
+<Patronymic>Романович</Patronymic>
+</FIO>
+</Person>
+</Owner>
+<Registration >
+<ID_Record>164989229754</ID_Record>
+<RegNumber>54-54-11/091/2013-696</RegNumber>
+<Type>001001000000</Type>
+<Name>Собственность, № 54-54-11/091/2013-696 от 27.08.2013</Name>
+<RegDate>27.08.2013</RegDate>
+</Registration>
+<NoEncumbrance>не зарегистрировано</NoEncumbrance>
+</Right>
+<NoShareHolding>не зарегистрировано</NoShareHolding>
+</ObjectRight>
+<RightAssert>данные отсутствуют</RightAssert>
+<RightClaim>данные отсутствуют</RightClaim>
+<RightAgainst>данные отсутствуют</RightAgainst>
+<RightSteal>данные отсутствуют</RightSteal>
+<WithoutThirdParty>данные отсутствуют</WithoutThirdParty>
+<InabilityRegWithoutOwner></InabilityRegWithoutOwner>
+<InabilityRegZU></InabilityRegZU>
+</ExtractObject>
+<InfoENK/>
+<InfoPIK/>
+<FootContent>
+<Recipient>ДЕПАРТАМЕНТ ЗЕМЕЛЬНЫХ И ИМУЩЕСТВЕННЫХ ОТНОШЕНИЙ МЭРИИ ГОРОДА НОВОСИБИРСКА</Recipient>
+<ExtractDate>12.06.2019</ExtractDate>
+<Content></Content>
+</FootContent>
+</ExtractObjectRight>
+</ReestrExtract>
+</KVZU>

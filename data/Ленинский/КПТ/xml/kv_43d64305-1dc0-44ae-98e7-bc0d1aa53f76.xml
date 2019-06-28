@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ROOM/07/Common.xsl"?>
+
+<KPOKS xmlns="urn://x-artefacts-rosreestr-ru/outgoing/kpoks/4.0.1"
+xmlns:smev="urn://x-artefacts-smev-gov-ru/supplementary/commons/1.0.1"
+xmlns:num="urn://x-artefacts-rosreestr-ru/commons/complex-types/numbers/1.0"
+xmlns:adrs="urn://x-artefacts-rosreestr-ru/commons/complex-types/address-output/4.0.1"
+xmlns:spa="urn://x-artefacts-rosreestr-ru/commons/complex-types/entity-spatial/5.0.1"
+xmlns:param="urn://x-artefacts-rosreestr-ru/commons/complex-types/parameters-oks/2.0.1"
+xmlns:cer="urn://x-artefacts-rosreestr-ru/commons/complex-types/certification-doc/1.0"
+xmlns:doc="urn://x-artefacts-rosreestr-ru/commons/complex-types/document-output/4.0.1"
+xmlns:flat="urn://x-artefacts-rosreestr-ru/commons/complex-types/assignation-flat/1.0.1"
+xmlns:ch="urn://x-artefacts-rosreestr-ru/commons/complex-types/cultural-heritage/2.0.1">
+<Realty>
+<Flat CadastralNumber="54:35:021290:138" State="01"
+DateCreated="2011-11-16"
+>
+<CadastralBlock>54:35:021290</CadastralBlock>
+<ObjectType>002001003000</ObjectType>
+<ParentCadastralNumbers>
+<CadastralNumberOKS>54:35:021290:56</CadastralNumberOKS>
+</ParentCadastralNumbers>
+<Assignation>
+<flat:AssignationCode>206002000000</flat:AssignationCode>
+<flat:AssignationType>205001000000</flat:AssignationType>
+</Assignation>
+<Area>47.1</Area>
+<Address>
+<adrs:OKATO>50401000000</adrs:OKATO>
+<adrs:KLADR>54000001000126300</adrs:KLADR>
+<adrs:Region>54</adrs:Region>
+<adrs:City Name="Новосибирск" Type="г" />
+<adrs:Street Name="Спартака" Type="ул" />
+<adrs:Level1 Type="д" Value="4" />
+<adrs:Apartment Type="кв" Value="32" />
+</Address>
+<PositionInObject>
+<Levels>
+<Level Number="04" Type="01">
+<Position NumberOnPlan="32">
+</Position>
+</Level>
+</Levels>
+</PositionInObject>
+<CadastralCost Value="2578573.81" Unit="383" />
+<Rights>
+<Right>
+<Name>общая совместная собственность</Name>
+<Type>001003000000</Type>
+<Owners>
+<Owner>
+<Person>
+<FamilyName>Попов</FamilyName>
+<FirstName>Александр</FirstName>
+<Patronymic>Николаевич</Patronymic>
+</Person>
+</Owner>
+<Owner>
+<Person>
+<FamilyName>Попова</FamilyName>
+<FirstName>Екатерина</FirstName>
+<Patronymic>Владимировна</Patronymic>
+</Person>
+</Owner>
+</Owners>
+<Registration>
+<RegNumber>54:35:021290:138-54/001/2018-2</RegNumber>
+<RegDate>2018-09-19</RegDate>
+</Registration>
+</Right>
+</Rights>
+<Encumbrances>
+<Encumbrance>
+<Type>022008000000</Type>
+<OwnersRestrictionInFavorem>
+<OwnerRestrictionInFavorem>
+<Organization>
+<Name>Банк ВТБ (публичное акционерное общество)</Name>
+</Organization>
+</OwnerRestrictionInFavorem>
+</OwnersRestrictionInFavorem>
+<Registration>
+<RegNumber>54:35:021290:138-54/001/2018-3</RegNumber>
+<RegDate>2018-09-19</RegDate>
+</Registration>
+</Encumbrance>
+</Encumbrances>
+</Flat>
+</Realty>
+<CertificationDoc>
+<cer:Organization>ФГИС ЕГРН</cer:Organization>
+<cer:Date>2019-05-08</cer:Date>
+<cer:Number>99/2019/260765022</cer:Number>
+</CertificationDoc>
+<CoordSystems>
+<spa:CoordSystem Name="МСК НСО, зона 4" CsId="ID0" />
+</CoordSystems>
+<eDocument CodeType="112" Version="07" Scope="GKN">
+<Sender Kod="00.0.4.195"
+Name="ФГИС ЕГРН"
+Region="99"
+Date_Upload="2019-05-08"
+Appointment="Государственный регистратор"
+/>
+<Recipient Kod="00.0.4.111" Name="ДЕПАРТАМЕНТ ЗЕМЕЛЬНЫХ И ИМУЩЕСТВЕННЫХ ОТНОШЕНИЙ МЭРИИ ГОРОДА НОВОСИБИРСКА" />
+</eDocument>
+<ReestrExtract>
+<DeclarAttribute ID_KUVI="0"
+ExtractTypeCode="012000"
+ExtractTypeText="Выписка из Единого государственного реестра недвижимости об объекте недвижимости"
+ExtractNumber="99/2019/260765022"
+ExtractDate="08.05.2019"
+RequeryNumber="80-87287921"
+RequeryDate="07.05.2019"
+ExtractCount="1"
+NoticeCount="0"
+RefuseCount="0"
+Registrator="ФГИС ЕГРН">
+<ReceivName>ДЕПАРТАМЕНТ ЗЕМЕЛЬНЫХ И ИМУЩЕСТВЕННЫХ ОТНОШЕНИЙ МЭРИИ ГОРОДА НОВОСИБИРСКА</ReceivName>
+<ReceivAdress>не указан</ReceivAdress>
+</DeclarAttribute>
+<ExtractObjectRight>
+<HeadContent>
+<ID_REC_KUVI>0</ID_REC_KUVI>
+<Title>ФЕДЕРАЛЬНАЯ СЛУЖБА ГОСУДАРСТВЕННОЙ РЕГИСТРАЦИИ, КАДАСТРА И КАРТОГРАФИИ</Title>
+<DeptName>ФГИС ЕГРН</DeptName>
+<ExtractTitle>Выписка из Единого государственного реестра недвижимости об объекте недвижимости</ExtractTitle>
+<Content>На основании запроса от 07.05.2019 г., поступившего на рассмотрение 08.05.2019 г., сообщаем, что согласно записям Единого государственного реестра недвижимости:</Content>
+</HeadContent>
+<ExtractObject>
+<ObjectRight>
+<Right RightNumber="1">
+<Owner >
+<ID_Subject>291312051454</ID_Subject>
+<Person>
+<Code_SP>007003000000</Code_SP>
+<Content>Попов Александр Николаевич</Content>
+<FIO>
+<Surname>Попов</Surname>
+<First>Александр</First>
+<Patronymic>Николаевич</Patronymic>
+</FIO>
+</Person>
+</Owner>
+<Owner >
+<ID_Subject>291250420554</ID_Subject>
+<Person>
+<Code_SP>007003000000</Code_SP>
+<Content>Попова Екатерина Владимировна</Content>
+<FIO>
+<Surname>Попова</Surname>
+<First>Екатерина</First>
+<Patronymic>Владимировна</Patronymic>
+</FIO>
+</Person>
+</Owner>
+<Registration >
+<ID_Record>492777339854</ID_Record>
+<RegNumber>54:35:021290:138-54/001/2018-2</RegNumber>
+<Type>001003000000</Type>
+<Name>Совместная собственность, № 54:35:021290:138-54/001/2018-2 от 19.09.2018</Name>
+<RegDate>19.09.2018</RegDate>
+</Registration>
+<Encumbrance>
+<ID_Record>492777340554</ID_Record>
+<RegNumber>54:35:021290:138-54/001/2018-3</RegNumber>
+<Type>022007000000</Type>
+<Name>в силу закона</Name>
+<ShareText>Кадастровый(условный) номер: 54:35:021290:138.
+квартира. , назначение: жилое. Площадь: общая 47.1 кв.м. Этаж: 4. Адрес(местоположение): Новосибирская область, город Новосибирск, улица Спартака, д.4, кв.32.</ShareText>
+<RegDate>19.09.2018</RegDate>
+<Duration>
+<Started>11.09.2018</Started>
+<Term>на 242 месяцев, считая с даты фактического предоставления кредита</Term>
+</Duration>
+<Owner >
+<ID_Subject>77719251754</ID_Subject>
+<Organization>
+<Code_SP>007002000000</Code_SP>
+<Content>Банк ВТБ (публичное акционерное общество), ИНН: 7702070139</Content>
+<Name>Банк ВТБ (публичное акционерное общество)</Name>
+<INN>7702070139</INN>
+</Organization>
+</Owner>
+<DocFound>
+<ID_Document>492777340154</ID_Document>
+<Content>Договор купли-продажи объекта недвижимости с использованием кредитных средств от 11.09.2018 г.</Content>
+<Type_Document>010003007000</Type_Document>
+<Name>Договор купли-продажи объекта недвижимости с использованием кредитных средств</Name>
+<Number>б/н</Number>
+<Date>11.09.2018</Date>
+</DocFound>
+</Encumbrance>
+</Right>
+<NoShareHolding>не зарегистрировано</NoShareHolding>
+</ObjectRight>
+<RightAssert>данные отсутствуют</RightAssert>
+<RightClaim>данные отсутствуют</RightClaim>
+<RightAgainst>данные отсутствуют</RightAgainst>
+<RightSteal>данные отсутствуют</RightSteal>
+<WithoutThirdParty>данные отсутствуют</WithoutThirdParty>
+<InabilityRegWithoutOwner></InabilityRegWithoutOwner>
+<InabilityRegZU></InabilityRegZU>
+</ExtractObject>
+<InfoENK/>
+<InfoPIK/>
+<FootContent>
+<Recipient>ДЕПАРТАМЕНТ ЗЕМЕЛЬНЫХ И ИМУЩЕСТВЕННЫХ ОТНОШЕНИЙ МЭРИИ ГОРОДА НОВОСИБИРСКА</Recipient>
+<ExtractDate>08.05.2019</ExtractDate>
+<Content></Content>
+</FootContent>
+</ExtractObjectRight>
+</ReestrExtract>
+</KPOKS>

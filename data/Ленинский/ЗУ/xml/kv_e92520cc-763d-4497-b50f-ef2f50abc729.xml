@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ZU/07/Common.xsl"?>
+
+<KVZU xmlns="urn://x-artefacts-rosreestr-ru/outgoing/kvzu/7.0.1"
+xmlns:smev="urn://x-artefacts-smev-gov-ru/supplementary/commons/1.0.1"
+xmlns:num="urn://x-artefacts-rosreestr-ru/commons/complex-types/numbers/1.0"
+xmlns:adrs="urn://x-artefacts-rosreestr-ru/commons/complex-types/address-output/4.0.1"
+xmlns:spa="urn://x-artefacts-rosreestr-ru/commons/complex-types/entity-spatial/5.0.1"
+xmlns:cer="urn://x-artefacts-rosreestr-ru/commons/complex-types/certification-doc/1.0"
+xmlns:doc="urn://x-artefacts-rosreestr-ru/commons/complex-types/document-output/4.0.1"
+xmlns:nobj="urn://x-artefacts-rosreestr-ru/commons/complex-types/natural-objects-output/1.0.1">
+<Parcels>
+<Parcel CadastralNumber="54:35:061375:3" State="01"
+DateCreated="2006-02-06"
+DateCreatedDoc="1997-11-11"
+>
+<CadastralBlock>54:35:061375</CadastralBlock>
+<Name>01</Name>
+<OldNumbers>
+<num:OldNumber Type="99" Number="06137503, 54:35:06 1375:03" />
+</OldNumbers>
+<Area>
+<Area>903</Area>
+<Unit>055</Unit>
+</Area>
+<Location>
+<inBounds>1</inBounds>
+<Placed>Д5</Placed>
+<Elaboration>
+<ReferenceMark>индивидуальный жилой дом</ReferenceMark>
+</Elaboration>
+<Address> <adrs:OKATO>50401377000</adrs:OKATO>
+<adrs:KLADR>54000001000157800</adrs:KLADR>
+<adrs:Region>54</adrs:Region>
+<adrs:City Name="Новосибирск" Type="г" />
+<adrs:Street Name="2-я Шоссейная" Type="ул" />
+<adrs:Level1 Type="д" Value="194" />
+<adrs:Note>обл. Новосибирская, г. Новосибирск, ул. 2-я Шоссейная, дом 194</adrs:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization Utilization="142001010000" ByDoc="занимаемый индивидуальным жилым домом" />
+<Rights>
+<Right>
+<Name>общая совместная собственность</Name>
+<Type>001003000000</Type>
+<Owners>
+<Owner>
+<Person>
+<FamilyName>Барановская</FamilyName>
+<FirstName>Ольга</FirstName>
+<Patronymic>Михайловна</Patronymic>
+</Person>
+</Owner>
+<Owner>
+<Person>
+<FamilyName>Барановский</FamilyName>
+<FirstName>Андрей</FirstName>
+<Patronymic>Николаевич</Patronymic>
+</Person>
+</Owner>
+</Owners>
+<Registration>
+<RegNumber>54-54/011-54/001/910/2016-348/2</RegNumber>
+<RegDate>2016-10-21</RegDate>
+</Registration>
+</Right>
+</Rights>
+<EntitySpatial EntSys="ID0" >
+<spa:SpatialElement >
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<spa:Ordinate X="486277.66" Y="4194950" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<spa:Ordinate X="486292.44" Y="4194930.83" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<spa:Ordinate X="486288.91" Y="4194928.08" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<spa:Ordinate X="486271.15" Y="4194914.28" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<spa:Ordinate X="486267.35" Y="4194911.46" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="6" >
+<spa:Ordinate X="486264.68" Y="4194909.52" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="7" >
+<spa:Ordinate X="486249.14" Y="4194934.52" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<spa:Ordinate X="486277.66" Y="4194950" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+</spa:SpatialElement>
+<spa:Borders>
+<spa:Border Spatial="1" Point1="54" Point2="55">
+<spa:Edge>
+</spa:Edge>
+</spa:Border>
+<spa:Border Spatial="1" Point1="55" Point2="56">
+<spa:Edge>
+</spa:Edge>
+</spa:Border>
+<spa:Border Spatial="1" Point1="72" Point2="73">
+<spa:Edge>
+</spa:Edge>
+</spa:Border>
+<spa:Border Spatial="1" Point1="73" Point2="74">
+<spa:Edge>
+</spa:Edge>
+</spa:Border>
+<spa:Border Spatial="1" Point1="56" Point2="74">
+<spa:Edge>
+</spa:Edge>
+</spa:Border>
+<spa:Border Spatial="1" Point1="54" Point2="75">
+<spa:Edge>
+</spa:Edge>
+</spa:Border>
+<spa:Border Spatial="1" Point1="72" Point2="75">
+<spa:Edge>
+</spa:Edge>
+</spa:Border>
+</spa:Borders>
+</EntitySpatial>
+<Encumbrances>
+<Encumbrance>
+<Type>022008000000</Type>
+<OwnersRestrictionInFavorem>
+<OwnerRestrictionInFavorem>
+<Organization>
+<Name>Акционерное общество &quot;Российский Сельскохозяйственный банк&quot;</Name>
+</Organization>
+</OwnerRestrictionInFavorem>
+</OwnersRestrictionInFavorem>
+<Registration>
+<RegNumber>54-54/011-54/001/910/2016-349/1</RegNumber>
+<RegDate>2016-10-21</RegDate>
+</Registration>
+</Encumbrance>
+</Encumbrances>
+<CadastralCost Value="428572.83" Unit="383" />
+</Parcel>
+</Parcels>
+<CertificationDoc>
+<cer:Organization>ФГИС ЕГРН</cer:Organization>
+<cer:Date>2019-06-12</cer:Date>
+<cer:Number>99/2019/266449839</cer:Number>
+</CertificationDoc>
+<CoordSystems>
+<spa:CoordSystem Name="МСК НСО, зона 4" CsId="ID0" />
+</CoordSystems>
+<eDocument CodeType="112" Version="07" Scope="GKN">
+<Sender Kod="00.0.4.195"
+Name="ФГИС ЕГРН"
+Region="99"
+Date_Upload="2019-06-12"
+Appointment="Государственный регистратор"
+/>
+<Recipient Kod="00.0.4.111" Name="ДЕПАРТАМЕНТ ЗЕМЕЛЬНЫХ И ИМУЩЕСТВЕННЫХ ОТНОШЕНИЙ МЭРИИ ГОРОДА НОВОСИБИРСКА" />
+</eDocument>
+<ReestrExtract>
+<DeclarAttribute ID_KUVI="0"
+ExtractTypeCode="012000"
+ExtractTypeText="Выписка из Единого государственного реестра недвижимости об объекте недвижимости"
+ExtractNumber="99/2019/266449839"
+ExtractDate="12.06.2019"
+RequeryNumber="80-91812157"
+RequeryDate="11.06.2019"
+ExtractCount="1"
+NoticeCount="0"
+RefuseCount="0"
+Registrator="ФГИС ЕГРН">
+<ReceivName>ДЕПАРТАМЕНТ ЗЕМЕЛЬНЫХ И ИМУЩЕСТВЕННЫХ ОТНОШЕНИЙ МЭРИИ ГОРОДА НОВОСИБИРСКА</ReceivName>
+<ReceivAdress>не указан</ReceivAdress>
+</DeclarAttribute>
+<ExtractObjectRight>
+<HeadContent>
+<ID_REC_KUVI>0</ID_REC_KUVI>
+<Title>ФЕДЕРАЛЬНАЯ СЛУЖБА ГОСУДАРСТВЕННОЙ РЕГИСТРАЦИИ, КАДАСТРА И КАРТОГРАФИИ</Title>
+<DeptName>ФГИС ЕГРН</DeptName>
+<ExtractTitle>Выписка из Единого государственного реестра недвижимости об объекте недвижимости</ExtractTitle>
+<Content>На основании запроса от 11.06.2019 г., поступившего на рассмотрение 12.06.2019 г., сообщаем, что согласно записям Единого государственного реестра недвижимости:</Content>
+</HeadContent>
+<ExtractObject>
+<ObjectRight>
+<Right RightNumber="1">
+<Owner >
+<ID_Subject>81768251254</ID_Subject>
+<Person>
+<Code_SP>007003000000</Code_SP>
+<Content>Барановская Ольга Михайловна</Content>
+<FIO>
+<Surname>Барановская</Surname>
+<First>Ольга</First>
+<Patronymic>Михайловна</Patronymic>
+</FIO>
+</Person>
+</Owner>
+<Owner >
+<ID_Subject>358257514654</ID_Subject>
+<Person>
+<Code_SP>007003000000</Code_SP>
+<Content>Барановский Андрей Николаевич</Content>
+<FIO>
+<Surname>Барановский</Surname>
+<First>Андрей</First>
+<Patronymic>Николаевич</Patronymic>
+</FIO>
+</Person>
+</Owner>
+<Registration >
+<ID_Record>483221412954</ID_Record>
+<RegNumber>54-54/011-54/001/910/2016-348/2</RegNumber>
+<Type>001003000000</Type>
+<Name>Совместная собственность, № 54-54/011-54/001/910/2016-348/2 от 21.10.2016</Name>
+<RegDate>21.10.2016</RegDate>
+</Registration>
+<Encumbrance>
+<ID_Record>483221412654</ID_Record>
+<RegNumber>54-54/011-54/001/910/2016-349/1</RegNumber>
+<Type>022007000000</Type>
+<Name>в силу закона</Name>
+<ShareText>Весь объект</ShareText>
+<RegDate>21.10.2016</RegDate>
+<Duration>
+<Started>21.10.2016</Started>
+<Stopped>17.10.2031</Stopped>
+</Duration>
+<Owner >
+<ID_Subject>38229300254</ID_Subject>
+<Organization>
+<Code_SP>007002000000</Code_SP>
+<Content>Акционерное общество &quot;Российский Сельскохозяйственный банк&quot;, ИНН: 7725114488</Content>
+<Name>Акционерное общество &quot;Российский Сельскохозяйственный банк&quot;</Name>
+<INN>7725114488</INN>
+</Organization>
+</Owner>
+<DocFound>
+<ID_Document>358257513854</ID_Document>
+<Content>Договор купли-продажи объекта недвижимости от 17.10.2016 г.</Content>
+<Type_Document>010003007000</Type_Document>
+<Name>Договор купли-продажи объекта недвижимости</Name>
+<Number>б/н</Number>
+<Date>17.10.2016</Date>
+</DocFound>
+</Encumbrance>
+</Right>
+<NoShareHolding>не зарегистрировано</NoShareHolding>
+</ObjectRight>
+<RightAssert>данные отсутствуют</RightAssert>
+<RightClaim>данные отсутствуют</RightClaim>
+<RightAgainst>данные отсутствуют</RightAgainst>
+<RightSteal>данные отсутствуют</RightSteal>
+<WithoutThirdParty>данные отсутствуют</WithoutThirdParty>
+<InabilityRegWithoutOwner></InabilityRegWithoutOwner>
+<InabilityRegZU></InabilityRegZU>
+</ExtractObject>
+<InfoENK/>
+<InfoPIK/>
+<FootContent>
+<Recipient>ДЕПАРТАМЕНТ ЗЕМЕЛЬНЫХ И ИМУЩЕСТВЕННЫХ ОТНОШЕНИЙ МЭРИИ ГОРОДА НОВОСИБИРСКА</Recipient>
+<ExtractDate>12.06.2019</ExtractDate>
+<Content></Content>
+</FootContent>
+</ExtractObjectRight>
+</ReestrExtract>
+</KVZU>

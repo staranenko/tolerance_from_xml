@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ZU/07/Common.xsl"?>
+
+<KVZU xmlns="urn://x-artefacts-rosreestr-ru/outgoing/kvzu/7.0.1"
+xmlns:smev="urn://x-artefacts-smev-gov-ru/supplementary/commons/1.0.1"
+xmlns:num="urn://x-artefacts-rosreestr-ru/commons/complex-types/numbers/1.0"
+xmlns:adrs="urn://x-artefacts-rosreestr-ru/commons/complex-types/address-output/4.0.1"
+xmlns:spa="urn://x-artefacts-rosreestr-ru/commons/complex-types/entity-spatial/5.0.1"
+xmlns:cer="urn://x-artefacts-rosreestr-ru/commons/complex-types/certification-doc/1.0"
+xmlns:doc="urn://x-artefacts-rosreestr-ru/commons/complex-types/document-output/4.0.1"
+xmlns:nobj="urn://x-artefacts-rosreestr-ru/commons/complex-types/natural-objects-output/1.0.1">
+<Parcels>
+<Parcel CadastralNumber="54:35:061375:11" State="01"
+DateCreated="2006-10-13"
+>
+<CadastralBlock>54:35:061375</CadastralBlock>
+<Name>01</Name>
+<Area>
+<Area>1698</Area>
+<Unit>055</Unit>
+<Inaccuracy>4</Inaccuracy>
+</Area>
+<Location>
+<inBounds>1</inBounds>
+<Placed>В4</Placed>
+<Elaboration>
+<ReferenceMark>индивидуальный жилой дом</ReferenceMark>
+</Elaboration>
+<Address> <adrs:OKATO>50401000000</adrs:OKATO>
+<adrs:KLADR>5400000100000</adrs:KLADR>
+<adrs:Region>54</adrs:Region>
+<adrs:City Name="Новосибирск" Type="г" />
+<adrs:Street Name="2-я Шоссейная" Type="ул" />
+<adrs:Level1 Type="д" Value="202" />
+<adrs:Note>обл. Новосибирская, г. Новосибирск, ул. 2-я Шоссейная, дом 202</adrs:Note>
+</Address>
+</Location>
+<Category>003002000000</Category>
+<Utilization ByDoc="для эксплуатации индивидуального жилого дома" />
+<Rights>
+<Right>
+<Name>общая долевая собственность</Name>
+<Type>001002000000</Type>
+<Owners>
+<Owner>
+<Person>
+<FamilyName>Радионова</FamilyName>
+<FirstName>Татьяна</FirstName>
+<Patronymic>Ивановна</Patronymic>
+</Person>
+</Owner>
+</Owners>
+<Share Numerator="51" Denominator="100" />
+<Registration>
+<RegNumber>54-54-11/127/2010-316</RegNumber>
+<RegDate>2010-10-14</RegDate>
+</Registration>
+</Right>
+<Right>
+<Name>общая долевая собственность</Name>
+<Type>001002000000</Type>
+<Owners>
+<Owner>
+<Person>
+<FamilyName>Прокопенко</FamilyName>
+<FirstName>Игорь</FirstName>
+<Patronymic>Александрович</Patronymic>
+</Person>
+</Owner>
+</Owners>
+<Share Numerator="49" Denominator="100" />
+<Registration>
+<RegNumber>54-54-11/127/2010-316</RegNumber>
+<RegDate>2010-10-14</RegDate>
+</Registration>
+</Right>
+<Right>
+<Name>общая долевая собственность</Name>
+<Type>001002000000</Type>
+<Owners>
+<Owner>
+<Person>
+<FamilyName>Радионова</FamilyName>
+<FirstName>Татьяна</FirstName>
+<Patronymic>Ивановна</Patronymic>
+</Person>
+</Owner>
+</Owners>
+<Share Numerator="51" Denominator="100" />
+<Registration>
+<RegNumber>54-54-11/127/2010-316</RegNumber>
+<RegDate>2010-10-14</RegDate>
+</Registration>
+</Right>
+<Right>
+<Name>общая долевая собственность</Name>
+<Type>001002000000</Type>
+<Owners>
+<Owner>
+<Person>
+<FamilyName>Прокопенко</FamilyName>
+<FirstName>Игорь</FirstName>
+<Patronymic>Александрович</Patronymic>
+</Person>
+</Owner>
+</Owners>
+<Share Numerator="49" Denominator="100" />
+<Registration>
+<RegNumber>54-54-11/127/2010-316</RegNumber>
+<RegDate>2010-10-14</RegDate>
+</Registration>
+</Right>
+</Rights>
+<SubParcels>
+<SubParcel NumberRecord="1" Full="0" State="06" >
+<Area>
+<Area>0</Area>
+<Unit>055</Unit>
+</Area>
+<Encumbrance>
+<Type>022004000000</Type>
+<AccountNumber>54.35.2.1139</AccountNumber>
+<Registration>
+<RegDate>2018-10-02</RegDate>
+</Registration>
+<Document>
+<doc:CodeDocument>558403010000</doc:CodeDocument>
+<doc:Name>Свидетельство о государственной регистрации права</doc:Name>
+<doc:Number>183753</doc:Number>
+<doc:Date>2010-12-08</doc:Date>
+<doc:IssueOrgan>Управление Федеральной службы государственной регистрации, кадастра и картографии по Новосибирской области</doc:IssueOrgan>
+</Document>
+</Encumbrance>
+<EntitySpatial EntSys="ID0" >
+<spa:SpatialElement >
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="18" >
+<spa:Ordinate X="486293.86" Y="4194840.04" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="21" >
+<spa:Ordinate X="486293.58" Y="4194840.47" OrdNmb="1" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="22" >
+<spa:Ordinate X="486294.71" Y="4194840.58" OrdNmb="1" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="18" >
+<spa:Ordinate X="486293.86" Y="4194840.04" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+</spa:SpatialElement>
+</EntitySpatial>
+</SubParcel>
+</SubParcels>
+<EntitySpatial EntSys="ID0" >
+<spa:SpatialElement >
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<spa:Ordinate X="486280.32" Y="4194861.75" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="2" >
+<spa:Ordinate X="486287.28" Y="4194866.48" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="3" >
+<spa:Ordinate X="486299.2" Y="4194875.36" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="4" >
+<spa:Ordinate X="486323.27" Y="4194893.02" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="5" >
+<spa:Ordinate X="486323.56" Y="4194893.22" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="6" >
+<spa:Ordinate X="486329.57" Y="4194885.14" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="7" >
+<spa:Ordinate X="486335.31" Y="4194877.7" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="8" >
+<spa:Ordinate X="486345.35" Y="4194863.8" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="9" >
+<spa:Ordinate X="486341.13" Y="4194860.87" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="10" >
+<spa:Ordinate X="486331.18" Y="4194852.88" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="11" >
+<spa:Ordinate X="486330.61" Y="4194853.01" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="12" >
+<spa:Ordinate X="486326.12" Y="4194850.11" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="13" >
+<spa:Ordinate X="486323.51" Y="4194854.29" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="14" >
+<spa:Ordinate X="486321.85" Y="4194856.48" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="15" >
+<spa:Ordinate X="486317.39" Y="4194853.84" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="16" >
+<spa:Ordinate X="486308.09" Y="4194848.72" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="17" >
+<spa:Ordinate X="486300.34" Y="4194844.12" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="18" >
+<spa:Ordinate X="486293.86" Y="4194840.04" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="19" >
+<spa:Ordinate X="486291.44" Y="4194843.81" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="20" >
+<spa:Ordinate X="486286.57" Y="4194851.38" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+<spa:SpelementUnit TypeUnit="Точка" SuNmb="1" >
+<spa:Ordinate X="486280.32" Y="4194861.75" OrdNmb="1" DeltaGeopoint="0.3" />
+</spa:SpelementUnit>
+</spa:SpatialElement>
+<spa:Borders>
+<spa:Border Spatial="1" Point1="38" Point2="39">
+<spa:Edge>
+</spa:Edge>
+</spa:Border>
+<spa:Border Spatial="1" Point1="39" Point2="40">
+<spa:Edge>
+</spa:Edge>
+</spa:Border>
+<spa:Border Spatial="1" Point1="40" Point2="41">
+<spa:Edge>
+</spa:Edge>
+</spa:Border>
+<spa:Border Spatial="1" Point1="38" Point2="122">
+<spa:Edge>
+</spa:Edge>
+</spa:Border>
+<spa:Border Spatial="1" Point1="122" Point2="123">
+<spa:Edge>
+</spa:Edge>
+</spa:Border>
+<spa:Border Spatial="1" Point1="123" Point2="124">
+<spa:Edge>
+</spa:Edge>
+</spa:Border>
+<spa:Border Spatial="1" Point1="124" Point2="125">
+<spa:Edge>
+</spa:Edge>
+</spa:Border>
+<spa:Border Spatial="1" Point1="125" Point2="126">
+<spa:Edge>
+</spa:Edge>
+</spa:Border>
+<spa:Border Spatial="1" Point1="126" Point2="127">
+<spa:Edge>
+</spa:Edge>
+</spa:Border>
+<spa:Border Spatial="1" Point1="127" Point2="128">
+<spa:Edge>
+</spa:Edge>
+</spa:Border>
+<spa:Border Spatial="1" Point1="128" Point2="129">
+<spa:Edge>
+</spa:Edge>
+</spa:Border>
+<spa:Border Spatial="1" Point1="129" Point2="130">
+<spa:Edge>
+</spa:Edge>
+</spa:Border>
+<spa:Border Spatial="1" Point1="130" Point2="131">
+<spa:Edge>
+</spa:Edge>
+</spa:Border>
+<spa:Border Spatial="1" Point1="131" Point2="132">
+<spa:Edge>
+</spa:Edge>
+</spa:Border>
+<spa:Border Spatial="1" Point1="64" Point2="132">
+<spa:Edge>
+</spa:Edge>
+</spa:Border>
+<spa:Border Spatial="1" Point1="64" Point2="133">
+<spa:Edge>
+</spa:Edge>
+</spa:Border>
+<spa:Border Spatial="1" Point1="133" Point2="134">
+<spa:Edge>
+</spa:Edge>
+</spa:Border>
+<spa:Border Spatial="1" Point1="134" Point2="135">
+<spa:Edge>
+</spa:Edge>
+</spa:Border>
+<spa:Border Spatial="1" Point1="135" Point2="136">
+<spa:Edge>
+</spa:Edge>
+</spa:Border>
+<spa:Border Spatial="1" Point1="41" Point2="136">
+<spa:Edge>
+</spa:Edge>
+</spa:Border>
+</spa:Borders>
+</EntitySpatial>
+<CadastralCost Value="805429.32" Unit="383" />
+<SpecialNote> Сведения о видах разрешенного использовании имеют статус «Актуальные незасвидетельствованные». Право (ограничение права, обременение объекта недвижимости) зарегистрировано на данный объект недвижимости с видами разрешенного использования «Для индивидуальной жилой застройки».</SpecialNote>
+</Parcel>
+</Parcels>
+<CertificationDoc>
+<cer:Organization>ФГИС ЕГРН</cer:Organization>
+<cer:Date>2019-06-12</cer:Date>
+<cer:Number>99/2019/266450025</cer:Number>
+</CertificationDoc>
+<CoordSystems>
+<spa:CoordSystem Name="МСК НСО, зона 4" CsId="ID0" />
+</CoordSystems>
+<eDocument CodeType="112" Version="07" Scope="GKN">
+<Sender Kod="00.0.4.195"
+Name="ФГИС ЕГРН"
+Region="99"
+Date_Upload="2019-06-12"
+Appointment="Государственный регистратор"
+/>
+<Recipient Kod="00.0.4.111" Name="ДЕПАРТАМЕНТ ЗЕМЕЛЬНЫХ И ИМУЩЕСТВЕННЫХ ОТНОШЕНИЙ МЭРИИ ГОРОДА НОВОСИБИРСКА" />
+</eDocument>
+<ReestrExtract>
+<DeclarAttribute ID_KUVI="0"
+ExtractTypeCode="012000"
+ExtractTypeText="Выписка из Единого государственного реестра недвижимости об объекте недвижимости"
+ExtractNumber="99/2019/266450025"
+ExtractDate="12.06.2019"
+RequeryNumber="80-91814236"
+RequeryDate="11.06.2019"
+ExtractCount="1"
+NoticeCount="0"
+RefuseCount="0"
+Registrator="ФГИС ЕГРН">
+<ReceivName>ДЕПАРТАМЕНТ ЗЕМЕЛЬНЫХ И ИМУЩЕСТВЕННЫХ ОТНОШЕНИЙ МЭРИИ ГОРОДА НОВОСИБИРСКА</ReceivName>
+<ReceivAdress>не указан</ReceivAdress>
+</DeclarAttribute>
+<ExtractObjectRight>
+<HeadContent>
+<ID_REC_KUVI>0</ID_REC_KUVI>
+<Title>ФЕДЕРАЛЬНАЯ СЛУЖБА ГОСУДАРСТВЕННОЙ РЕГИСТРАЦИИ, КАДАСТРА И КАРТОГРАФИИ</Title>
+<DeptName>ФГИС ЕГРН</DeptName>
+<ExtractTitle>Выписка из Единого государственного реестра недвижимости об объекте недвижимости</ExtractTitle>
+<Content>На основании запроса от 11.06.2019 г., поступившего на рассмотрение 12.06.2019 г., сообщаем, что согласно записям Единого государственного реестра недвижимости:</Content>
+</HeadContent>
+<ExtractObject>
+<ObjectRight>
+<Right RightNumber="1">
+<Owner >
+<ID_Subject>63565428254</ID_Subject>
+<Person>
+<Code_SP>007003000000</Code_SP>
+<Content>Радионова Татьяна Ивановна</Content>
+<FIO>
+<Surname>Радионова</Surname>
+<First>Татьяна</First>
+<Patronymic>Ивановна</Patronymic>
+</FIO>
+</Person>
+</Owner>
+<Registration >
+<ID_Record>465345001254</ID_Record>
+<RegNumber>54-54-11/127/2010-316</RegNumber>
+<Type>001002000000</Type>
+<Name>Долевая собственность, № 54-54-11/127/2010-316 от 14.10.2010, доля в праве 51/100</Name>
+<RegDate>14.10.2010</RegDate>
+<Share Numerator="51" Denominator="100"/>
+</Registration>
+<NoEncumbrance>не зарегистрировано</NoEncumbrance>
+</Right>
+<Right RightNumber="2">
+<Owner >
+<ID_Subject>37886652454</ID_Subject>
+<Person>
+<Code_SP>007003000000</Code_SP>
+<Content>Прокопенко Игорь Александрович</Content>
+<FIO>
+<Surname>Прокопенко</Surname>
+<First>Игорь</First>
+<Patronymic>Александрович</Patronymic>
+</FIO>
+</Person>
+</Owner>
+<Registration >
+<ID_Record>465345001854</ID_Record>
+<RegNumber>54-54-11/127/2010-316</RegNumber>
+<Type>001002000000</Type>
+<Name>Долевая собственность, № 54-54-11/127/2010-316 от 14.10.2010, доля в праве 49/100</Name>
+<RegDate>14.10.2010</RegDate>
+<Share Numerator="49" Denominator="100"/>
+</Registration>
+<NoEncumbrance>не зарегистрировано</NoEncumbrance>
+</Right>
+<NoShareHolding>не зарегистрировано</NoShareHolding>
+</ObjectRight>
+<RightAssert>данные отсутствуют</RightAssert>
+<RightClaim>данные отсутствуют</RightClaim>
+<RightAgainst>данные отсутствуют</RightAgainst>
+<RightSteal>данные отсутствуют</RightSteal>
+<WithoutThirdParty>данные отсутствуют</WithoutThirdParty>
+<InabilityRegWithoutOwner></InabilityRegWithoutOwner>
+<InabilityRegZU></InabilityRegZU>
+</ExtractObject>
+<InfoENK/>
+<InfoPIK/>
+<FootContent>
+<Recipient>ДЕПАРТАМЕНТ ЗЕМЕЛЬНЫХ И ИМУЩЕСТВЕННЫХ ОТНОШЕНИЙ МЭРИИ ГОРОДА НОВОСИБИРСКА</Recipient>
+<ExtractDate>12.06.2019</ExtractDate>
+<Content></Content>
+</FootContent>
+</ExtractObjectRight>
+</ReestrExtract>
+</KVZU>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="https://portal.rosreestr.ru/xsl/EGRP/Reestr_Extract_Big/ZU/07/Common.xsl"?>
+
+<KVZU xmlns="urn://x-artefacts-rosreestr-ru/outgoing/kvzu/7.0.1"
+      xmlns:smev="urn://x-artefacts-smev-gov-ru/supplementary/commons/1.0.1"
+      xmlns:num="urn://x-artefacts-rosreestr-ru/commons/complex-types/numbers/1.0"
+      xmlns:adrs="urn://x-artefacts-rosreestr-ru/commons/complex-types/address-output/4.0.1"
+      xmlns:spa="urn://x-artefacts-rosreestr-ru/commons/complex-types/entity-spatial/5.0.1"
+      xmlns:cer="urn://x-artefacts-rosreestr-ru/commons/complex-types/certification-doc/1.0"
+      xmlns:doc="urn://x-artefacts-rosreestr-ru/commons/complex-types/document-output/4.0.1"
+      xmlns:nobj="urn://x-artefacts-rosreestr-ru/commons/complex-types/natural-objects-output/1.0.1">
+    <Parcels>
+        <Parcel CadastralNumber="54:35:061375:27" State="06"
+                DateCreated="2012-06-04"
+        >
+            <CadastralBlock>54:35:061375</CadastralBlock>
+            <Name>01</Name>
+            <Area>
+                <Area>1082</Area>
+                <Unit>055</Unit>
+                <Inaccuracy>11</Inaccuracy>
+            </Area>
+            <Location>
+                <Address>
+                    <adrs:OKATO>50401377000</adrs:OKATO>
+                    <adrs:KLADR>54000001000157900</adrs:KLADR>
+                    <adrs:Region>54</adrs:Region>
+                    <adrs:City Name="Новосибирск" Type="г"/>
+                    <adrs:Street Name="Шоссейная 3-я" Type="ул"/>
+                    <adrs:Note>Новосибирская область, г. Новосибирск, ул. 3-я Шоссейная. На земельном участке расположен
+                        индивидуальный жилой дом, 5
+                    </adrs:Note>
+                </Address>
+            </Location>
+            <Category>003002000000</Category>
+            <Utilization Utilization="142001010000" ByDoc="Для эксплуатации индивидуального жилого дома"/>
+            <Rights>
+                <Right>
+                    <Name>собственность</Name>
+                    <Type>001001000000</Type>
+                    <Owners>
+                        <Owner>
+                            <Person>
+                                <FamilyName>Шевченко</FamilyName>
+                                <FirstName>Татьяна</FirstName>
+                                <Patronymic>Даниловна</Patronymic>
+                            </Person>
+                        </Owner>
+                    </Owners>
+                    <Registration>
+                        <RegNumber>54-54-11/076/2012-704</RegNumber>
+                        <RegDate>2012-12-20</RegDate>
+                    </Registration>
+                </Right>
+            </Rights>
+            <EntitySpatial EntSys="ID0">
+                <spa:SpatialElement>
+                    <spa:SpelementUnit TypeUnit="Точка" SuNmb="1">
+                        <spa:Ordinate X="486368.23" Y="4194879.66" OrdNmb="1" DeltaGeopoint="0.1"
+                                      GeopointZacrep="Закрепление отсутствует"/>
+                    </spa:SpelementUnit>
+                    <spa:SpelementUnit TypeUnit="Точка" SuNmb="2">
+                        <spa:Ordinate X="486332.43" Y="4194915.07" OrdNmb="1" DeltaGeopoint="0.1"
+                                      GeopointZacrep="Закрепление отсутствует"/>
+                    </spa:SpelementUnit>
+                    <spa:SpelementUnit TypeUnit="Точка" SuNmb="3">
+                        <spa:Ordinate X="486330.69" Y="4194913.66" OrdNmb="1" DeltaGeopoint="0.1"
+                                      GeopointZacrep="Закрепление отсутствует"/>
+                    </spa:SpelementUnit>
+                    <spa:SpelementUnit TypeUnit="Точка" SuNmb="4">
+                        <spa:Ordinate X="486326.17" Y="4194910.03" OrdNmb="1" DeltaGeopoint="0.1"
+                                      GeopointZacrep="Закрепление отсутствует"/>
+                    </spa:SpelementUnit>
+                    <spa:SpelementUnit TypeUnit="Точка" SuNmb="5">
+                        <spa:Ordinate X="486325.41" Y="4194909.41" OrdNmb="1" DeltaGeopoint="0.1"
+                                      GeopointZacrep="Закрепление отсутствует"/>
+                    </spa:SpelementUnit>
+                    <spa:SpelementUnit TypeUnit="Точка" SuNmb="6">
+                        <spa:Ordinate X="486323.33" Y="4194908.18" OrdNmb="1" DeltaGeopoint="0.1"
+                                      GeopointZacrep="Закрепление отсутствует"/>
+                    </spa:SpelementUnit>
+                    <spa:SpelementUnit TypeUnit="Точка" SuNmb="7">
+                        <spa:Ordinate X="486323.34" Y="4194907.14" OrdNmb="1" DeltaGeopoint="0.1"
+                                      GeopointZacrep="Закрепление отсутствует"/>
+                    </spa:SpelementUnit>
+                    <spa:SpelementUnit TypeUnit="Точка" SuNmb="8">
+                        <spa:Ordinate X="486323.54" Y="4194905.83" OrdNmb="1" DeltaGeopoint="0.1"
+                                      GeopointZacrep="Закрепление отсутствует"/>
+                    </spa:SpelementUnit>
+                    <spa:SpelementUnit TypeUnit="Точка" SuNmb="9">
+                        <spa:Ordinate X="486329.74" Y="4194897.48" OrdNmb="1" DeltaGeopoint="0.1"
+                                      GeopointZacrep="Закрепление отсутствует"/>
+                    </spa:SpelementUnit>
+                    <spa:SpelementUnit TypeUnit="Точка" SuNmb="10">
+                        <spa:Ordinate X="486323.56" Y="4194893.22" OrdNmb="1" DeltaGeopoint="0.1"
+                                      GeopointZacrep="Закрепление отсутствует"/>
+                    </spa:SpelementUnit>
+                    <spa:SpelementUnit TypeUnit="Точка" SuNmb="11">
+                        <spa:Ordinate X="486329.57" Y="4194885.14" OrdNmb="1" DeltaGeopoint="0.1"
+                                      GeopointZacrep="Закрепление отсутствует"/>
+                    </spa:SpelementUnit>
+                    <spa:SpelementUnit TypeUnit="Точка" SuNmb="12">
+                        <spa:Ordinate X="486335.31" Y="4194877.7" OrdNmb="1" DeltaGeopoint="0.1"
+                                      GeopointZacrep="Закрепление отсутствует"/>
+                    </spa:SpelementUnit>
+                    <spa:SpelementUnit TypeUnit="Точка" SuNmb="13">
+                        <spa:Ordinate X="486345.35" Y="4194863.8" OrdNmb="1" DeltaGeopoint="0.1"
+                                      GeopointZacrep="Закрепление отсутствует"/>
+                    </spa:SpelementUnit>
+                    <spa:SpelementUnit TypeUnit="Точка" SuNmb="1">
+                        <spa:Ordinate X="486368.23" Y="4194879.66" OrdNmb="1" DeltaGeopoint="0.1"
+                                      GeopointZacrep="Закрепление отсутствует"/>
+                    </spa:SpelementUnit>
+                </spa:SpatialElement>
+            </EntitySpatial>
+            <CadastralCost Value="513441.46" Unit="383"/>
+            <SpecialNote>Сведения о видах разрешенного использовании имеют статус «Актуальные незасвидетельствованные».
+                Право (ограничение права, обременение объекта недвижимости) зарегистрировано на данный объект
+                недвижимости с видами разрешенного использования отсутствует.
+            </SpecialNote>
+        </Parcel>
+    </Parcels>
+    <CertificationDoc>
+        <cer:Organization>ФГИС ЕГРН</cer:Organization>
+        <cer:Date>2019-06-12</cer:Date>
+        <cer:Number>99/2019/266508640</cer:Number>
+    </CertificationDoc>
+    <Contractors>
+        <Contractor>
+            <FamilyName>Пинегина</FamilyName>
+            <FirstName>Анастасия</FirstName>
+            <Patronymic>Евгеньевна</Patronymic>
+            <NCertificate>54-11-368</NCertificate>
+            <Organization>
+                <Name>ООО &quot;Инвестиционный фонд XXI век - Недвижимость&quot;</Name>
+            </Organization>
+        </Contractor>
+    </Contractors>
+    <CoordSystems>
+        <spa:CoordSystem Name="МСК НСО, зона 4" CsId="ID0"/>
+    </CoordSystems>
+    <eDocument CodeType="112" Version="07" Scope="GKN">
+        <Sender Kod="00.0.4.195"
+                Name="ФГИС ЕГРН"
+                Region="99"
+                Date_Upload="2019-06-12"
+                Appointment="Государственный регистратор"
+        />
+        <Recipient Kod="00.0.4.111" Name="ДЕПАРТАМЕНТ ЗЕМЕЛЬНЫХ И ИМУЩЕСТВЕННЫХ ОТНОШЕНИЙ МЭРИИ ГОРОДА НОВОСИБИРСКА"/>
+    </eDocument>
+    <ReestrExtract>
+        <DeclarAttribute ID_KUVI="0"
+                         ExtractTypeCode="012000"
+                         ExtractTypeText="Выписка из Единого государственного реестра недвижимости об объекте недвижимости"
+                         ExtractNumber="99/2019/266508640"
+                         ExtractDate="12.06.2019"
+                         RequeryNumber="80-91814869"
+                         RequeryDate="11.06.2019"
+                         ExtractCount="1"
+                         NoticeCount="0"
+                         RefuseCount="0"
+                         Registrator="ФГИС ЕГРН">
+            <ReceivName>ДЕПАРТАМЕНТ ЗЕМЕЛЬНЫХ И ИМУЩЕСТВЕННЫХ ОТНОШЕНИЙ МЭРИИ ГОРОДА НОВОСИБИРСКА</ReceivName>
+            <ReceivAdress>не указан</ReceivAdress>
+        </DeclarAttribute>
+        <ExtractObjectRight>
+            <HeadContent>
+                <ID_REC_KUVI>0</ID_REC_KUVI>
+                <Title>ФЕДЕРАЛЬНАЯ СЛУЖБА ГОСУДАРСТВЕННОЙ РЕГИСТРАЦИИ, КАДАСТРА И КАРТОГРАФИИ</Title>
+                <DeptName>ФГИС ЕГРН</DeptName>
+                <ExtractTitle>Выписка из Единого государственного реестра недвижимости об объекте недвижимости
+                </ExtractTitle>
+                <Content>На основании запроса от 11.06.2019 г., поступившего на рассмотрение 12.06.2019 г., сообщаем,
+                    что согласно записям Единого государственного реестра недвижимости:
+                </Content>
+            </HeadContent>
+            <ExtractObject>
+                <ObjectRight>
+                    <Right RightNumber="1">
+                        <Owner>
+                            <ID_Subject>65805057454</ID_Subject>
+                            <Person>
+                                <Code_SP>007003000000</Code_SP>
+                                <Content>Шевченко Татьяна Даниловна</Content>
+                                <FIO>
+                                    <Surname>Шевченко</Surname>
+                                    <First>Татьяна</First>
+                                    <Patronymic>Даниловна</Patronymic>
+                                </FIO>
+                            </Person>
+                        </Owner>
+                        <Registration>
+                            <ID_Record>65805056954</ID_Record>
+                            <RegNumber>54-54-11/076/2012-704</RegNumber>
+                            <Type>001001000000</Type>
+                            <Name>Собственность, № 54-54-11/076/2012-704 от 20.12.2012</Name>
+                            <RegDate>20.12.2012</RegDate>
+                        </Registration>
+                        <NoEncumbrance>не зарегистрировано</NoEncumbrance>
+                    </Right>
+                    <NoShareHolding>не зарегистрировано</NoShareHolding>
+                </ObjectRight>
+                <RightAssert>данные отсутствуют</RightAssert>
+                <RightClaim>данные отсутствуют</RightClaim>
+                <RightAgainst>данные отсутствуют</RightAgainst>
+                <RightSteal>данные отсутствуют</RightSteal>
+                <WithoutThirdParty>данные отсутствуют</WithoutThirdParty>
+                <InabilityRegWithoutOwner></InabilityRegWithoutOwner>
+                <InabilityRegZU></InabilityRegZU>
+            </ExtractObject>
+            <InfoENK/>
+            <InfoPIK/>
+            <FootContent>
+                <Recipient>ДЕПАРТАМЕНТ ЗЕМЕЛЬНЫХ И ИМУЩЕСТВЕННЫХ ОТНОШЕНИЙ МЭРИИ ГОРОДА НОВОСИБИРСКА</Recipient>
+                <ExtractDate>12.06.2019</ExtractDate>
+                <Content></Content>
+            </FootContent>
+        </ExtractObjectRight>
+    </ReestrExtract>
+</KVZU>
