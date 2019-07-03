@@ -7,7 +7,8 @@ import re
 import tkinter as tk
 from tkinter.ttk import Button, Label
 
-path = 'C:\Dev\Python\GetToleranceFromCsv\data\Ленинский\ЗУ'
+# path = 'C:\Dev\Python\GetToleranceFromCsv\data\Ленинский\ЗУ'
+path = '/home/tars/Dev/tolerance_from_xml/data/Ленинский/ЗУ/'
 entity_spatial = '{urn://x-artefacts-rosreestr-ru/commons/complex-types/entity-spatial/5.0.1}'
 
 source_path: str = os.path.join(os.path.normpath(path), 'xml')
@@ -19,10 +20,12 @@ output_xlsx_file = os.path.join(output_path, points_file_name + '_output.xlsx')
 
 
 def get_root_str(rt: ET.ElementTree) -> str:
-    # Извлекаем строку для чтения данных не зависимо от типа фала xml
-    # Получаем строку типа '{urn://x-artefacts-rosreestr-ru/outgoing/kvzu/7.0.1}'
-    # print(re.search(r'(?<={)(?<someName>[^{}]+)(?=})', rt.tag))
-    return rt.tag.split('}')[0] + '}'
+    """ Извлекаем строку для чтения данных не зависимо от типа фала xml
+    Получаем строку типа '{urn://x-artefacts-rosreestr-ru/outgoing/kvzu/7.0.1}'"""
+
+    re_my_exp = re.compile(r'(?<={)(?P<someName>[^{}]+)(?=})')
+    result = re_my_exp.search(rt.tag).groupdict()
+    return '{' + result['someName'] + '}'
 
 
 def read_xml(output_xlsx: str) -> pd.DataFrame:
@@ -78,7 +81,7 @@ def row_count(data_frame, column=1):
 
 def get_tolerance(df: pd.DataFrame) -> pd.DataFrame:
     plots = df['Кадастровый номер участка'].unique()
-    # plots.sort()
+    plots.sort()
 
     table_out = []
 
@@ -191,7 +194,6 @@ if __name__ == '__main__':
 
     # df = read_xml(input_xlsx_file)
     # data_frame_out = get_tolerance(df)
-
     # writer = pd.ExcelWriter(output_xlsx_file)
     # data_frame_out.to_excel(writer, sheet_name='Погрешность', na_rep='NaN', index=False)
     # writer.save()
