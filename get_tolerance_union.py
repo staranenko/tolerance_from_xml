@@ -4,9 +4,10 @@ import datetime
 import pandas as pd
 import numpy as np
 import re
+import tkinter as tk
+from tkinter.ttk import Button, Label
 
-path = 'C:\Dev\Python\GetToleranceFromCsv\data\Ленинский\КПТ'
-
+path = 'C:\Dev\Python\GetToleranceFromCsv\data\Ленинский\ЗУ'
 entity_spatial = '{urn://x-artefacts-rosreestr-ru/commons/complex-types/entity-spatial/5.0.1}'
 
 source_path: str = os.path.join(os.path.normpath(path), 'xml')
@@ -55,10 +56,10 @@ def read_xml(output_xlsx: str) -> pd.DataFrame:
 
     # Тут нужно вставить данные в датафрейм пандаса
     df_out = pd.DataFrame(table_out, columns=['Кадастровый номер участка',
-                                                      'Номер точки',
-                                                      'X',
-                                                      'Y',
-                                                      'Точность определения'])
+                                              'Номер точки',
+                                              'X',
+                                              'Y',
+                                              'Точность определения'])
 
     writer = pd.ExcelWriter(output_xlsx)
     df_out.to_excel(writer, na_rep='NaN')
@@ -85,14 +86,14 @@ def get_tolerance(df: pd.DataFrame) -> pd.DataFrame:
         # print(plot)
 
         df_plot = df.loc[df['Кадастровый номер участка'] == plot]
-        # print(df_plot)
+        print(df_plot)
 
         df_plot = df_plot.replace(0, np.nan)  # Замена всех нулей на NaN в выбранном участке, что бы не мешали
 
         tolerance_min = df_plot['Точность определения'].min()
         tolerance_max = df_plot['Точность определения'].max()
 
-        # print(f'Минимальная точность {tolerance_min}, максимальная точность {tolerance_max}.')
+        print(f'Минимальная точность {tolerance_min}, максимальная точность {tolerance_max}.')
 
         # Заменяем NaN на нули (не уверен что это нужно)
         tolerance_min = 0 if np.isnan(tolerance_min) else tolerance_min
@@ -107,30 +108,93 @@ def get_tolerance(df: pd.DataFrame) -> pd.DataFrame:
                      'Макспогрешность': tolerance_max,
                      'Погрешность не определена': tolerance_nan}
 
-        # print(row_table)
+        print(row_table)
 
         table_out.append(row_table)
 
-        # print('\n')
-
     df_out = pd.DataFrame(table_out, columns=['Кадастровый номер участка',
-                                                      'Минпогрешность',
-                                                      'Макспогрешность',
-                                                      'Погрешность не определена'])
-
+                                              'Минпогрешность',
+                                              'Макспогрешность',
+                                              'Погрешность не определена'])
     return df_out
 
 
+class Application(tk.Frame):
+    def __init__(self, master=None):
+        super().__init__(master)
+        self.master = master
+        self.initUI()
+        # self.center_window()
+
+    def initUI(self):
+        self.master.title("Windows")
+        self.pack(fill=tk.BOTH, expand=True)
+
+        self.columnconfigure(1, weight=1)
+        self.columnconfigure(3, pad=7)
+        self.rowconfigure(3, weight=1)
+        self.rowconfigure(5, pad=7)
+
+        lbl = Label(self, text="Windows")
+        lbl.grid(sticky=tk.W, pady=4, padx=5)
+
+        area = tk.Text(self)
+        area.grid(row=1, column=0, columnspan=2, rowspan=4,
+                  padx=5, sticky=tk.E + tk.W + tk.S + tk.N)
+
+        abtn = Button(self, text="Activate")
+        abtn.grid(row=1, column=3)
+
+        cbtn = Button(self, text="Close")
+        cbtn.grid(row=2, column=3, pady=4)
+
+        hbtn = Button(self, text="Help")
+        hbtn.grid(row=5, column=0, padx=5)
+
+        obtn = Button(self, text="OK")
+        obtn.grid(row=5, column=3)
+
+        # self.hi_there = tk.Button(self)
+        # self.hi_there["text"] = "Hello World\n(click me)"
+        # self.hi_there["command"] = self.say_hi
+        # self.hi_there.pack(side="top")
+
+        # self.dir_list = tix.DirList(root, 'C:\\')
+        # self.dir_list.pack()
+
+        # self.quit = tk.Button(self, text="QUIT", fg="red",
+        #                       command=self.master.destroy)
+        # self.quit.pack(side="bottom")
+
+    def say_hi(self):
+        print("hi there, everyone!")
+
+    def center_window(self):
+        w = 350
+        h = 300
+
+        sw = self.master.winfo_screenwidth()
+        sh = self.master.winfo_screenheight()
+
+        x = (sw - w) / 2
+        y = (sh - h) / 2
+        self.master.geometry('%dx%d+%d+%d' % (w, h, x, y))
+
+
 if __name__ == '__main__':
+    root = tk.Tk()
+    app = Application(master=root)
+
+    app.mainloop()
+
     time_start = datetime.datetime.now()
 
-    df = read_xml(input_xlsx_file)
+    # df = read_xml(input_xlsx_file)
+    # data_frame_out = get_tolerance(df)
 
-    data_frame_out = get_tolerance(df)
-
-    writer = pd.ExcelWriter(output_xlsx_file)
-    data_frame_out.to_excel(writer, sheet_name='Погрешность', na_rep='NaN', index=False)
-    writer.save()
+    # writer = pd.ExcelWriter(output_xlsx_file)
+    # data_frame_out.to_excel(writer, sheet_name='Погрешность', na_rep='NaN', index=False)
+    # writer.save()
 
     time_end = datetime.datetime.now()
     print(f'\nВремя работы программы: {time_end - time_start}')
