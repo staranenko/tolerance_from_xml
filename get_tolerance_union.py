@@ -127,7 +127,7 @@ class Application(tk.Frame):
         super().__init__(master)
         self.master = master
         self.initUI()
-        # self.center_window()
+        self.center_window()
 
     def initUI(self):
         self.master.title("Windows")
