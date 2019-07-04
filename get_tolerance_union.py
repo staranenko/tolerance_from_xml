@@ -24,7 +24,7 @@ OUTPUT_XLSX_FILE = ''
 
 
 def get_root_str(rt: ET.ElementTree) -> str:
-    """ Извлекаем строку для чтения данных не зависимо от типа фала xml
+    """ Извлекаем строку для чтения данных не зависимо от типа файла xml
     Получаем строку типа '{urn://x-artefacts-rosreestr-ru/outgoing/kvzu/7.0.1}'"""
 
     re_my_exp = re.compile(r'(?<={)(?P<someName>[^{}]+)(?=})')
@@ -204,7 +204,7 @@ class Application(tk.Frame):
 
                 get_xml_data(area)
         else:
-            messagebox.showerror('Ошибка', 'Не задана папака с файлами XML. Нажмите Open Dir и укажите размещение '
+            messagebox.showerror('Ошибка', 'Не задана папка с файлами XML. Нажмите Open Dir и укажите размещение '
                                            'файлов.')
 
     def insert_to_area(self, area, val: object, sep='\n\t'):
