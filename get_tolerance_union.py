@@ -6,17 +6,21 @@ import numpy as np
 import re
 import tkinter as tk
 from tkinter.ttk import Button, Label
+from tkinter import filedialog, messagebox
 
-# path = 'C:\Dev\Python\GetToleranceFromCsv\data\Ленинский\ЗУ'
-path = '/home/tars/Dev/tolerance_from_xml/data/Ленинский/ЗУ/'
+PATH = ''
+# path = '/home/tars/Dev/tolerance_from_xml/data/Ленинский/ЗУ/'
 entity_spatial = '{urn://x-artefacts-rosreestr-ru/commons/complex-types/entity-spatial/5.0.1}'
 
-source_path: str = os.path.join(os.path.normpath(path), 'xml')
-output_path: str = os.path.join(os.path.normpath(path), 'data')
+# SOURCE_PATH: str = os.path.join(os.path.normpath(PATH), 'xml')
+SOURCE_PATH: str = ''
+# OUTPUT_PATH: str = os.path.join(os.path.normpath(PATH), 'data')
+OUTPUT_PATH: str = ''
 
-points_file_name = 'points'
-input_xlsx_file = os.path.join(output_path, points_file_name + '.xlsx')
-output_xlsx_file = os.path.join(output_path, points_file_name + '_output.xlsx')
+POINTS_FILE_NAME = 'points'
+INPUT_XLSX_FILE = os.path.join(OUTPUT_PATH, POINTS_FILE_NAME + '.xlsx')
+# OUTPUT_XLSX_FILE = os.path.join(OUTPUT_PATH, POINTS_FILE_NAME + '_output.xlsx')
+OUTPUT_XLSX_FILE = ''
 
 
 def get_root_str(rt: ET.ElementTree) -> str:
@@ -28,17 +32,17 @@ def get_root_str(rt: ET.ElementTree) -> str:
     return '{' + result['someName'] + '}'
 
 
-def read_xml(output_xlsx: str) -> pd.DataFrame:
+def read_xml(output_xlsx: str, area) -> pd.DataFrame:
     table_out = []
 
-    for file in os.listdir(source_path):
+    for file in os.listdir(SOURCE_PATH):
         if file.endswith(".xml"):
             tree = ''
-            tree = ET.parse(os.path.join(source_path, file))
+            tree = ET.parse(os.path.join(SOURCE_PATH, file))
             root = ''
             root = tree.getroot()
             get_root = get_root_str(root)
-            # print(get_root)
+            # app.insert_to_area(area, get_root, '\n')
             for parcel in root.getiterator(get_root + 'Parcel'):
                 cad_number = parcel.attrib['CadastralNumber']
                 for point in parcel.getiterator(entity_spatial + 'SpelementUnit'):
@@ -79,7 +83,7 @@ def row_count(data_frame, column=1):
     return data_frame.count(0)[column]
 
 
-def get_tolerance(df: pd.DataFrame) -> pd.DataFrame:
+def get_tolerance(df: pd.DataFrame, area) -> pd.DataFrame:
     plots = df['Кадастровый номер участка'].unique()
     plots.sort()
 
@@ -90,6 +94,7 @@ def get_tolerance(df: pd.DataFrame) -> pd.DataFrame:
 
         df_plot = df.loc[df['Кадастровый номер участка'] == plot]
         print(df_plot)
+        app.insert_to_area(area, df_plot, '\n')
 
         df_plot = df_plot.replace(0, np.nan)  # Замена всех нулей на NaN в выбранном участке, что бы не мешали
 
@@ -97,6 +102,7 @@ def get_tolerance(df: pd.DataFrame) -> pd.DataFrame:
         tolerance_max = df_plot['Точность определения'].max()
 
         print(f'Минимальная точность {tolerance_min}, максимальная точность {tolerance_max}.')
+        app.insert_to_area(area, f'Минимальная точность {tolerance_min}, максимальная точность {tolerance_max}.', '\n')
 
         # Заменяем NaN на нули (не уверен что это нужно)
         tolerance_min = 0 if np.isnan(tolerance_min) else tolerance_min
@@ -112,6 +118,7 @@ def get_tolerance(df: pd.DataFrame) -> pd.DataFrame:
                      'Погрешность не определена': tolerance_nan}
 
         print(row_table)
+        app.insert_to_area(area, row_table, '\n')
 
         table_out.append(row_table)
 
@@ -130,47 +137,31 @@ class Application(tk.Frame):
         self.center_window()
 
     def initUI(self):
-        self.master.title("Windows")
+        self.master.title("Извлечь точность точек из файлов XML (кадастр)")
         self.pack(fill=tk.BOTH, expand=True)
+        self.master.minsize(width=500, height=300)
 
         self.columnconfigure(1, weight=1)
         self.columnconfigure(3, pad=7)
         self.rowconfigure(3, weight=1)
         self.rowconfigure(5, pad=7)
 
-        lbl = Label(self, text="Windows")
+        lbl = Label(self, text="Папка с файлами XML")
         lbl.grid(sticky=tk.W, pady=4, padx=5)
 
         area = tk.Text(self)
         area.grid(row=1, column=0, columnspan=2, rowspan=4,
                   padx=5, sticky=tk.E + tk.W + tk.S + tk.N)
+        area.config(state=tk.DISABLED)
 
-        abtn = Button(self, text="Activate")
+        abtn = Button(self, text="Open Dir", command=lambda: self.onOpenDir(area))
         abtn.grid(row=1, column=3)
 
-        cbtn = Button(self, text="Close")
-        cbtn.grid(row=2, column=3, pady=4)
-
-        hbtn = Button(self, text="Help")
+        hbtn = Button(self, text="Quit", command=self.master.destroy)
         hbtn.grid(row=5, column=0, padx=5)
 
-        obtn = Button(self, text="OK")
+        obtn = Button(self, text="Get Data", command=lambda: self.onGetData(area))
         obtn.grid(row=5, column=3)
-
-        # self.hi_there = tk.Button(self)
-        # self.hi_there["text"] = "Hello World\n(click me)"
-        # self.hi_there["command"] = self.say_hi
-        # self.hi_there.pack(side="top")
-
-        # self.dir_list = tix.DirList(root, 'C:\\')
-        # self.dir_list.pack()
-
-        # self.quit = tk.Button(self, text="QUIT", fg="red",
-        #                       command=self.master.destroy)
-        # self.quit.pack(side="bottom")
-
-    def say_hi(self):
-        print("hi there, everyone!")
 
     def center_window(self):
         w = 350
@@ -183,20 +174,89 @@ class Application(tk.Frame):
         y = (sh - h) / 2
         self.master.geometry('%dx%d+%d+%d' % (w, h, x, y))
 
+    def onOpenDir(self, area):
+        global PATH, SOURCE_PATH
+        PATH = filedialog.askdirectory(title='Укажите папку с файлами XML', mustexist=True)
+        if PATH != '':
+            area.config(state=tk.NORMAL)
+            area.delete(1.0, tk.END)
+            area.insert(tk.END, PATH)
+            area.config(state=tk.DISABLED)
+            SOURCE_PATH = PATH
+
+    def onGetData(self, area):
+        global OUTPUT_PATH, INPUT_XLSX_FILE, OUTPUT_XLSX_FILE
+        if PATH:
+            fl = self.saveBox(title='Задайте файл для результата',
+                              fileName='point_output',
+                              fileExt='.xlsx',
+                              fileTypes=[('XLSX files', '*.xlsx')])
+
+            # print(fl)
+            if fl:
+                OUTPUT_XLSX_FILE = fl
+                OUTPUT_PATH = os.path.dirname(fl)
+                INPUT_XLSX_FILE = os.path.join(OUTPUT_PATH, POINTS_FILE_NAME + '.xlsx')
+
+                self.insert_to_area(area, ['OUTPUT_PATH', OUTPUT_PATH])
+                self.insert_to_area(area, ['OUTPUT_XLSX_FILE', OUTPUT_XLSX_FILE])
+                self.insert_to_area(area, ['INPUT_XLSX_FILE', INPUT_XLSX_FILE])
+
+                get_xml_data(area)
+        else:
+            messagebox.showerror('Ошибка', 'Не задана папака с файлами XML. Нажмите Open Dir и укажите размещение '
+                                           'файлов.')
+
+    def insert_to_area(self, area, val: object, sep='\n\t'):
+        area.config(state=tk.NORMAL)
+        area.insert(tk.END, [sep, val])
+        area.config(state=tk.DISABLED)
+
+
+    def saveBox(
+            self,
+            title=None,
+            fileName=None,
+            dirName=None,
+            fileExt=".txt",
+            fileTypes=None,
+            asFile=False):
+        self.master.update_idletasks()
+        if fileTypes is None:
+            fileTypes = [('all files', '.*'), ('text files', '.txt')]
+        # define options for opening
+        options = {}
+        options['defaultextension'] = fileExt
+        options['filetypes'] = fileTypes
+        options['initialdir'] = dirName
+        options['initialfile'] = fileName
+        options['title'] = title
+
+        if asFile:
+            return filedialog.asksaveasfile(mode='w', **options)
+        # will return "" if cancelled
+        else:
+            return filedialog.asksaveasfilename(**options)
+
+
+def get_xml_data(area):
+    time_start = datetime.datetime.now()
+    app.insert_to_area(area, '\nОбработка начата...', '\n')
+
+    df = read_xml(INPUT_XLSX_FILE, area)
+    data_frame_out = get_tolerance(df, area)
+    writer = pd.ExcelWriter(OUTPUT_XLSX_FILE)
+    data_frame_out.to_excel(writer, sheet_name='Погрешность', na_rep='NaN', index=False)
+    writer.save()
+
+    time_end = datetime.datetime.now()
+    app.insert_to_area(area, 'Обработка закончена.', '\n')
+    app.insert_to_area(area, f'\nВремя работы программы: {time_end - time_start}')
+    print(f'\nВремя работы программы: {time_end - time_start}')
+
 
 if __name__ == '__main__':
     root = tk.Tk()
     app = Application(master=root)
 
     app.mainloop()
-
-    time_start = datetime.datetime.now()
-
-    # df = read_xml(input_xlsx_file)
-    # data_frame_out = get_tolerance(df)
-    # writer = pd.ExcelWriter(output_xlsx_file)
-    # data_frame_out.to_excel(writer, sheet_name='Погрешность', na_rep='NaN', index=False)
-    # writer.save()
-
-    time_end = datetime.datetime.now()
-    print(f'\nВремя работы программы: {time_end - time_start}')

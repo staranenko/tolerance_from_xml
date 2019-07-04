@@ -1,8 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-from tkinter import Tk, Text, BOTH, W, N, E, S
-from tkinter.ttk import Frame, Button, Label, Style
+from tkinter.ttk import Frame, Label
+from tkinter import Tk, BOTH, Listbox, StringVar, END
 
 
 class Example(Frame):
@@ -12,38 +12,36 @@ class Example(Frame):
         self.initUI()
 
     def initUI(self):
-        self.parent.title("Windows")
-        self.pack(fill=BOTH, expand=True)
+        self.parent.title("Listbox")
+        self.pack(fill=BOTH, expand=1)
+        acts = ['Scarlett Johansson', 'Rachel Weiss',
+                'Natalie Portman', 'Jessica Alba']
 
-        self.columnconfigure(1, weight=1)
-        self.columnconfigure(3, pad=7)
-        self.rowconfigure(3, weight=1)
-        self.rowconfigure(5, pad=7)
+        lb = Listbox(self)
+        # for i in acts:
+        #     lb.insert(END, i)
+        lb.insert(END, *acts)
 
-        lbl = Label(self, text="Windows")
-        lbl.grid(sticky=W, pady=4, padx=5)
+        lb.bind("<<ListboxSelect>>", self.onSelect)
 
-        area = Text(self)
-        area.grid(row=1, column=0, columnspan=2, rowspan=4,
-                  padx=5, sticky=E + W + S + N)
+        lb.pack(pady=15)
 
-        abtn = Button(self, text="Activate")
-        abtn.grid(row=1, column=3)
+        self.var = StringVar()
+        self.label = Label(self, text=0, textvariable=self.var)
+        self.label.pack()
 
-        cbtn = Button(self, text="Close")
-        cbtn.grid(row=2, column=3, pady=4)
+    def onSelect(self, val):
+        sender = val.widget
+        idx = sender.curselection()
+        value = sender.get(idx)
 
-        hbtn = Button(self, text="Help")
-        hbtn.grid(row=5, column=0, padx=5)
-
-        obtn = Button(self, text="OK")
-        obtn.grid(row=5, column=3)
+        self.var.set(value)
 
 
 def main():
     root = Tk()
-    root.geometry("350x300+300+300")
-    app = Example(root)
+    ex = Example(root)
+    root.geometry("300x250+300+300")
     root.mainloop()
 
 
