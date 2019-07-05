@@ -1,3 +1,6 @@
+"""Этот модуль является первоначальным и использовался перед объединением.
+На вход берет папку в которой есть папка XML с файлами. На выходе дает point.csv"""
+
 import os
 import xml.etree.ElementTree as ET
 import datetime

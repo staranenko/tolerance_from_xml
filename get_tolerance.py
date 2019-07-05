@@ -1,4 +1,5 @@
 import os
+import sys
 import xml.etree.ElementTree as ET
 import datetime
 import pandas as pd
@@ -94,7 +95,7 @@ def get_tolerance(df: pd.DataFrame, area) -> pd.DataFrame:
 
         df_plot = df.loc[df['Кадастровый номер участка'] == plot]
         print(df_plot)
-        app.insert_to_area(area, df_plot, '\n')
+        # app.insert_to_area(area, df_plot, '\n')
 
         df_plot = df_plot.replace(0, np.nan)  # Замена всех нулей на NaN в выбранном участке, что бы не мешали
 
@@ -102,7 +103,7 @@ def get_tolerance(df: pd.DataFrame, area) -> pd.DataFrame:
         tolerance_max = df_plot['Точность определения'].max()
 
         print(f'Минимальная точность {tolerance_min}, максимальная точность {tolerance_max}.')
-        app.insert_to_area(area, f'Минимальная точность {tolerance_min}, максимальная точность {tolerance_max}.', '\n')
+        # app.insert_to_area(area, f'Минимальная точность {tolerance_min}, максимальная точность {tolerance_max}.', '\n')
 
         # Заменяем NaN на нули (не уверен что это нужно)
         tolerance_min = 0 if np.isnan(tolerance_min) else tolerance_min
@@ -118,7 +119,7 @@ def get_tolerance(df: pd.DataFrame, area) -> pd.DataFrame:
                      'Погрешность не определена': tolerance_nan}
 
         print(row_table)
-        app.insert_to_area(area, row_table, '\n')
+        # app.insert_to_area(area, row_table, '\n')
 
         table_out.append(row_table)
 
@@ -129,12 +130,23 @@ def get_tolerance(df: pd.DataFrame, area) -> pd.DataFrame:
     return df_out
 
 
+def resource_path(relative_path):
+    try:
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.abspath(".")
+
+    return os.path.join(base_path, relative_path)
+
+
 class Application(tk.Frame):
     def __init__(self, master=None):
         super().__init__(master)
         self.master = master
         self.initUI()
         self.center_window()
+        # self.master.iconbitmap('get_tolerance.ico')
+        self.master.iconbitmap(default=resource_path('get_tolerance.ico'))
 
     def initUI(self):
         self.master.title("Извлечь точность точек из файлов XML (кадастр)")
@@ -154,17 +166,17 @@ class Application(tk.Frame):
                   padx=5, sticky=tk.E + tk.W + tk.S + tk.N)
         area.config(state=tk.DISABLED)
 
-        abtn = Button(self, text="Open Dir", command=lambda: self.onOpenDir(area))
+        abtn = Button(self, text="Открыть папку с XML...", command=lambda: self.onOpenDir(area))
         abtn.grid(row=1, column=3)
 
-        hbtn = Button(self, text="Quit", command=self.master.destroy)
+        hbtn = Button(self, text="Выйти из программы", command=self.master.destroy)
         hbtn.grid(row=5, column=0, padx=5)
 
-        obtn = Button(self, text="Get Data", command=lambda: self.onGetData(area))
+        obtn = Button(self, text="Извлечь данные...", command=lambda: self.onGetData(area))
         obtn.grid(row=5, column=3)
 
     def center_window(self):
-        w = 350
+        w = 800
         h = 300
 
         sw = self.master.winfo_screenwidth()
@@ -204,7 +216,7 @@ class Application(tk.Frame):
 
                 get_xml_data(area)
         else:
-            messagebox.showerror('Ошибка', 'Не задана папка с файлами XML. Нажмите Open Dir и укажите размещение '
+            messagebox.showerror('Ошибка', 'Не задана папка с файлами XML. Нажмите "Открыть папку с XML..." и укажите размещение '
                                            'файлов.')
 
     def insert_to_area(self, area, val: object, sep='\n\t'):

@@ -1,3 +1,6 @@
+"""Этот модуль является первоначальным и использовался перед объединением.
+На вход берет файл point.xlsx"""
+
 import pandas as pd
 import numpy as np
 import datetime
