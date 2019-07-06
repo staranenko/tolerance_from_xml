@@ -145,8 +145,12 @@ class Application(tk.Frame):
         self.master = master
         self.initUI()
         self.center_window()
-        # self.master.iconbitmap('get_tolerance.ico')
-        self.master.iconbitmap(default=resource_path('get_tolerance.ico'))
+        # self.master.iconbitmap(default='get_tolerance.ico')
+        if sys.platform.startswith('win'):
+            self.master.iconbitmap(default=resource_path('get_tolerance.ico'))
+        else:
+            logo = tk.PhotoImage(file=resource_path('get_tolerance.png'))
+            self.master.call('wm', 'iconphoto', self.master._w, logo)
 
     def initUI(self):
         self.master.title("Извлечь точность точек из файлов XML (кадастр)")
