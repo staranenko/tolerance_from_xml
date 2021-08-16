@@ -44,12 +44,12 @@ def read_xml(output_xlsx: str, area) -> pd.DataFrame:
             root = tree.getroot()
             get_root = get_root_str(root)
             # app.insert_to_area(area, get_root, '\n')
-            for parcel in root.getiterator(get_root + 'Parcel'):
+            for parcel in root.iter(get_root + 'Parcel'):
                 cad_number = parcel.attrib['CadastralNumber']
-                for point in parcel.getiterator(entity_spatial + 'SpelementUnit'):
+                for point in parcel.iter(entity_spatial + 'SpelementUnit'):
                     point_num = point.attrib['SuNmb']
                     # print (str_parcel+point_num)
-                    for coords in point.getiterator(entity_spatial + 'Ordinate'):
+                    for coords in point.iter(entity_spatial + 'Ordinate'):
                         try:
                             delta = coords.attrib['DeltaGeopoint']
                         except KeyError:
