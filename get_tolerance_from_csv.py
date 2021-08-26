@@ -21,8 +21,6 @@ def row_count(data_frame, column=1):
     return data_frame.count(0)[column]
 
 
-
-
 if __name__ == '__main__':
     time_start = datetime.datetime.now()
 

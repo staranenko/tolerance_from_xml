@@ -38,29 +38,10 @@ def read_xml(output_xlsx: str, area) -> pd.DataFrame:
 
     for file in os.listdir(SOURCE_PATH):
         if file.endswith(".xml"):
-            tree = ''
-            tree = ET.parse(os.path.join(SOURCE_PATH, file))
-            root = ''
-            root = tree.getroot()
-            get_root = get_root_str(root)
-            # app.insert_to_area(area, get_root, '\n')
-            for parcel in root.iter(get_root + 'Parcel'):
-                cad_number = parcel.attrib['CadastralNumber']
-                for point in parcel.iter(entity_spatial + 'SpelementUnit'):
-                    point_num = point.attrib['SuNmb']
-                    # print (str_parcel+point_num)
-                    for coords in point.iter(entity_spatial + 'Ordinate'):
-                        try:
-                            delta = coords.attrib['DeltaGeopoint']
-                        except KeyError:
-                            delta = np.nan
-
-                        row_table = {'Кадастровый номер участка': cad_number,
-                                     'Номер точки': int(point_num),
-                                     'X': float(coords.attrib['X']),
-                                     'Y': float(coords.attrib['Y']),
-                                     'Точность определения': float(delta)}
-                        table_out.append(row_table)
+            if file.split('_')[0] == 'kpt':
+                get_delta_kpt_old(file, table_out)
+            else:
+                get_delta_kpt_new(file, table_out)
 
     # Тут нужно вставить данные в датафрейм пандаса
     df_out = pd.DataFrame(table_out, columns=['Кадастровый номер участка',
@@ -74,6 +55,60 @@ def read_xml(output_xlsx: str, area) -> pd.DataFrame:
     writer.save()
 
     return df_out
+
+
+def get_delta_kpt_old(file, table_out):
+    tree = ET.parse(os.path.join(SOURCE_PATH, file))
+    root = tree.getroot()
+    get_root = get_root_str(root)
+    for parcel in root.iter(get_root + 'Parcel'):
+        cad_number = parcel.attrib['CadastralNumber']
+        for point in parcel.iter(entity_spatial + 'SpelementUnit'):
+            point_num = point.attrib['SuNmb']
+            # print (str_parcel+point_num)
+            for coords in point.iter(entity_spatial + 'Ordinate'):
+                try:
+                    delta = coords.attrib['DeltaGeopoint']
+                except KeyError:
+                    delta = np.nan
+
+                row_table = {'Кадастровый номер участка': cad_number,
+                             'Номер точки': int(point_num),
+                             'X': float(coords.attrib['X']),
+                             'Y': float(coords.attrib['Y']),
+                             'Точность определения': float(delta)}
+                table_out.append(row_table)
+
+
+def get_delta_kpt_new(file, table_out):
+    tree = ET.parse(os.path.join(SOURCE_PATH, file))
+    root = tree.getroot()
+    land_records = root[2][0][2][0][0]
+    for parcel in land_records:
+        cad_number = parcel.find('object').find('common_data').find('cad_number').text  # parcel[0][0][1].text
+        print(file, cad_number)
+        try:
+            contours = parcel.find('contours_location').find('contours')
+        except:
+            print('Отсутствует "contours_location" или "contours"')
+            continue
+        for contour in contours:
+            spatials_elements = contour.find('entity_spatial').find('spatials_elements')
+            for spatial_element in spatials_elements:
+                ordinates = spatial_element[0]
+                for ordinate in ordinates:
+                    point_num = ordinate.find('ord_nmb').text
+                    try:
+                        delta = ordinate.find('delta_geopoint').text
+                    except:
+                        delta = np.nan
+
+                    row_table = {'Кадастровый номер участка': cad_number,
+                                 'Номер точки': int(point_num),
+                                 'X': float(ordinate.find('x').text),
+                                 'Y': float(ordinate.find('y').text),
+                                 'Точность определения': float(delta)}
+                    table_out.append(row_table)
 
 
 def read_xls_file(xls_file):
@@ -220,14 +255,14 @@ class Application(tk.Frame):
 
                 get_xml_data(area)
         else:
-            messagebox.showerror('Ошибка', 'Не задана папка с файлами XML. Нажмите "Открыть папку с XML..." и укажите размещение '
-                                           'файлов.')
+            messagebox.showerror('Ошибка',
+                                 'Не задана папка с файлами XML. Нажмите "Открыть папку с XML..." и укажите размещение '
+                                 'файлов.')
 
     def insert_to_area(self, area, val: object, sep='\n\t'):
         area.config(state=tk.NORMAL)
         area.insert(tk.END, [sep, val])
         area.config(state=tk.DISABLED)
-
 
     def saveBox(
             self,
